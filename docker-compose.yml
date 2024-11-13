@@ -1,3 +1,4 @@
+
 services:
   python:
     image: python:3.9
@@ -19,3 +20,20 @@ services:
     image: ubuntu:22.04
     container_name: ubuntu_service
     command: tail -f /dev/null
+
+  mysql:
+    image: mysql:5.7
+    container_name: mysql_service
+    environment:
+      MYSQL_ROOT_PASSWORD: wikirag123
+      MYSQL_DATABASE: wikirag
+      MYSQL_USER: wikirag
+      MYSQL_PASSWORD: wikirag123
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./data/mysql:/var/lib/mysql
+
+
+volumes:
+  mysql_data: {}

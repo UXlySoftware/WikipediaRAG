@@ -3,7 +3,7 @@ from pymilvus import MilvusClient, model
 # Initialize the Milvus client
 client = MilvusClient("milvus_wikirag.db")
 
-user_input = "Who is wiggle bear and what is he like?"
+user_input = "Mummy"
 
 print("USER INPUT:", user_input)
 print("--------------------------------")
@@ -19,12 +19,12 @@ retrieved_data = client.search(
     output_fields=["text", "subject"],  # specifies fields to be returned
 )
 
+for item in retrieved_data:
+    print("RETRIEVED DATA:")
+    for value in item:
+        print(value)
+    print("--------------------------------")
 
-print("RETRIEVED DATA:", retrieved_data)
-print("--------------------------------")
 
-extracted_text = " ".join([item['entity']['text'] for item in retrieved_data[0]])
 
-print("EXTRACTED TEXT:", extracted_text)
-print("--------------------------------")
 
