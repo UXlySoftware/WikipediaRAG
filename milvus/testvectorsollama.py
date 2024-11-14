@@ -1,31 +1,14 @@
 from ollama import Client
 from pymilvus import MilvusClient
-import mysql.connector
-
-db = mysql.connector.connect(
-    host="localhost",
-    user="wikirag",
-    password="wikirag123",
-    database="wikirag",
-)
 
 client_embed = Client(host='http://localhost:1337')
 
-## pull objects from mysqlrevisions table 
+docs = [
+    {"id": 1, "text": "Hello, World!"},
+    {"id": 2, "text": "This is a test document."}
+]
 
-cursor = db.cursor()
-cursor.execute("SELECT revision_id, text FROM revisions")
-revisions = cursor.fetchall()
-
-## convert revisions objects to 
-
-docs = [{"id": int(rev[0]), "text": rev[1]} for rev in revisions]
-
-
-limited_docs = docs[:2] #limit to a smaller set for testing if needed 
-
-
-for doc in limited_docs:
+for doc in docs:
     output = client_embed.embed('nomic-embed-text', doc['text'])
     vector = output['embeddings'][0]
 
@@ -36,7 +19,7 @@ for doc in limited_docs:
 
     # Prepare data for insertion
     data = [
-        {"id": doc['id'], "vector": vector, "text": doc['text'], "subject": ""}
+        {"id": doc['id'], "vector": vector, "text": doc['text'], "subject": "example"}
     ]
 
     # Insert embedding into Milvus

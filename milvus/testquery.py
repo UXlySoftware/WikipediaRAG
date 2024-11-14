@@ -12,6 +12,7 @@ embedding_fn = model.DefaultEmbeddingFunction()
 
 query_vectors = embedding_fn.encode_queries([user_input])
 
+
 retrieved_data = client.search(
     collection_name="revisions_collection",  # target collection
     data=query_vectors,  # query vectors
