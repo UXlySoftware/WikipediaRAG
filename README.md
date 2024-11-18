@@ -83,3 +83,54 @@ connect to milvus
 ```sh
 milvus-cli connect --host localhost --port 19530
 ```
+
+
+## Demo instructions 
+
+1. start the stack 
+    ```sh
+    docker compose up -d
+    ```
+
+2. wipe mysql database
+
+    ```sh
+    docker exec -it mysql_service mysql -u wikirag -p
+    ```
+    USE wikirag; DELETE FROM revisions;
+    ```
+
+3. clear Milvus collection
+
+    ```sh
+    python3 milvus/startmilvus.py
+    ```
+
+4. pull revisions from xml file to mysql database 
+
+    ```sh
+    python3 pullxml.py
+    ```
+
+    3.1 (optional) check number of revisions in mysql database
+        in the mysql container 
+
+        ```sh
+        USE wikirag; SELECT COUNT(*) FROM revisions;
+        ```
+
+5. create embeddings and insert into Milvus
+
+    ```sh
+    python3 milvus/vectorsollama.py
+    ```
+6. query Milvus to show vectors
+
+    ```sh
+    python3 milvus/testquery.py
+    ```
+7. (optional) show rag chat demo 
+
+    ```sh
+    python3 wikiragdemo.py
+    ```
