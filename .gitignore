@@ -169,3 +169,6 @@ data/
 milvus_demo.db
 milvus_wikirag.db
 
+# Models dir 
+models/
+
