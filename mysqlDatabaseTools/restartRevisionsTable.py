@@ -21,10 +21,12 @@ CREATE TABLE revisions (
     page_id INT,
     page_title VARCHAR(255),
     revision_id VARCHAR(255),
+    parent_revision_id INT,
     timestamp DATETIME,
     user VARCHAR(255),
     sha1 VARCHAR(255),
     text MEDIUMTEXT,
+    comment VARCHAR(255),
     format VARCHAR(50)
 )
 """)
