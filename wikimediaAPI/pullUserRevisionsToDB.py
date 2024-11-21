@@ -1,18 +1,22 @@
 import requests  #requirement for making HTTP requests
 import json
-# import mysql.connector
+import mysql.connector
+from datetime import datetime
 
 # make sure you run the docker compose file before running this script
 
-# # connect to mysql database
-# client = mysql.connector.connect(
-#     host="localhost",
-#     user="wikirag",
-#     password="wikirag123",
-#     database="wikirag"
-# )
+# connect to mysql database
+client = mysql.connector.connect(
+    host="localhost",
+    user="wikirag",
+    password="wikirag123",
+    database="wikirag"
+)
 
-# cursor = client.cursor()
+# Set the connection character set to utf8mb4
+client.set_charset_collation('utf8mb4')
+
+cursor = client.cursor()
 
 # set query details
 user_name = "Good_Olfactory"
@@ -90,6 +94,12 @@ for rev in revisions:
 print("User revision object with content: ", json.dumps(revisions, indent=4))
 print("--------------------------------")
 
+# convert content ato utf8mb4 for MySQL
+for rev in revisions:
+    rev['content'] = rev['content'].encode('utf-8').decode('utf-8')
+
+print("User revision object with content: ", json.dumps(revisions, indent=4))
+print("--------------------------------")
 
 # add revision metadata to user table
 
@@ -104,4 +114,17 @@ for rev in revisions:
 print("Revision IDs array: ", json.dumps(revisionIDsArray, indent=4))
 print("--------------------------------")
 
+# add revision metadata to wikipedia_users table
+
+cursor.execute("INSERT INTO wikipedia_users (user, revision_ids) VALUES (%s, %s)", (user_name, json.dumps(revisionIDsArray)))
+client.commit()
+
 # add revision content to revisions table
+for rev in revisions:
+    # Convert ISO 8601 timestamp to MySQL DATETIME format
+    rev['timestamp'] = datetime.strptime(rev['timestamp'], "%Y-%m-%dT%H:%M:%SZ").strftime("%Y-%m-%d %H:%M:%S")
+    cursor.execute("INSERT INTO revisions (page_id, page_title, revision_id, parent_revision_id, timestamp, user, sha1, text, comment) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)", (rev['page_id'], rev['page_title'], rev['revision_id'], rev['parent_id'], rev['timestamp'], rev['user'], rev['sha1'], rev['content'], rev['comment']))
+client.commit()
+
+cursor.close()
+client.close()
