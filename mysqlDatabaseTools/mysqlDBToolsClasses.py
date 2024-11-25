@@ -1,6 +1,26 @@
 import mysql.connector
 
 class MySQLDBTools:
+    def view_schemas(self):
+        client = mysql.connector.connect(
+            host="localhost",
+            user="wikirag",
+            password="wikirag123",
+            database="wikirag"
+        )
+        cursor = client.cursor()
+        cursor.execute("SHOW TABLES")
+        tables = cursor.fetchall()
+        
+        for (table_name,) in tables:
+            cursor.execute(f"SHOW CREATE TABLE {table_name}")
+            schema = cursor.fetchone()
+            print(f"Schema for {table_name}:")
+            print(schema[1])
+            print("\n")
+        
+        cursor.close()
+        client.close()
     def check_wikirag_db(self):
         client = mysql.connector.connect(
             host="localhost",

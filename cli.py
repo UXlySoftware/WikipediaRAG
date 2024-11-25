@@ -1,21 +1,66 @@
 import click
 from wikimediaAPI.wikimediaAPIClasses import WikimediaAPI
 from mysqlDatabaseTools.mysqlDBToolsClasses import MySQLDBTools
+from milvus.milvusClasses import MilvusDBTools
+import subprocess
 
 #GETTING STARTED
 ## use "python3 cli.py --help" to see all commands
-## use "python3 cli.py <command> --help" to see arguments for a specific command
 
 @click.group()
 def cli():
     pass
 
-# DATABASE COMMANDS
+# STARTING THE STACK
+## use "python3 cli.py start [command]" to run a start command
+
+@cli.group(help="Manage docker stack.")
+def docker():
+    pass
+
+@docker.command(help="Use the first time to pull images.")
+def first_start():
+    # Pull the latest images
+    subprocess.run(["docker", "compose", "pull"], check=True)
+    
+    # Start the stack
+    subprocess.run(["docker", "compose", "up", "-d"], check=True)
+    
+    # Configure ollama with a model
+    subprocess.run(["python3", "primeollama.py"], check=True)
+   
+@docker.command(help="Restart the stack.") 
+def restart():
+    
+    # Start the stack
+    subprocess.run(["docker", "compose", "up", "-d"], check=True)
+
+     # Configure ollama with a model
+    subprocess.run(["python3", "primeollama.py"], check=True)
+
+# MILVUS VECTOR DB COMMANDS
+## use "python3 cli.py milvus [command]" to run a milvus command
+
+@cli.group(help="Milvus vector db commands.")
+def milvus():
+    pass
+
+@milvus.command(help="Starts the milvus vector db.")
+def start():
+    api = MilvusDBTools()
+    api.start_milvus()
+
+# MYSQL DATABASE COMMANDS
 ## use "python3 cli.py database [command]" to run a database command
 
 @cli.group(help="Database management commands.")
 def database():
     pass
+
+@database.command(help="Views table schemas for all tables.")
+def view_schemas():
+    api = MySQLDBTools()
+    api.view_schemas()
 
 @database.command(help="Checks current state of the database.")
 def check_wikirag_db():

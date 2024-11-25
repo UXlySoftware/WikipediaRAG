@@ -8,3 +8,4 @@ requests
 json
 mysql-connector-python
 click
+subprocess
