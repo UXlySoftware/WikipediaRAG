@@ -7,6 +7,26 @@ You'll need Docker Desktop installed on you machine.
 
 Check the requirements.txt file for the specific versions of the packages used in this project.
 
+## Using the Click CLI
+
+List all commands
+
+```sh
+python3 cli.py --help
+```
+
+List all subcommands for a specific command
+
+```sh
+python3 cli.py [command] --help
+```
+
+List all arguments for a specific subcommand
+
+```sh
+python3 cli.py [command] [subcommand] --help
+```
+
 ## Running the stack
 
 ### Start the stack for the first time
