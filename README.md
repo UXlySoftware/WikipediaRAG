@@ -5,137 +5,170 @@ Retrieval Augmented Generation (RAG) project for Wikipedia revisions
 
 You'll need Docker Desktop installed on you machine. 
 
+Check the requirements.txt file for the specific versions of the packages used in this project.
+
 ## Running the stack
 
-To start the RAG, run the following commands:
+### Start the stack for the first time
+
+This pulls the images, starts the container and primes ollama with the embedding model:
 
 ```sh
-docker compose pull
-docker compose up -d
+python3 cli.py docker first_start
 ```
 
-To tear down the stack, run:
+### Restarting the stack.
+
+ This starts the container and primes ollama with the embedding model:
+
+```sh
+python3 cli.py docker restart
+```
+
+### Tearing down the stack
 
 ```sh
 docker compose down
 ```
 
-## Startup
-
-After you've started the stack with `docker compose`, you'll need to configure ollama with a model:
-
-```sh
-python3 primeollama.py
-```
-
-This will pull an embedding model that can be used for creating vector embeddings of text. 
-
-Test the embedding model like this:
+### Testing the embedding model
 
 ```sh
 python3 test.py
 ```
 
-## directly querying the mysql database 
+## MySQL Database Management
 
-After startup of the stack, you can directly query the mysql database with the following command:
+### View Table Schemas
+
+To view the schema of all tables in the database, run:
+```sh
+python3 cli.py database view_schemas
+```
+
+### Check Database State
+
+To check the current state of the database, run:
+```sh
+python3 cli.py database check_wikirag_db
+```
+
+### Restart Tables
+
+To restart the revisions table, run:
+```sh
+python3 cli.py database restart_revisions_table
+```
+
+To restart the wikipedia_users table, run:
+```sh
+python3 cli.py database restart_wiki_users_table
+```
+
+### View Tables
+
+To view the revisions table, run:
+```sh
+python3 cli.py database view_revisions_table
+```
+
+To view the wikipedia_users table, run:
+```sh
+python3 cli.py database view_wiki_users_table
+```
+## Milvus Database
+
+### Start Milvus Collection:
+
+This command will start the Milvus collection for the first time or reset it for testing purposes.
 
 ```sh
-docker exec -it mysql_service mysql -u wikirag -p
+python3 cli.py milvus start
 ```
-Enter password: wikirag123
-```
+## Wikimedia API Service Commands
 
-Then you can query the database with the following command:
+### Fetching revisions by user and title
 
 ```sh
-USE wikirag; SHOW TABLES;
-```
+python3 cli.py wikimedia fetch_revision_metadata user_name title
+``` 
 
-View the wikirag database:
-
-```sh
-USE wikirag; SELECT * FROM revisions;
-```
-
-Show revisions table schema:
+### Fetch revisions by username with a return limit
 
 ```sh
-USE wikirag; DESCRIBE revisions;
+python3 cli.py wikimedia fetch_revisions_by_username user_name limit
 ```
-## Milvus
 
-clear the revisions_collection in Milvus:
+### Fetch a revision by its ID
 
 ```sh
-python3 milvus/startmilvus.py
+python3 cli.py wikimedia fetch_revision_by_id rev_id
 ```
 
-### Milvus queries from CLI
-
-install Milvs CLI client
+### Fetch limited revisions by page title
 
 ```sh
-pip install milvus-cli
+python3 cli.py wikimedia fetch_limited_revs_by_title page_title limit
 ```
-connect to milvus
+
+### Fetch all revisions by page title
 
 ```sh
-milvus-cli connect --host localhost --port 19530
+python3 cli.py wikimedia fetch_all_revisions_by_title title
 ```
 
 
-## Demo instructions 
+
+## Vector Database Demo Instructions 
 
 1. start the stack 
-    ```sh
-    docker compose up -d
-    ```
+
+```sh
+python3 cli.py docker restart
+```
 
 2. wipe mysql database
 
-    ```sh
-    docker exec -it mysql_service mysql -u wikirag -p
-    ```
-    USE wikirag; DELETE FROM revisions;
-    ```
+```sh
+python3 cli.py database restart_revisions_table
+```
 
 3. clear Milvus collection
 
-    ```sh
-    python3 milvus/startmilvus.py
-    ```
+```sh
+python3 cli.py milvus start
+```
 
 4. pull revisions from xml file to mysql database 
 
+```sh
+python3 pullxml.py
+```
+
+3.1 (optional) check number of revisions in mysql database
+    in the mysql container 
+
     ```sh
-    python3 pullxml.py
+    USE wikirag; SELECT COUNT(*) FROM revisions;
     ```
-
-    3.1 (optional) check number of revisions in mysql database
-        in the mysql container 
-
-        ```sh
-        USE wikirag; SELECT COUNT(*) FROM revisions;
-        ```
 
 5. create embeddings and insert into Milvus
 
-    ```sh
-    python3 milvus/vectorsollama.py
-    ```
+```sh
+python3 milvus/vectorsollama.py
+```
 6. query Milvus to show vectors
 
-    ```sh
-    python3 milvus/testquery.py
-    ```
+```sh
+python3 milvus/testquery.py
+```
 7. (optional) show rag chat demo 
 
-    ```sh
-    python3 wikiragdemo.py
-    ```
+```sh
+python3 wikiragdemo.py
+```
 
-## Wikimedia API
+## Wikimedia API Notes
 
 https://en.wikipedia.org/w/api.php?action=query
 

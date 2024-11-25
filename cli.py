@@ -137,14 +137,5 @@ def fetch_all_revisions_by_title(title):
     revisions = api.fetch_all_revisions_by_title(title)
     print(revisions)
 
-@wikimedia.command(help="Fetches a revision by its ID. Arguments: rev_id")
-@click.argument('rev_id', type=int)
-def fetch_revision_by_id(rev_id):
-    """Fetches a revision by its ID. Arguments: rev_id"""
-    api = WikimediaAPI()
-    result = api.fetch_revision_by_id(rev_id)
-    print(result)
-
-
 if __name__ == "__main__":
     cli()    
