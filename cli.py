@@ -38,8 +38,8 @@ def restart():
      # Configure ollama with a model
     subprocess.run(["python3", "primeollama.py"], check=True)
 
-# MILVUS VECTOR DB COMMANDS
-## use "python3 cli.py milvus [command]" to run a milvus command
+# OLLAMA COMMANDS
+## use "python3 cli.py ollama [command]" to run a ollama command
 
 @cli.group(help="Milvus vector db commands.")
 def milvus():
@@ -49,6 +49,27 @@ def milvus():
 def start():
     api = MilvusDBTools()
     api.start_milvus()
+
+@milvus.command(help="Embeds the articles table data.")
+def embed_articles_table():
+    api = MilvusDBTools()
+    api.embed_articles_table()
+
+@milvus.command(help="Checks the state of the Milvus collections.")
+def check_collections():
+    api = MilvusDBTools()
+    api.check_milvus_collections()
+
+@milvus.command(help="Restarts the Milvus collections.")
+def restart_collections():
+    api = MilvusDBTools()
+    api.restart_milvus_collections()
+
+@milvus.command(help="Run a rag query on the articles collection.")
+@click.argument('user_query')
+def rag_query_articles(user_query):
+    api = MilvusDBTools()
+    api.rag_query_articles(user_query)
 
 # MYSQL DATABASE COMMANDS
 ## use "python3 cli.py database [command]" to run a database command
@@ -136,8 +157,8 @@ def fetch_revision_by_id(rev_id):
 def fetch_limited_revs_by_title(page_title, limit):
     """Fetches limited revisions by page title. Arguments: page_title, limit"""
     api = WikimediaAPI()
-    result = api.fetch_limited_revs_by_title(page_title, limit)
-    print(result)
+    result = api.fetch_limited_revisions_by_title(page_title, limit)
+    pprint(result)
 
 @wikimedia.command(help="Fetches all revisions for a given page title. Arguments: title")
 @click.argument('title')
@@ -184,6 +205,13 @@ def fetch_page_categories(page_title):
     api = WikimediaAPI()
     result = api.fetch_page_categories(page_title)
     pprint(result)
+
+@wikimedia.command(help="Fetches article content by title and adds it to the articles table. Arguments: title")
+@click.argument('title')
+def article_by_title_to_db(title):
+    """Fetches article content by title and adds it to the articles table. Arguments: title"""
+    api = WikimediaAPI()
+    api.add_articles_by_title_to_articles_table(title)
 
 if __name__ == "__main__":
     cli()     

@@ -96,7 +96,7 @@ class WikimediaAPI:
         else:
             raise Exception(f"Error fetching data: {response.status_code}")
         
-    def fetch_article_content(self, pageid):
+    def fetch_article_content_by_pageid(self, pageid):
         url = f"https://en.wikipedia.org/w/api.php?action=query&pageids={pageid}&prop=revisions&rvprop=content&format=json"
         response = requests.get(url)
         if response.status_code == 200:
@@ -109,8 +109,22 @@ class WikimediaAPI:
         for article in articles['query']['categorymembers']:
             pageid = article['pageid']
             title = article['title']
-            content = self.fetch_article_content(pageid)
+            content = self.fetch_article_content_by_pageid(pageid)
             api = MySQLDBTools()
             api.add_article_to_articles_table(pageid, title, content)
 
+    def fetch_article_content_by_title(self, title):
+        url = f"https://en.wikipedia.org/w/api.php?action=query&titles={title}&prop=revisions&rvprop=content&format=json"
+        response = requests.get(url)
+        if response.status_code == 200:
+            return response.json()
+        else:
+            raise Exception(f"Error fetching data: {response.status_code}")
         
+    def add_articles_by_title_to_articles_table(self, title):
+        content = self.fetch_article_content_by_title(title)
+        pages = content['query']['pages']
+        page_id, page_data = next(iter(pages.items()))
+        api = MySQLDBTools()
+        api.add_article_to_articles_table(page_id, title, page_data)
+    

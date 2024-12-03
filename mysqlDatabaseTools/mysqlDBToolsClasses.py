@@ -202,7 +202,7 @@ class MySQLDBTools:
         cursor.close()
         client.close()
 
-        print("Wikipedia users table recreated successfully")
+        print("Articles table recreated successfully")
 
     def view_articles_table(self):
         client = mysql.connector.connect(

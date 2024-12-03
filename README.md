@@ -139,7 +139,7 @@ python3 cli.py wikimedia fetch_all_revisions_by_title title
 
 
 
-## Vector Database Demo Instructions 
+## RAG DEMO INSTRUCTIONS
 
 1. start the stack 
 
@@ -150,7 +150,7 @@ python3 cli.py docker restart
 2. wipe mysql database
 
 ```sh
-python3 cli.py database restart_revisions_table
+python3 cli.py database restart_articles_table
 ```
 
 3. clear Milvus collection
@@ -159,18 +159,11 @@ python3 cli.py database restart_revisions_table
 python3 cli.py milvus start
 ```
 
-4. pull revisions from xml file to mysql database 
+4. pull the articles from wikipedia to the articles table
 
 ```sh
-python3 pullxml.py
+python3 cli.py wikimedia article_by_title_to_db title
 ```
-
-3.1 (optional) check number of revisions in mysql database
-    in the mysql container 
-
-    ```sh
-    USE wikirag; SELECT COUNT(*) FROM revisions;
-    ```
 
 5. create embeddings and insert into Milvus
 
