@@ -3,7 +3,7 @@ from wikimediaAPI.wikimediaAPIClasses import WikimediaAPI
 from mysqlDatabaseTools.mysqlDBToolsClasses import MySQLDBTools
 from milvus.milvusClasses import MilvusDBTools
 import subprocess
-
+from pprint import pprint
 #GETTING STARTED
 ## use "python3 cli.py --help" to see all commands
 
@@ -77,6 +77,11 @@ def restart_wiki_users_table():
     api = MySQLDBTools()
     api.restart_wiki_users_table()
 
+@database.command(help="Restarts the articles table.")
+def restart_articles_table():
+    api = MySQLDBTools()
+    api.restart_articles_table()
+
 @database.command(help="Views the revisions table.")
 def view_revisions_table():
     api = MySQLDBTools()
@@ -86,6 +91,11 @@ def view_revisions_table():
 def view_wiki_users_table():
     api = MySQLDBTools()
     api.view_wiki_users_table()
+
+@database.command(help="Views the articles table.")
+def view_articles_table():
+    api = MySQLDBTools()
+    api.view_articles_table()
     
 # WIKIMEDIA API COMMANDS
 ## use "python3 cli.py wikimedia [command]" to run a wikimedia api command
@@ -137,5 +147,43 @@ def fetch_all_revisions_by_title(title):
     revisions = api.fetch_all_revisions_by_title(title)
     print(revisions)
 
+@wikimedia.command(help="Fetches articles by topic and adds them to the database. Arguments: topic")
+@click.argument('category')
+@click.argument('limit', type=int)
+def fetch_articles_by_category(category, limit):
+    """Fetches articles by category and adds them to the database. Arguments: category, limit"""
+    api = WikimediaAPI()
+    result = api.fetch_articles_by_category(category, limit)
+    
+    # Filter articles with namespace 0
+    articles = [item for item in result['query']['categorymembers'] if item['ns'] == 0]
+    
+    # Fetch content for each article
+    for article in articles:
+        pageid = article['pageid']
+        content = api.fetch_article_content(pageid)
+        article['content'] = content
+        
+        # Print only the title and content
+        print(f"Title: {article['title']}")
+        print(f"Content: {article['content']}")
+        print("--------------------------------")
+
+@wikimedia.command(help="Fetches articles by category and adds them to the database. Arguments: category, limit")
+@click.argument('category')
+@click.argument('limit', type=int)
+def fetch_articles_by_category_to_db(category, limit):
+    """Fetches articles by category and adds them to the database. Arguments: category, limit"""
+    api = WikimediaAPI()
+    api.add_articles_to_articles_table_by_category(category, limit)
+
+@wikimedia.command(help="Fetches categories for a given page title. Arguments: title")
+@click.argument('page_title')
+def fetch_page_categories(page_title):
+    """Fetches categories for a given page title. Arguments: page_title"""
+    api = WikimediaAPI()
+    result = api.fetch_page_categories(page_title)
+    pprint(result)
+
 if __name__ == "__main__":
-    cli()    
+    cli()     

@@ -1,4 +1,5 @@
 import mysql.connector
+import json
 
 class MySQLDBTools:
     def view_schemas(self):
@@ -171,6 +172,99 @@ class MySQLDBTools:
         cursor.close()
         client.close()
 
+    def restart_articles_table(self):
+        client = mysql.connector.connect(
+            host="localhost",
+            user="wikirag",
+            password="wikirag123",
+            database="wikirag"
+        )
 
+        cursor = client.cursor()
+
+        # Drop the wikipedia_users table if it exists
+        cursor.execute("DROP TABLE IF EXISTS articles")
+
+        # Create the wikipedia_users table
+        cursor.execute("""
+        CREATE TABLE articles (
+            id INT AUTO_INCREMENT PRIMARY KEY,
+            pageid INT,
+            title VARCHAR(255),
+            content MEDIUMTEXT
+        )
+        """)
+
+        # Commit the changes
+        client.commit()
+
+        # Close the cursor and connection
+        cursor.close()
+        client.close()
+
+        print("Wikipedia users table recreated successfully")
+
+    def view_articles_table(self):
+        client = mysql.connector.connect(
+            host="localhost",
+            user="wikirag",
+            password="wikirag123",
+            database="wikirag"
+        )   
+
+        cursor = client.cursor()
+
+        cursor.execute("SELECT * FROM articles")
+
+        rows = cursor.fetchall()    
+
+        if len(rows) > 0:
+            for row in rows:
+                print(row)
+        else:
+            print("No rows found")
+
+        cursor.close()
+        client.close()
+
+    def add_article_to_articles_table(self, pageid, title, content):
+        # Convert content to a string if it's a dictionary
+        if isinstance(content, dict):
+            content = json.dumps(content)
+        
+        client = mysql.connector.connect(
+            host="localhost",
+            user="wikirag",
+            password="wikirag123",
+            database="wikirag"
+        )
+
+        cursor = client.cursor()
+
+        cursor.execute("INSERT INTO articles (pageid, title, content) VALUES (%s, %s, %s)", (pageid, title, content))
+
+        client.commit() 
+
+        cursor.close()
+        client.close()
+
+        print("Article added to articles table successfully")
     
+    def get_articles_table_data(self):
+        client = mysql.connector.connect(
+            host="localhost",
+            user="wikirag",
+            password="wikirag123",
+            database="wikirag"
+        )
 
+        cursor = client.cursor()
+
+        cursor.execute("SELECT * FROM articles")
+
+        rows = cursor.fetchall()
+
+        cursor.close()
+        client.close()
+
+        return rows

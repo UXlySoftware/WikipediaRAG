@@ -1,4 +1,5 @@
 import requests
+from mysqlDatabaseTools.mysqlDBToolsClasses import MySQLDBTools
 
 class WikimediaAPI:
     def fetch_revision_metadata_by_user_and_title(self, user_name, title):
@@ -78,3 +79,38 @@ class WikimediaAPI:
             return response.json()
         else:
             raise Exception(f"Error fetching data: {response.status_code}")
+        
+    def fetch_page_categories(self, page_title):
+        url = f"https://en.wikipedia.org/w/api.php?action=query&titles={page_title}&prop=categories&format=json"
+        response = requests.get(url)
+        if response.status_code == 200:
+            return response.json()
+        else:
+            raise Exception(f"Error fetching data: {response.status_code}")
+            
+    def fetch_articles_by_category(self, category, limit):
+        url = f"https://en.wikipedia.org/w/api.php?action=query&list=categorymembers&cmtitle=Category:{category}&cmlimit={limit}&format=json"
+        response = requests.get(url)
+        if response.status_code == 200:
+            return response.json()
+        else:
+            raise Exception(f"Error fetching data: {response.status_code}")
+        
+    def fetch_article_content(self, pageid):
+        url = f"https://en.wikipedia.org/w/api.php?action=query&pageids={pageid}&prop=revisions&rvprop=content&format=json"
+        response = requests.get(url)
+        if response.status_code == 200:
+            return response.json()
+        else:
+            raise Exception(f"Error fetching data: {response.status_code}")
+        
+    def add_articles_to_articles_table_by_category(self, category, limit):
+        articles = self.fetch_articles_by_category(category, limit)
+        for article in articles['query']['categorymembers']:
+            pageid = article['pageid']
+            title = article['title']
+            content = self.fetch_article_content(pageid)
+            api = MySQLDBTools()
+            api.add_article_to_articles_table(pageid, title, content)
+
+        
