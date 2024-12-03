@@ -4,7 +4,7 @@ import json
 class MySQLDBTools:
     def view_schemas(self):
         client = mysql.connector.connect(
-            host="localhost",
+            host="mysql_service",
             user="wikirag",
             password="wikirag123",
             database="wikirag"
@@ -24,7 +24,7 @@ class MySQLDBTools:
         client.close()
     def check_wikirag_db(self):
         client = mysql.connector.connect(
-            host="localhost",
+            host="mysql_service",
             user="wikirag",
             password="wikirag123",
             database="wikirag"
@@ -46,7 +46,7 @@ class MySQLDBTools:
         client.close()
     def restart_revisions_table(self):
         client = mysql.connector.connect(
-            host="localhost",
+            host="mysql_service",
             user="wikirag",
             password="wikirag123",
             database="wikirag"
@@ -85,7 +85,7 @@ class MySQLDBTools:
         
     def restart_wiki_users_table(self):
         client = mysql.connector.connect(
-            host="localhost",
+            host="mysql_service",
             user="wikirag",
             password="wikirag123",
             database="wikirag"
@@ -119,7 +119,7 @@ class MySQLDBTools:
         # make sure you run the docker compose file before running this script
 
         client = mysql.connector.connect(
-            host="localhost",
+            host="mysql_service",
             user="wikirag",
             password="wikirag123",
             database="wikirag"
@@ -148,7 +148,7 @@ class MySQLDBTools:
             # make sure you run the docker compose file before running this script
 
         client = mysql.connector.connect(
-            host="localhost",
+            host="mysql_service",
             user="wikirag",
             password="wikirag123",
             database="wikirag"
@@ -174,7 +174,7 @@ class MySQLDBTools:
 
     def restart_articles_table(self):
         client = mysql.connector.connect(
-            host="localhost",
+            host="mysql_service",
             user="wikirag",
             password="wikirag123",
             database="wikirag"
@@ -206,7 +206,7 @@ class MySQLDBTools:
 
     def view_articles_table(self):
         client = mysql.connector.connect(
-            host="localhost",
+            host="mysql_service",
             user="wikirag",
             password="wikirag123",
             database="wikirag"
@@ -233,7 +233,7 @@ class MySQLDBTools:
             content = json.dumps(content)
         
         client = mysql.connector.connect(
-            host="localhost",
+            host="mysql_service",
             user="wikirag",
             password="wikirag123",
             database="wikirag"
@@ -252,7 +252,7 @@ class MySQLDBTools:
     
     def get_articles_table_data(self):
         client = mysql.connector.connect(
-            host="localhost",
+            host="mysql_service",
             user="wikirag",
             password="wikirag123",
             database="wikirag"

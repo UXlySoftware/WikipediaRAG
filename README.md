@@ -147,46 +147,46 @@ python3 cli.py wikimedia fetch_all_revisions_by_title title
 python3 cli.py docker restart
 ```
 
-2. wipe mysql database
+2. Restart mysql database
 
 ```sh
-python3 cli.py database restart_articles_table
+python3 cli.py database restart-articles-table
 ```
 
 3. pull the articles from wikipedia to the articles table
 
 ```sh
-python3 cli.py wikimedia article_by_title_to_db title
+python3 cli.py wikimedia article-by-title-to-db title
 ```
 
 4. check the wikirag db
 
 ```sh
-python3 cli.py database check_wikirag_db
+python3 cli.py database check-wikirag-db
 ```
 
-5. clear Milvus collection
+5. Restart Milvus collection
 
 ```sh
-python3 cli.py milvus restart_collections
+python3 cli.py milvus restart-collections
 ```
 
 6. create embeddings and insert into Milvus
 
 ```sh
-python3 cli.py milvus embed_articles_table
+python3 cli.py milvus embed-articles-table
 ```
 
 7. check the state of the Milvus collections
 
 ```sh
-python3 cli.py milvus check_collections
+python3 cli.py milvus check-collections
 ```
 
 8. run a rag query on the articles collection
 
 ```sh
-python3 cli.py milvus rag_query_articles user_query
+python3 cli.py milvus rag-query-articles user_query
 ```
 
 ## Wikimedia API Notes

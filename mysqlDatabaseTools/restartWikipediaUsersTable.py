@@ -3,7 +3,7 @@ import mysql.connector
 # make sure you run the docker compose file before running this script
 
 client = mysql.connector.connect(
-    host="localhost",
+    host="mysql_service",
     user="wikirag",
     password="wikirag123",
     database="wikirag"
