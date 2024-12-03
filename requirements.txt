@@ -5,7 +5,7 @@ pymilvus
 mysql-connector-python
 datetime
 requests
-json
 mysql-connector-python
 click
 subprocess
+

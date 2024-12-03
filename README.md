@@ -153,32 +153,40 @@ python3 cli.py docker restart
 python3 cli.py database restart_articles_table
 ```
 
-3. clear Milvus collection
-
-```sh
-python3 cli.py milvus start
-```
-
-4. pull the articles from wikipedia to the articles table
+3. pull the articles from wikipedia to the articles table
 
 ```sh
 python3 cli.py wikimedia article_by_title_to_db title
 ```
 
-5. create embeddings and insert into Milvus
+4. check the wikirag db
 
 ```sh
-python3 milvus/vectorsollama.py
+python3 cli.py database check_wikirag_db
 ```
-6. query Milvus to show vectors
+
+5. clear Milvus collection
 
 ```sh
-python3 milvus/testquery.py
+python3 cli.py milvus restart_collections
 ```
-7. (optional) show rag chat demo 
+
+6. create embeddings and insert into Milvus
 
 ```sh
-python3 wikiragdemo.py
+python3 cli.py milvus embed_articles_table
+```
+
+7. check the state of the Milvus collections
+
+```sh
+python3 cli.py milvus check_collections
+```
+
+8. run a rag query on the articles collection
+
+```sh
+python3 cli.py milvus rag_query_articles user_query
 ```
 
 ## Wikimedia API Notes

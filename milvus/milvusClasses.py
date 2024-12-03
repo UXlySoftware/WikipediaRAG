@@ -5,6 +5,7 @@ from pprint import pprint
 from ollama import Client
 import mysql.connector
 import requests
+import json
 class MilvusDBTools:
     def start_milvus(self):
         client = MilvusClient("milvus_wikirag.db")
@@ -112,7 +113,7 @@ class MilvusDBTools:
         print("USER INPUT:", user_query)
         print("--------------------------------")
 
-        client_embed = Client(host='http://localhost:1337')
+        client_embed = Client(host='http://localhost:11434')
 
         output = client_embed.embed('nomic-embed-text', user_query)
 
@@ -135,16 +136,36 @@ class MilvusDBTools:
         print("EXTRACTED TEXT:", extracted_text)
         print("--------------------------------")
 
-        url = "http://localhost:11434/api/chat"
-        data = '{"model": "llama3.2", "messages": [{"role": "user", "content": "' + user_query + '"}], "stream": false}'  
+        # url = "http://localhost:11434/api/chat"
+        # data = {
+        #     "model": "llama3.2",
+        #     "messages": [
+        #         {
+        #             "role": "user",
+        #             "content": f"User question: {user_query}
+        #         }
+        #     ],
+        #     "stream": False
+        # }
+        # data = json.dumps(data)  # Convert the dictionary to a JSON string
 
-        response = requests.post(url, data=data, headers={'Content-Type': 'application/json'}) 
+        # response = requests.post(url, data=data, headers={'Content-Type': 'application/json'}) 
 
-        print("RESPONSE WITHOUT RAG:", response.json())
-        print("--------------------------------")
+        # print("RESPONSE WITHOUT RAG:", response.json())
+        # print("--------------------------------")
 
         url = "http://localhost:11434/api/chat"  #
-        data = '{"model": "llama3.2", "messages": [{"role": "user", "content": "User question: ' + user_query + ' Context to consider in your response: ' + extracted_text.replace('\n', '') + '"}], "stream": false}'  
+        data = {
+            "model": "llama3.2",
+            "messages": [
+                {
+                    "role": "user",
+                    "content": f"User question: {user_query} Context to consider in your response: {extracted_text.replace('\n', '')}"
+                }
+            ],
+            "stream": True
+        }
+        data = json.dumps(data)  # Convert the dictionary to a JSON string
 
         response2 = requests.post(url, data=data, headers={'Content-Type': 'application/json'})
 
