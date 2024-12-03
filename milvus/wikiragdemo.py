@@ -9,7 +9,7 @@ user_input = "Tell me about the Fayum mummy portraits"
 print("USER INPUT:", user_input)
 print("--------------------------------")
 
-client_embed = Client(host='http://localhost:1337')
+client_embed = Client(host='http://ollama_service:11434')
 
 output = client_embed.embed('nomic-embed-text', user_input)
 
@@ -37,7 +37,7 @@ print("EXTRACTED TEXT:", extracted_text)
 print("--------------------------------")
 
 
-url = "http://localhost:11434/api/chat"
+url = "http://ollama_service:11434/api/chat"
 data = '{"model": "llama3.2", "messages": [{"role": "user", "content": "' + user_input + '"}], "stream": false}'  
 
 response = requests.post(url, data=data, headers={'Content-Type': 'application/json'}) 
@@ -45,7 +45,7 @@ response = requests.post(url, data=data, headers={'Content-Type': 'application/j
 print("RESPONSE WITHOUT RAG:", response.json()['message']['content'])
 print("--------------------------------")
 
-url = "http://localhost:11434/api/chat"  #
+url = "http://ollama_service:11434/api/chat"  #
 data = '{"model": "llama3.2", "messages": [{"role": "user", "content": "User question: ' + user_input.replace('\n', '') + ' Context to consider in your response: ' + extracted_text.replace('\n', '') + '"}], "stream": false}'  
 
 response2 = requests.post(url, data=data, headers={'Content-Type': 'application/json'})

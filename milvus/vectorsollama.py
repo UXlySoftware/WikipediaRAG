@@ -3,13 +3,13 @@ from pymilvus import MilvusClient
 import mysql.connector
 
 db = mysql.connector.connect(
-    host="localhost",
+    host="mysql_service",
     user="wikirag",
     password="wikirag123",
     database="wikirag",
 )
 
-client_embed = Client(host='http://localhost:1337')
+client_embed = Client(host='http://ollama_service:11434')
 
 ## pull objects from mysqlrevisions table 
 

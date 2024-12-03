@@ -63,14 +63,14 @@ class MilvusDBTools:
     def embed_articles_table(self):
         # connect to wikirag db
         db = mysql.connector.connect(
-            host="localhost",
+            host="mysql_service",
             user="wikirag",
             password="wikirag123",
             database="wikirag",
         )
 
         # connect to ollama
-        client_embed = Client(host='http://localhost:1337')
+        client_embed = Client(host='http://ollama_service:11434')
 
         # Pull objects from the articles table
         cursor = db.cursor()
@@ -113,7 +113,7 @@ class MilvusDBTools:
         print("USER INPUT:", user_query)
         print("--------------------------------")
 
-        client_embed = Client(host='http://localhost:11434')
+        client_embed = Client(host='http://ollama_service:11434')
 
         output = client_embed.embed('nomic-embed-text', user_query)
 
@@ -133,43 +133,44 @@ class MilvusDBTools:
 
         extracted_text = " ".join([item['entity']['text'] for item in retrieved_data[0]])
 
-        print("EXTRACTED TEXT:", extracted_text)
-        print("--------------------------------")
-
-        # url = "http://localhost:11434/api/chat"
-        # data = {
-        #     "model": "llama3.2",
-        #     "messages": [
-        #         {
-        #             "role": "user",
-        #             "content": f"User question: {user_query}
-        #         }
-        #     ],
-        #     "stream": False
-        # }
-        # data = json.dumps(data)  # Convert the dictionary to a JSON string
-
-        # response = requests.post(url, data=data, headers={'Content-Type': 'application/json'}) 
-
-        # print("RESPONSE WITHOUT RAG:", response.json())
+        # print("EXTRACTED TEXT:", extracted_text)
         # print("--------------------------------")
 
-        url = "http://localhost:11434/api/chat"  #
+        url = "http://ollama_service:11434/api/chat"
         data = {
             "model": "llama3.2",
             "messages": [
                 {
                     "role": "user",
-                    "content": f"User question: {user_query} Context to consider in your response: {extracted_text.replace('\n', '')}"
+                    "content": f"User question: {user_query}"
                 }
             ],
-            "stream": True
+            "stream": False
+        }
+        data = json.dumps(data)  # Convert the dictionary to a JSON string
+
+        response = requests.post(url, data=data, headers={'Content-Type': 'application/json'}) 
+
+        print("RESPONSE WITHOUT RAG:", response.json())
+        print("--------------------------------")
+
+        url = "http://ollama_service:11434/api/chat"  #
+        data = {
+            "model": "llama3.2",
+            "messages": [
+                {
+                    "role": "user",
+                    "content": f"User question: {user_query} Use these facts for your response: {extracted_text}"
+                }
+            ],
+            "num_ctx":4096,
+            "stream": False
         }
         data = json.dumps(data)  # Convert the dictionary to a JSON string
 
         response2 = requests.post(url, data=data, headers={'Content-Type': 'application/json'})
 
-        print("RESPONSE WITH RAG:", response2.json())
+        print("RESPONSE WITH RAG:", response2.text)
         print("--------------------------------")
 
        

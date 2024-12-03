@@ -1,7 +1,7 @@
 from ollama import Client
 from pymilvus import MilvusClient
 
-client_embed = Client(host='http://localhost:1337')
+client_embed = Client(host='http://ollama_service:11434')
 
 docs = [
     {"id": 1, "text": "Hello, World!"},
