@@ -6,6 +6,8 @@ from ollama import Client
 import mysql.connector
 import requests
 import json
+import os
+
 class MilvusDBTools:
     def start_milvus(self):
         client = MilvusClient("milvus_wikirag.db")
@@ -63,14 +65,14 @@ class MilvusDBTools:
     def embed_articles_table(self):
         # connect to wikirag db
         db = mysql.connector.connect(
-            host="mysql_service",
-            user="wikirag",
-            password="wikirag123",
-            database="wikirag",
+                host=os.getenv("mysql_host"),
+                user=os.getenv("mysql_user"),
+                password=os.getenv("mysql_password"),
+                database=os.getenv("mysql_database"),
         )
 
         # connect to ollama
-        client_embed = Client(host='http://ollama_service:11434')
+        client_embed = Client(host=f"http://{os.getenv('ollama_host')}:{os.getenv('ollama_port')}")
 
         # Pull objects from the articles table
         cursor = db.cursor()
@@ -113,7 +115,7 @@ class MilvusDBTools:
         print("USER INPUT:", user_query)
         print("--------------------------------")
 
-        client_embed = Client(host='http://ollama_service:11434')
+        client_embed = Client(host=f"http://{os.getenv('ollama_host')}:{os.getenv('ollama_port')}")
 
         output = client_embed.embed('nomic-embed-text', user_query)
 
@@ -136,7 +138,7 @@ class MilvusDBTools:
         # print("EXTRACTED TEXT:", extracted_text)
         # print("--------------------------------")
 
-        url = "http://ollama_service:11434/api/chat"
+        url = f"http://{os.getenv('ollama_host')}:{os.getenv('ollama_port')}/api/chat"
         data = {
             "model": "llama3.2",
             "messages": [
@@ -154,7 +156,7 @@ class MilvusDBTools:
         print("RESPONSE WITHOUT RAG:", response.json())
         print("--------------------------------")
 
-        url = "http://ollama_service:11434/api/chat"  #
+        url = f"http://{os.getenv('ollama_host')}:{os.getenv('ollama_port')}/api/chat"  #
         data = {
             "model": "llama3.2",
             "messages": [
