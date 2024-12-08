@@ -1,0 +1,1001 @@
+src,tgt,hyp,ref,task,model,label
+Не волнуйся. Это только временно.,Don't worry. It's only temporary.,"Don't worry, it's only temporary.",either,MT,,0
+"Тома никогда нет там, где он должен быть.",Tom is never where he's supposed to be.,Tom is never where he should be.,either,MT,,0
+Мне сложно работать с Томом.,I have trouble working with Tom.,It's hard for me to work with Tom.,either,MT,,0
+"Воду, пожалуйста.",I'd like some water.,"Water, please.",either,MT,,0
+"Я не ожидал, что Том предаст меня.",I didn't think that Tom would betray me.,I didn't expect Tom to betray me.,either,MT,,0
+"Всё не так плохо, как думает Том.",Things aren't as bad as Tom thinks.,It's not as bad as Tom thinks.,either,MT,,0
+Не усложняйте.,Keep it simple.,Don't complicate it.,either,MT,,0
+"Почему вы не можете принять меня таким, какой я есть?",Why can't you accept me as I am?,Why can't you accept me as I am?,either,MT,,0
+Ненавижу это место.,I hate this place.,I hate this place.,either,MT,,0
+Том находится там в качестве добровольца.,Tom is there as a volunteer.,Tom is here as a volunteer.,either,MT,,0
+Можно мне тоже одну?,"Can I have one, too?",Can I have one too?,either,MT,,0
+"Ты в жизни не такой, как на фотографии.",You look different than your picture.,You're different in life than in a picture.,either,MT,,1
+Она начала осваиваться в своем новом офисе.,She began to get the feel of her new office.,She started working in her new office.,either,MT,,1
+У меня сейчас нет дел.,I don't have anything to do now.,I don't have anything to do right now.,either,MT,,0
+Экватор делит землю на два полушария.,The equator divides the earth into two hemispheres.,The equator divides the earth into two hemispheres.,either,MT,,0
+Я хотел бы стать христианином.,I would like to become a Christian.,I would like to become a Christian.,either,MT,,0
+Все будут тебе завидовать.,Everyone will envy you.,Everyone will be jealous of you.,either,MT,,0
+Том купил себе новое пианино.,Tom bought himself a new piano.,Tom bought a new piano.,either,MT,,0
+"Вы знали, что у Тома три брата?",Did you know that Tom had three brothers?,Did you know Tom had three brothers?,either,MT,,0
+Не давайте Тому прыгать на кровати.,Don't let Tom jump on the bed.,Don't let Tom jump on the bed.,either,MT,,0
+Впредь обещаю быть пунктуальным.,"From now on, I promise to be punctual.",I promise to be punctual.,either,MT,,0
+Поделите это между собой.,Divide this among yourselves.,Share this with each other.,either,MT,,0
+У Тома есть выбор.,Tom has a choice.,Tom has a choice.,either,MT,,0
+"Мы надеемся, что нам не понадобится это делать.",We're hoping we won't have to do that.,We hope we don't need to do that.,either,MT,,1
+Как ты его уговорил?,How did you convince him?,How did you persuade him?,either,MT,,0
+"Том видел Мэри, но ничего ей не сказал.","Tom saw Mary, but didn't say anything to her.","Tom saw Mary, but didn't tell her anything.",either,MT,,0
+В зиме мне не нравится холод.,What I hate about winter is the cold.,I don’t like the cold in winter.,either,MT,,0
+Том познакомился с Мэри год назад.,Tom met Mary a year ago.,Tom met Mary a year ago.,either,MT,,0
+"Мне нужна не белая, а цветная бумага.",I don't need white but coloured paper.,"I don't need white paper, I need coloured paper.",either,MT,,0
+Том покупает одежду в торговом центре.,Tom buys clothes at the mall.,Tom's buying clothes at the mall.,either,MT,,1
+"Мне было просто всё равно, понимаешь?","I really didn't care, you know?","I just didn't care, you know?",either,MT,,0
+Можете дать мне свой перочинный нож?,Can you give me your pocket knife?,Can you give me your feather knife?,either,MT,,1
+Я хочу поговорить с тобой об этом отчёте.,I want to talk to you about this report.,I want to talk to you about this report.,either,MT,,0
+У меня пропала одежда.,My clothes are gone.,I've lost my clothes.,either,MT,,0
+"Том заметил, что дверь открыта.",Tom noticed that the door was open.,Tom noticed that the door was open.,either,MT,,0
+Её муж богат.,Her husband is rich.,Her husband is rich.,either,MT,,0
+Это невозможно или просто сложно?,Is it impossible or just hard?,Is it impossible or just difficult?,either,MT,,0
+В этом предложении не хватает точки.,This sentence needs a period.,That proposal lacks a point.,either,MT,,1
+Мария закрыла лицо руками.,Maria covered her face with her hands.,Maria closed her face with her hands.,either,MT,,1
+Вы бы лучше пошли помогли ей.,You'd better go help her.,You'd better go help her.,either,MT,,0
+"Я думал, ты канадка.",I thought that you were Canadian.,I thought you were Canadian.,either,MT,,0
+Том развёлся с Мэри в прошлом году.,Tom divorced Mary last year.,Tom divorced Mary last year.,either,MT,,0
+Да ну тебя!,Give me a break!,Come on!,either,MT,,1
+"Том не думает, что на Марсе есть жизнь.",Tom doesn't think there is any life on Mars.,Tom doesn't think there's life on Mars.,either,MT,,0
+Финики - это здоровая пища.,Dates are a healthy food.,Phoenicians are healthy food.,either,MT,,1
+Том нырнул в воду и поплыл на тот берег.,Tom dove into the water and swam to the other side.,Tom dived into the water and sailed to that shore.,either,MT,,1
+Ты несправедлив.,You're being unfair.,You're not fair.,either,MT,,0
+"Я знал, что Том не силён в шахматах.",I knew that Tom wasn't good at chess.,I knew Tom wasn’t strong at chess.,either,MT,,0
+Мне надо сделать важное объявление.,I have an important announcement to make.,I need to make an important announcement.,either,MT,,0
+Вы часто простужаетесь?,Do you frequently get colds?,Do you often get cold?,either,MT,,1
+Я поцеловал Тома в лоб.,I kissed Tom on the forehead.,I kissed Tom on his forehead.,either,MT,,0
+Я добавил страницу в закладки.,I bookmarked the page.,I added a page to the bookmarks.,either,MT,,1
+Он купил минибар в свою комнату.,He bought a mini fridge for his dorm room.,He bought a minibar in his room.,either,MT,,1
+"Надеюсь, вы не забыли пригласить Тома.",I hope that you didn't forget to invite Tom.,I hope you did not forget to invite Tom.,either,MT,,0
+Кто не мечтал о своём личном поваре?,Who hasn't dreamt of having their own personal chef?,Who hasn’t dreamed of their own chef?,either,MT,,1
+Приштина — столица Косово.,Pristina is the capital of Kosovo.,Pristina is the capital of Kosovo.,either,MT,,0
+Медведь черный.,The bear is black.,Bear is black.,either,MT,,1
+Освещение стало тускнеть.,The lights began to dim.,The lighting began to fade.,either,MT,,0
+Мы с ним родственные души.,He and I are kindred spirits.,He and I are soul mates.,either,MT,,1
+Это чешский?,Is that Czech?,Is it Czech?,either,MT,,0
+"Я знаю, что случилось.",I know what happened.,I know what happened.,either,MT,,0
+Иногда мне трудно говорить по-французски.,I sometimes struggle to speak French.,Sometimes I find it difficult to speak French.,either,MT,,0
+Мы сейчас живём за городом.,We live in the country now.,We live outside the city now.,either,MT,,0
+Я о таких вещах не беспокоюсь.,I don't worry about those things.,I don't care about those things.,either,MT,,1
+У меня в моче была кровь.,I had blood in my urine.,I had blood in my urine.,either,MT,,0
+"Отец Тома, находящийся в тюрьме, никогда не пишет Тому.","Tom's father, who is in prison, never writes to Tom.","Tom’s father, who is in prison, never writes to Tom.",either,MT,,0
+Просто предоставьте всё нам.,Just leave everything to us.,Just give us everything.,either,MT,,1
+Тебе не нравится твоё имя?,Don't you like your name?,You don't like your name?,either,MT,,0
+Кошки не любят воду.,Cats don't like water.,Cats don’t like water.,either,MT,,0
+Пауки — отвратительные маленькие существа.,Spiders are loathsome little creatures.,Spiders are disgusting little creatures.,either,MT,,0
+Я никак не успеваю доделать это до завтра.,There's no way I can finish doing this by tomorrow.,I don't have time to finish it until tomorrow.,either,MT,,1
+У меня в комнате холодно.,It's cold in my room.,It's cold in my room.,either,MT,,0
+Передашь ему это на том свете!,Tell him that in the afterlife.,You'll give it to him in that light!,either,MT,,1
+Тому не разрешили уйти.,Tom wasn't allowed to leave.,Tom was not allowed to leave.,either,MT,,0
+Что делать в случае пожара?,What should I do in case of fire?,What to do in case of fire?,either,MT,,0
+"Том рисковал своей жизнью, чтобы спасти Мэри.",Tom risked his life to save Mary.,He risked his life to save Mary.,either,MT,,1
+Её манера говорить нервирует меня.,The way she talks gets on my nerves.,Her way of speaking makes me nervous.,either,MT,,1
+Ты мог пораниться.,You could hurt yourself.,You could've hurt yourself.,either,MT,,0
+"Я надеюсь, что у меня получится.",I hope I succeed.,I hope I succeed.,either,MT,,0
+Пойду найду Тома.,I'll go find Tom.,I'll find Tom.,either,MT,,0
+Мне это вовсе не кажется странным.,I don't think it's strange at all.,I don't think that's weird at all.,either,MT,,0
+Её происхождение неизвестно.,Its origin is unknown.,It's a lot.,either,MT,,1
+Не ты ли просил меня подержать тебя за руку?,Didn't you ask me to hold your hand?,Didn't you ask me to hold your hand?,either,MT,,0
+Сегодня я не работаю.,I'm not working today.,I don't work today.,either,MT,,0
+Я умолял Тома прийти.,I begged Tom to come.,I begged Tom to come.,either,MT,,0
+Брат меня убьёт.,My brother's going to kill me.,My brother will kill me.,either,MT,,1
+С тобой такое часто бывает?,Does this happen to you a lot?,Does that happen to you often?,either,MT,,0
+Они отклонили приглашение.,They declined the invitation.,They rejected the invitation.,either,MT,,0
+Том меня никогда не видел.,Tom never saw me.,Tom never saw me.,either,MT,,0
+Том живёт близ заброшенного здания.,Tom lives near an abandoned building.,Tom lives near an abandoned building.,either,MT,,0
+"Том, похоже, меня не узнавал.",Tom didn't seem to recognize me.,Tom didn't seem to recognize me.,either,MT,,0
+Вы так долго со мной разговаривали и не знаете как меня зовут?!,"You've been talking to me for so long, don't you know my name?!",You've been talking to me for so long and you don't know what my name is?,either,MT,,0
+Том подкупил Мэри?,Did Tom bribe Mary?,Did Tom bribe Mary?,either,MT,,0
+Свобода бесценна.,Freedom is invaluable.,Freedom is invaluable.,either,MT,,0
+Она заплакала.,She started crying.,She cried.,either,MT,,0
+Нашли что-нибудь интересное?,Have you found something interesting?,Did you find anything interesting?,either,MT,,0
+Вы можете перевязать эту рану?,Can you dress this wound?,Can you tie this wound?,either,MT,,0
+После землетрясения многие решили спать в палатках на улице.,"After the earthquake, many people decided to sleep outside in tents.","After the earthquake, many decided to sleep in tents on the street.",either,MT,,1
+Откуда Том узнал о нашем плане?,How did Tom know about our plan?,How did Tom know about our plan?,either,MT,,0
+Я здесь часто ем.,I often eat here.,I eat here often.,either,MT,,0
+Я пятнадцать лет работал учителем.,I worked as a teacher for fifteen years.,I worked as a teacher for 15 years.,either,MT,,0
+Я не хочу пить ваш чай.,I do not want to drink your tea.,I don't want to drink your tea.,either,MT,,0
+Тому не надо было обманывать Мэри.,Tom shouldn't lie to Mary.,Tom didn't have to fool Mary.,either,MT,,1
+Ты сидишь на моём стуле.,You're sitting in my chair.,You're sitting on my chair.,either,MT,,0
+"Да, это моё.",Yes it's mine.,"Yeah, it's mine.",either,MT,,0
+Я не собираюсь просто дать тебе это.,I'm not just going to give it to you.,I'm not gonna just give you this.,either,MT,,0
+К чёрту весь мир!,Fuck the universe.,Fuck the world!,either,MT,,0
+Том нецензурно выражался.,Tom was cursing.,Tom uncensoredly expressed himself.,either,MT,,1
+"Я думал, ты беременна.",I thought you were pregnant.,I thought you were pregnant.,either,MT,,0
+Вы должны оставаться в форме.,You have to stay fit.,You have to stay in shape.,either,MT,,0
+Я испёк это для тебя.,I baked it for you.,I've got this for you.,either,MT,,1
+Почему ты так не думаешь?,Why don't you feel that way?,Why don't you think so?,either,MT,,1
+Окна Тома были открыты некоторое время назад. Сейчас они закрыты.,Tom's windows were open a while ago. They're closed now.,"I've got a time ago, while you've got a few times ago.",either,MT,,1
+Такого ещё никогда не было.,It had never happened before.,It's never happened before.,either,MT,,0
+"Таких людей, как вы, немного.",There aren't many people like you.,There are few people like you.,either,MT,,0
+Том хочет быть переводчиком.,Tom wants to be a translator.,Tom wants to be an interpreter.,either,MT,,1
+Меня не беспокоит Ваше прошлое.,I don't care about your past.,I don't care about your past.,either,MT,,0
+Тут мне придётся согласиться с Томом.,I've got to agree with Tom here.,That's where I'll have to agree with Tom.,either,MT,,1
+Том беспокоится за своего сына.,Tom is worried about his son.,Tom is worried about his son.,either,MT,,0
+"Том считает, что мы не должны были этого делать.","According to Tom, we shouldn't have done that.",Tom thinks we shouldn't have done that.,either,MT,,0
+"Когда дело доходит до готовки, с Мэри никто не сравнится.","When it comes to cooking, no one can equal Mary.","When it comes to cooking, no one compares to Mary.",either,MT,,0
+Такого несуразного заявления я давно не слыхал.,This is the most outlandish claim I've heard in a long time.,I haven't heard such an unspeakable statement in a long time.,either,MT,,1
+"Я никогда прямо не говорил, что она украла мои деньги.",I never said she stole my money.,I never said she stole my money.,either,MT,,0
+Ты должен её остановить.,You have to stop her.,You have to stop her.,either,MT,,0
+Эта книга помогла многим людям похудеть.,This book has helped many people lose weight.,This book has helped a lot of people lose weight.,either,MT,,0
+Крэк вызывает сильное привыкание.,Crack is very addictive.,Crack is very addictive.,either,MT,,0
+Том всегда покупает всё самое дешёвое.,Tom always buys whatever's the cheapest.,Tom always buys the cheapest.,either,MT,,0
+"Это пальто, которое я хочу купить.",This is the coat I want to buy.,That's the coat I want to buy.,either,MT,,0
+Мне определенно нужен один из них.,I definitely need one of those.,I definitely need one of them.,either,MT,,1
+Собаку кто-нибудь покормил?,Has anyone fed the dog?,Did anyone feed the dog?,either,MT,,1
+"Вы хотите, чтобы она вам помогла?",Do you want her to help you?,Do you want to know what you want?,either,MT,,1
+Сегодня я увидел звезду.,I saw a star today.,I saw a star today.,either,MT,,0
+"Надеюсь, она наготовила кучу спагетти.",I hope she's made lots of spaghetti.,I hope she made a bunch of spaghetti.,either,MT,,1
+"Спорим, я справлюсь лучше Тома.",I bet I can do better than Tom.,I bet I can do better than Tom.,either,MT,,0
+"Как только она открыла дверь, наружу выбежал кот.","As soon as she opened the door, a cat ran out.","As soon as she opened the door, the cat ran out.",either,MT,,1
+Ты хочешь что-нибудь сказать Тому?,Do you want to say anything to Tom?,Do you have anything you want to say to Tom?,either,MT,,0
+Том - профессионал в своём деле.,Tom is a professional in his business.,Tom's a professional at work.,either,MT,,0
+У Тома на это ушло всего около трёх минут.,It only took Tom about three minutes to do that.,Tom went around three minutes.,either,MT,,1
+Ему не нравится рыба.,He doesn't like fish.,He doesn’t like fish.,either,MT,,0
+Почему ты научил собаку испанскому?,Why did you teach the dog Spanish?,Why did you teach the dog Spanish?,either,MT,,0
+Ваше предложение лучше.,Your suggestion is better.,Your offer is better.,either,MT,,0
+Всё утро лил дождь.,It rained hard all morning.,It rained all morning.,either,MT,,1
+Тому эта фотография не понравилась.,Tom didn't like this picture.,Tom didn't like this photo.,either,MT,,0
+Том поддерживает чистоту в своей комнате.,Tom keeps his room tidy.,He maintains cleanliness in his room.,either,MT,,0
+Что твой парень подарил тебе на вашу годовщину?,What did your boyfriend give you for your anniversary?,What did your boyfriend give you for your anniversary?,either,MT,,0
+Папа Тома сводил его в аквапарк.,Tom's dad took him to a waterpark.,Tom’s dad took him to a water park.,either,MT,,0
+Он странно выглядит.,He looks weird.,He looks weird.,either,MT,,0
+Я бы на твоём месте поступил так же.,I would've done the same if I were you.,I'd do the same if I were you.,either,MT,,0
+Где здесь поблизости супермаркет?,Where's there a supermarket around here?,Where is the supermarket nearby?,either,MT,,0
+Когда вы поедете обратно в Бостон?,When will you go back to Boston?,When are you going back to Boston?,either,MT,,0
+На Юпитере жить нельзя.,You can't live on Jupiter.,You cannot live on Jupiter.,either,MT,,0
+Ты много о нас знаешь?,Do you know much about us?,You know a lot about us?,either,MT,,0
+"Если вы откроете эту дверь, возможно, вам не удасться снова закрыть ее.","If you open that door, you might not be able to get it closed again.","If you open this door, you may not be able to close it again.",either,MT,,0
+Тебе нужно думать о своём будущем.,You need to think about your future.,You need to think about your future.,either,MT,,0
+Мне нужно видеть этот отчёт сегодня.,I need to see that report today.,I need to see this report today.,either,MT,,1
+"Мне без разницы, сколько она стоит.",I don't care how much it costs.,I don't care how much she's worth.,either,MT,,1
+Ты всё ещё работаешь в пекарне на полставки?,You're still working part time at a bakery?,Are you still working at the bakery for halftime?,either,MT,,1
+Положите это в верхний ящик.,Put this in the top drawer.,Put it in the upper box.,either,MT,,1
+Том очень любит кататься на велосипеде.,Tom really likes cycling.,She likes to ride a bike.,either,MT,,1
+Ты бы на моём месте то же самое сделал.,You would've done the same if you were me.,You would have done the same thing in my place.,either,MT,,1
+"Том сделал своей девушке предложение, и она сказала да.",Tom proposed to his girlfriend and she said yes.,"Tom made an offer to his girlfriend, and she said yes.",either,MT,,1
+Я был с ним честен.,I have been honest with him.,I was honest with him.,either,MT,,1
+"Это не единственное, чего Том хотел.",That's not the only thing that Tom wanted.,That's not the only thing Tom wanted.,either,MT,,0
+"Скажи мне три вещи, которые ты можешь сделать хорошо.",Tell me three things that you can do well.,Tell me three things you can do well.,either,MT,,0
+У вас есть сковородка побольше?,Do you have a bigger pan?,Do you have a bigger pan?,either,MT,,0
+"Я единственная, кто может вам помочь.",I'm the only one who can help you.,I'm the only one who can help you.,either,MT,,0
+"Никто не видел, как они вышли из комнаты.",Nobody saw them leave the room.,No one saw them leave the room.,either,MT,,0
+В присутствии начальника нужно выглядеть заняты́м.,You need to look busy when the boss is around.,"In the presence of the boss, you need to look busy.",either,MT,,0
+Мы уже далеко продвинулись.,We've already made a lot of progress.,We've come a long way.,either,MT,,0
+Я Тома одновременно люблю и ненавижу.,I hate and love Tom at the same time.,I love and hate Tom at the same time.,either,MT,,0
+"Я хочу, чтобы вы встретили меня в аэропорту.",I'd like you to meet me at the airport.,I want you to meet me at the airport.,either,MT,,0
+Том точит свой карандаш.,Tom is sharpening his pencil.,Tom's sharpening his pencil.,either,MT,,0
+"Маша тушит мясо, а Фома делает салат.",Mary is cooking stew and Tom is making a salad.,"The mask melts meat, and Thomas makes a salad.",either,MT,,1
+Том мне ничего не сказал.,Tom didn't say anything to me.,Tom told me nothing.,either,MT,,0
+Том открыл своё окно.,Tom opened his window.,Tom opened his window.,either,MT,,0
+Это длинное путешествие.,It's a long journey.,It's a long journey.,either,MT,,0
+Оставайся дома.,Stay at home.,Stay home.,either,MT,,0
+Дело не совсем в этом.,That's not really the point.,It's not exactly that.,either,MT,,0
+Тома никогда не волновали чувства других людей.,Tom has never cared about other people's feelings.,Tom never cared about other people’s feelings.,either,MT,,0
+Звучит просто.,It sounds simple.,Sounds simple.,either,MT,,0
+Ты всегда так говоришь.,You always say that.,You always say that.,either,MT,,0
+Вот мой бумажник.,Here's my wallet.,Here's my wallet.,either,MT,,0
+Немедленно остановись!,Stop immediately!,Stop immediately!,either,MT,,0
+"Я спросил у Тома, не хочет ли он сходить искупаться.",I asked Tom if he wanted to go swimming.,I asked Tom if he wanted to go swimming.,either,MT,,0
+"Я думаю, Тому меньше тридцати.",I think Tom is under thirty.,I think Tom's under thirty.,either,MT,,0
+Почему бы нам не убрать этот беспорядок?,Why don't we clean up this mess?,Why don't we get rid of this mess?,either,MT,,1
+"Ну, я думаю, пора рассказать настоящую историю.","Well, I think it's time the real story was told.","Well, I think it's time to tell a real story.",either,MT,,1
+"Я говорил вам, что Том не захочет ехать.",I told you Tom wouldn't want to go.,I told you Tom wouldn't want to go.,either,MT,,0
+"Сделай с этим что-нибудь, пожалуйста.",Please do something about it.,"Do something about it, please.",either,MT,,0
+Том живёт в одном здании со мной.,Tom lives in my building.,Tom lives in the same building as me.,either,MT,,1
+Запри все двери.,Lock all the doors.,Lock all doors.,either,MT,,0
+"Я собираюсь использовать маркер, чтобы выделить главную информацию.",I am going to use the highlighter to highlight the main points.,I'm going to use a marker to highlight the main information.,either,MT,,1
+С тобой всё только делается лучше!,You being there makes it all better!,You're just doing better!,either,MT,,1
+Ты можешь поговорить об этом с Томом?,Can you talk to Tom about this?,Can you talk to Tom about this?,either,MT,,0
+Это пора остановить.,It's time to stop this.,It's time to stop.,either,MT,,1
+Мы очень гордимся нашей командой.,We're very proud of our team.,We are very proud of our team.,either,MT,,0
+Я мало что помню о Томе.,I don't remember much about Tom.,I don’t remember much about Tom.,either,MT,,0
+Ты мог бы хотя бы принять душ.,You could at least take a shower.,You could at least take a shower.,either,MT,,0
+Коала спит.,The koala is sleeping.,Cala sleeps.,either,MT,,1
+Они определили его местонахождение.,They've located him.,They found his location.,either,MT,,0
+Вот несколько фотографий.,Here are some pictures.,Here are a few photos.,either,MT,,0
+Вряд ли мы найдём Тома в такой толпе.,We're not likely to find Tom in this crowd.,I don't think we'll find Tom in such a crowd.,either,MT,,1
+"Как мне объяснить своему мужу, что он меня оскорбляет?",How can I explain to my husband that he's hurting me?,How can I explain to my husband that he insults me?,either,MT,,1
+На столе лежит раскрытая книга.,There's a book lying open on the desk.,There is an open book on the table.,either,MT,,1
+Я посвящаю эту песню тебе.,I dedicate this song to you.,I dedicate this song to you.,either,MT,,0
+Том забронировал два места в первом ряду в театре.,Tom booked two seats in the first row at the theater.,Tom booked two places in the first row of the theater.,either,MT,,0
+"Я не знал, что Мери была девушкой Тома.",I didn't know that Mary was Tom's girlfriend.,I didn't know Mary was Tom's girlfriend.,either,MT,,0
+Вы планируете оставаться здесь надолго?,Do you plan to be here long?,Are you planning on staying here for a long time?,either,MT,,0
+Ну и мерзавец!,What a heel!,It's a scumbag!,either,MT,,1
+"Если бы я заметил, я бы вам сказал.","If I'd noticed, I would've told you.","If I noticed, I'd tell you.",either,MT,,0
+"Мэри тебя поцеловала, да?","Mary kissed you, didn't she?","Mary kissed you, didn't she?",either,MT,,0
+"Я не курю, а Том курит.","I don't smoke, but Tom does.","I don't smoke, Tom smokes.",either,MT,,0
+Ты должна нам верить.,You've got to believe us.,You have to believe us.,either,MT,,0
+"Это ты виноват, а не я.","It's your fault, not mine.","It's your fault, not me.",either,MT,,0
+Вы там родились?,Were you born there?,Were you born there?,either,MT,,0
+Том сейчас на конференции.,Tom is at a conference now.,Tom's at the conference.,either,MT,,0
+"Боюсь, твой план не будет работать.",I'm afraid your plan will not work.,I'm afraid your plan won't work.,either,MT,,0
+Вы оба сегодня произвели большое впечатление. Я горжусь вами.,You've both been very impressive today. I'm proud of you.,You both made a big impression today. I'm proud of you.,either,MT,,0
+Не говорите плохого о других.,Don't speak ill of others.,Don’t talk bad about others.,either,MT,,0
+Она так вкусно пахнет.,It smells so good.,It smells so good.,either,MT,,0
+Почему проводятся раздельные чемпионаты по шахматам для мужчин и для женщин?,What is the reason for separating male and female chess championships?,What is the right for the right?,either,MT,,1
+Как это включить?,How do you turn this thing on?,How to include this?,either,MT,,1
+Какой самый большой город в Австралии?,What's the biggest city in Australia?,What is the largest city in Australia?,either,MT,,0
+Тайфун разрушил много домов.,The typhoon destroyed many houses.,Typhoon destroyed many houses.,either,MT,,1
+Я буду учить французский дома.,I'll study French at home.,I'll be learning French at home.,either,MT,,0
+Публикация статьи была приурочена ко дню рождения профессора.,Publication of the article was timed to coincide with the professor's birthday.,The publication of the article was timed to the birthday of the professor.,either,MT,,0
+Где Ваш мобильный телефон?,Where's your cell phone?,Where is your mobile phone?,either,MT,,0
+На стадионе оборудована сцена.,A stage has been set up in the stadium.,There is a stage at the stadium.,either,MT,,0
+Раньше это принадлежало им.,That used to belong to them.,It used to belong to them.,either,MT,,0
+Немедленно звоните Тому.,Call Tom immediately.,Call Tom immediately.,either,MT,,0
+Ты должна стыдиться собственного невежества.,You should be ashamed of your ignorance.,You must be ashamed of your own ignorance.,either,MT,,0
+Том любит смотреть мыльные оперы.,Tom likes to watch soap operas.,He likes to watch soap operas.,either,MT,,1
+"Мне надо, чтобы ты мне с этим помог.",I need you to help me with this.,I need you to help me with this.,either,MT,,0
+Просто проникни внутрь.,Just get inside.,Just get inside.,either,MT,,0
+Я принёс гитару.,I brought my guitar.,I brought the guitar.,either,MT,,1
+"Молодые люди часто недооценивают те колоссальные усилия, которые подразумевает изучение иностранного языка, и берутся за несколько языков сразу, распыляя таким образом свои силы, что быстро приводит к потере мотивации, когда они понимают, что результаты слабые.","Young people often underestimate the massive effort it takes to learn a foreign language and tackle several at a time, spreading themselves thin, which quickly leads to demotivation once they see their poor results.","Young people often underestimate the tremendous effort that learning a foreign language implies, and take several languages at once, thus spraying their strength, which quickly results in a loss of motivation when they realize that the results are weak.",either,MT,,1
+Вы действительно испугались?,Were you really scared?,Are you really scared?,either,MT,,1
+Мне надо перед ней извиниться.,I have to apologize to her.,I need to apologize to her.,either,MT,,0
+"Он очень хорошо плавал, когда был молодым.",He could swim very well when he was young.,He floated very well when he was young.,either,MT,,1
+"Откуда ты знал, кому это дать?",How did you know who to give that to?,How did you know who to give it to?,either,MT,,0
+"Том хотел, чтобы последнее слово осталось за ним.",Tom wanted to have the last word.,Tom wanted the last word to be with him.,either,MT,,1
+Китай и СССР поддержали Алжир.,China and the USSR supported Algeria.,China and the USSR supported Algeria.,either,MT,,0
+Родители Тома велели ему этого не делать.,Tom's parents told Tom not to do that.,Tom’s parents told him not to.,either,MT,,1
+Не напугайте детей.,Don't scare the kids.,Don't scare the kids.,either,MT,,0
+Вы вчера взвешивались?,Did you weigh yourself yesterday?,Did you weigh last night?,either,MT,,1
+Можешь дать мне свой перочинный нож?,Can you give me your pocket knife?,Can you give me your pen knife?,either,MT,,1
+Это мероприятие является открытым для общественности.,This event is open to the public.,This event is open to the public.,either,MT,,0
+Она надела очки.,She put her glasses on.,She wore glasses.,either,MT,,1
+"Никогда не думал, что сделаю это.",I never thought I would do that.,I never thought I'd do it.,either,MT,,0
+"Ты не мог бы показать мне, как этим пользоваться?",Could you show me how to use this?,Can you show me how to use it?,either,MT,,0
+У малышей нежная кожа.,Babies have delicate skin.,Kids have delicate skin.,either,MT,,1
+Все нам верили.,Everyone believed us.,Everyone believed us.,either,MT,,0
+Я забыл выключить свет.,I forgot to turn off the light.,I forgot to turn the lights off.,either,MT,,0
+"Эй, вы что делаете?","Hey, what are you doing?","Hey, what are you doing?",either,MT,,0
+Меня укусил паук.,I was bitten by a spider.,I was bitten by a spider.,either,MT,,0
+Эта сумочка очень дорогая.,That handbag is very expensive.,This bag is very expensive.,either,MT,,1
+Можно поговорить с Биллом?,Can I speak with Bill?,Can I talk to Bill?,either,MT,,0
+"Я не так хорошо говорю по-английски, как хотелось бы.",I don't speak English so well as I would like to.,I don’t speak English as well as I would like.,either,MT,,0
+Оставьте её открытой.,Leave it open.,Leave it open.,either,MT,,0
+"Скажите ей, что я сейчас вернусь.",Tell her I'll be right back.,Tell her I'll be right back.,either,MT,,0
+"В этом удивительном «цугцванге» у игрока были на доске все свои фигуры и пешки, и он не находился под какой-либо прямой угрозой, но мог делать только самоубийственные ходы, что привело его к поражению.","In that amazing ""zugzwang"", the player had all his pieces and pawns on the board and was not under any direct threat, but had only suicidal moves available, which led him to lose the game.","In this amazing ""tsugzwange"" the player had all his figures and pawns on the board, and he was not under any direct threat, but could do only suicide moves, which led to his defeat.",either,MT,,1
+Какая твоя любимая ролевая игра?,What's your favorite role-playing game?,What's your favorite role-playing game?,either,MT,,0
+"Я всегда чищу зубы перед тем, как идти спать.",I always brush my teeth before I go to bed.,I always brush my teeth before going to bed.,either,MT,,0
+Я живу в Латвии.,I live in Latvia.,I live in Latvia.,either,MT,,0
+Вы не должны передо мной извиняться.,You don't have to apologize to me.,You don't have to apologize to me.,either,MT,,0
+"Обидеть Мэри может каждый, не каждый сможет убежать.","Anyone can offend Mary, but not everyone will be able to escape.","Everyone can beat Mary, not everyone can escape.",either,MT,,1
+У вас трое детей.,You've got three children.,You have three children.,either,MT,,0
+Я доверял Вам.,I trusted you.,I trusted you.,either,MT,,0
+Том отправился на свадьбу Джона и Мэри с Элис.,Tom went to John and Mary's wedding with Alice.,Tom went to the wedding of John and Mary with Alice.,either,MT,,0
+"Не люблю людей, которые настаивают на разговорах о политике.",I don't like people who always insist on talking about politics.,I don’t like people who insist on talking about politics.,either,MT,,0
+"И я не знаю, сколько он так бродил по пустыне без единой капли воды во рту, но в конце концов ему удалось наткнуться на какую-то деревушку.","And I don't know how long he wandered in the desert without as much as a drop of water in his mouth, but in the end he managed to come across a small village.","And I don't know how much he wandered through the desert without a single drop of water in his mouth, but eventually he managed to stumble upon some village.",either,MT,,1
+Операция прошла успешно.,The surgery was a success.,The operation was successful.,either,MT,,1
+Том сделал упражнения на растяжку.,Tom did some stretching exercises.,Tom did stretching exercises.,either,MT,,0
+"Я знаю, это трудно принять.",I know this is difficult to accept.,I know it's hard to accept.,either,MT,,0
+На столе лежит раскрытая книга.,There's a book lying open on the desk.,There is a book on the table.,either,MT,,1
+"Я знаю, как выжить.",I know how to survive.,I know how to survive.,either,MT,,0
+Я люблю рассказы.,I like stories.,I love stories.,either,MT,,0
+Оно не на своём месте.,It's not in its place.,It's out of place.,either,MT,,0
+"Вы не в том состоянии, чтобы вести машину.",You're in no condition to drive.,You are not in a position to drive a car.,either,MT,,0
+Это решение трудно было принять.,It was hard to make this decision.,This decision was difficult to make.,either,MT,,0
+Он богатый человек.,He's a wealthy man.,He's a rich man.,either,MT,,1
+Том хорошо уживается с Мэри.,Tom gets along fine with Mary.,Tom's getting along well with Mary.,either,MT,,1
+"Вы что, не понимаете, что происходит?",Don't you understand what's happening?,You don't know what's going on?,either,MT,,0
+Ты помнишь название или имя автора?,Do you remember the title or the author's name?,Do you remember the name of the author?,either,MT,,1
+"Ты должен делать, что Том говорит.",You have to do what Tom says.,You have to do what Tom says.,either,MT,,0
+Люди похожи на муравьёв.,The people look like ants.,Humans are like ants.,either,MT,,1
+Вы принесли книгу?,Did you bring the book?,Did you bring the book?,either,MT,,0
+Что это я сейчас сделал?,What did I just do?,What did I do now?,either,MT,,0
+С кем ты планируешь ехать в Австралию?,Who do you plan to go to Australia with?,Who are you planning to go to Australia with?,either,MT,,0
+Тяжело было?,How hard was that?,Was it hard?,either,MT,,1
+"Вы не против, если я задам вам несколько вопросов медицинского характера?",Is it OK if I ask you a few medical questions?,Do you mind if I ask you a few questions of a medical nature?,either,MT,,1
+Мы проверили.,We have checked.,We checked.,either,MT,,0
+"Интересно, когда пещерный человек сказал что-то подобное.",I wonder when a caveman said something like this.,I wonder when the caveman said something like that.,either,MT,,1
+Том здесь родился.,Tom was born here.,Tom was born here.,either,MT,,0
+Мои сыновья хотят купить одежду.,My kids want to buy clothes.,My sons want to buy clothes.,either,MT,,1
+"Том хочет, чтобы мы это сделали.",Tom wants us to do this.,Tom wants us to do it.,either,MT,,0
+Они улыбнулись друг другу.,They smiled at each other.,They smiled at each other.,either,MT,,0
+"Вы знаете, как Том попал внутрь?",Do you know how Tom got in?,Do you know how Tom got inside?,either,MT,,0
+Я играл в теннис.,I used to play tennis.,I played tennis.,either,MT,,1
+"Шахматисты с потрясающей памятью совершают невероятные подвиги, например, играя вслепую, одновременно, большое количество матчей.","Chess players with prodigious memories perform incredible feats, such as playing blindly, at the same time, a large number of matches.","Chess players with amazing memory perform incredible feats, for example, playing blindly, at the same time, a large number of matches.",either,MT,,0
+Я встретил одноклассника.,I met my classmate.,I met a classmate.,either,MT,,1
+Он реагирует.,He reacts.,He's reacting.,either,MT,,1
+Я не видел тебя почти три года.,I haven't seen you in almost three years.,I haven't seen you in nearly three years.,either,MT,,0
+Задавайте свой вопрос.,Ask your question.,Ask your question.,either,MT,,0
+Я полностью удовлетворён результатами.,I'm completely satisfied with the results.,I am completely satisfied with the results.,either,MT,,0
+Том любит откровенно высказываться.,Tom tends to speak his mind a lot.,Tom likes to speak openly.,either,MT,,1
+Почему кот мяукает?,Why's the cat meowing?,Why does the cat hurt?,either,MT,,1
+Я всегда был верен своему слову.,I've always been true to my word.,I have always been faithful to my word.,either,MT,,0
+Это происходит ведь уже не в первый раз?,Isn't it the first time it's happened?,"This isn't the first time it's happening, is it?",either,MT,,1
+Это невероятно.,This is unbelievable.,It's incredible.,either,MT,,0
+Ты когда-нибудь видел барсука?,Have you ever seen a badger?,Have you ever seen a badger?,either,MT,,0
+"Никто не понимает тебя так, как я.",No one understands you like I do.,No one understands you like me.,either,MT,,0
+"Я только однажды слышал, как Том играет на пианино.",I've only heard Tom play the piano once.,I only once heard Tom playing the piano.,either,MT,,0
+Что такое пандемия?,What is a pandemic?,What is a pandemic?,either,MT,,0
+Мэри родила мальчика.,Mary had a boy.,Mary gave birth to a boy.,either,MT,,1
+Том работает в библиотеке.,Tom works at a library.,Tom works at the library.,either,MT,,1
+Мы все матери.,We're all mothers.,We're all mothers.,either,MT,,0
+Завтра утром они продают билеты на концерт Шакиры.,"Tomorrow morning, they're selling tickets for the Shakira concert.",Tomorrow morning they're selling tickets to Shakira's concert.,either,MT,,0
+Это для тебя сложно?,Is it difficult for you?,Is it hard for you?,either,MT,,0
+Они просто играли.,They were just playing.,They were just playing.,either,MT,,0
+Не кормите уток.,Don't feed the ducks.,Don't feed the duck.,either,MT,,1
+Том хочет пойти на пляж.,Tom wants to go to the beach.,Tom wants to go to the beach.,either,MT,,0
+"Казалось, что он собирается меня поцеловать.",It looked like he was going to kiss me.,It seemed like he was going to kiss me.,either,MT,,0
+Чем вы планируете заняться в Бостоне?,What do you plan to do in Boston?,What are you planning to do in Boston?,either,MT,,0
+"Том сказал, что он ест.",Tom said that he was eating.,Tom said he was eating.,either,MT,,0
+Вызовите такси.,Call a cab.,Call a taxi.,either,MT,,0
+Это ты дверь закрыл?,Were you the one who closed the door?,Did you close the door?,either,MT,,1
+"Когда глупость считается патриотизмом, быть умным – небезопасно.","When stupidity is considered patriotism, it is unsafe to be intelligent.","When stupidity is considered patriotism, being smart is not safe.",either,MT,,0
+Для меня это слишком сложно.,It's too difficult for me.,It's too difficult for me.,either,MT,,0
+Мы должны всегда отстаивать наши права.,We must always stand up for our rights.,We must always defend our rights.,either,MT,,0
+"Давайте быстрей, а то в школу опоздаете.","Hurry up, or you'll be late for school.","Faster, or you'll be late for school.",either,MT,,0
+"Позвольте мне обьяснить, что будет дальше.",Let me explain what's going to happen.,Let me explain what happens next.,either,MT,,0
+"Ничего, если я вас сфотографирую?",Would it be all right if I took your picture?,"No, if I'm with you?",either,MT,,1
+Не запирай дверь.,Don't lock the door.,Don't lock the door.,either,MT,,0
+"You're not alone, Claire.",,"You're not alone, claire- -",src,PG,,0
+"Who told you to throw acid at Vargas, hmm?",,"Who told you to throw acid at Vargas, hmmm?",src,PG,,0
+Where the pure angel merges with the antic Sphinx,,♪ Where the pure angel merges with the antic sphinx,src,PG,,0
+Where is it written what is it I'm meant to be,,Where is it written what is it I'm meant to be?,src,PG,,0
+We'll find the skipper and then we'll go home.,,We'll find the skipper and then we'll go home.,src,PG,,0
+Seymour's Darling is third... and little Arnie moving fast on the outside.,,Seymour's Darling is the third... and little Arnie's moving fast on the out-of-towner.,src,PG,,1
+"Scud, do you read me?",,"- Scud, do you read me, please?",src,PG,,1
+Jumby now wants to be born.,,Jumby now wants to be born,src,PG,,0
+It was a difficult and long delivery.,,It was a long and difficult delivery.,src,PG,,0
+Is Mabel a slave?,,¿Mabel's a slave?,src,PG,,0
+I like to be beautiful everyday.,,I like to be beautiful everydays.,src,PG,,1
+"I got the joy, joy, joy, joy Down in my heart",,"♪ I got the joy, joy, joy, joy Down in my heart ♪",src,PG,,0
+Homicide investigators have told me that they did find a bottle of pills in his lap.,,Homicide investigators have told me that they found a bottle of pills in his lap.,src,PG,,0
+"He's an In-Valid, sir.",,"Oh, he's an In-Valid, sir.",src,PG,,1
+Hello Mr. Barthes.,,Hello Mr. Barthes.,src,PG,,0
+HARRY Imperio.,,HARRY ⁇ .,src,PG,,1
+Half that speed.,,"Half that speed, half speed.",src,PG,,1
+"Frankfurt, Germany.",,"It's Frankfurt, Germany.",src,PG,,0
+Enemy is matching velocity.,,Enemies are matching speed.,src,PG,,1
+Call John.,,Call the john.,src,PG,,1
+Bernadette wants a prenup.,,Bernadette's asking for a prenuptial.,src,PG,,0
+and yet i see no children emerging from the vehicle.,,And yet I see no children exiting from the vehicle.,src,PG,,0
+I was not advanced to Ranger.,,I wasn't advanced to ranger.,src,PG,,0
+It's time to breathe.,,It's time to take a breather.,src,PG,,0
+I'm not leaving here till I have my thousand dollars.,,I'm not leaving here until I have my thousand dollars.,src,PG,,0
+Braga.,,B-braga.,src,PG,,1
+Who's Elise?,,"Who's EIIise, huh?",src,PG,,1
+Himmler's not at the briefing.,,Himmler's not at the pre-briefing.,src,PG,,1
+The funds are transferred.,,The funds are transfered.,src,PG,,0
+Ships don'just magically appear out of nowhere.,,Ships don't just magically appear out of nowhere..,src,PG,,0
+No one's on their own.,,Nobody's on their own.,src,PG,,0
+Tyler's not here.,,tyler's not here.,src,PG,,0
+"Soren, look.",,"Hey, Soren, look.",src,PG,,0
+"It was a nice run, Kev.",,"It's a nice run-in, Kev.",src,PG,,1
+How's Chris?,,How's chris?,src,PG,,0
+"I've always thought that ""bludgeon"" has a spur-of-the-moment sound.",,"You know, I've always thought that ""bludgeon"" has a spur-of-the-moment sound, you know?",src,PG,,1
+Five children.,,Five Children.,src,PG,,0
+"Come, Daniel-san.",,"Come on, daniel-san.",src,PG,,1
+"Ah, Mr. Adams.",,"Ah, Mr. Adams:",src,PG,,0
+Are you just gonna ignore it?,,You're just gonna ignore it?,src,PG,,0
+Where's Wallace?,,Wh-Where's Wallace now?,src,PG,,1
+Where's Larkin?,,Wh-Where's Larkin?,src,PG,,1
+Don't say you don't remember me.,,"Don't tell me you don't remember me, dude.",src,PG,,1
+Fraulein Spielrein.,,It's Fraulein Spielrein's.,src,PG,,1
+"Take the cane, Colonel.",,"Take the cane, Colonel",src,PG,,0
+"Get up, Sam.",,"Get up, sam..",src,PG,,0
+"CQ, this is W-9 GFO.",,"CQ, this is W-9-G-F-F.",src,PG,,1
+"Welcome to Mars, man.",,Welcome to mars.,src,PG,,0
+She was not ready.,,She wasn't prepared.,src,PG,,0
+Blood is the life.,,Blood's what life is.,src,PG,,1
+Maybe you can use one of these.,,Maybe you can use one of these cuffs.,src,PG,,1
+"Oh, thanks, Paige.",,"Oh, thanks, paige.",src,PG,,0
+Where are elders?,,Where are the Elders?,src,PG,,1
+Do you think he loves you?,,Do you think he's fond of?,src,PG,,1
+Shire.,,- Shire.,src,PG,,0
+Where's Logan?,,Where's Logan?,src,PG,,0
+Don CorIeone.,,Don Corleone's.,src,PG,,1
+I've been all around this world,,I've been wandering all over this world,src,PG,,0
+"Thank you, Edward.",,"Thank you, edward",src,PG,,0
+Melhoff.,,Melhoff.,src,PG,,0
+"Thank you, Hubert.",,"Thank you, Hubert.",src,PG,,0
+We're all equal,,We're all equals,src,PG,,0
+Kraken.,,It's the Kraken.,src,PG,,0
+W-where's Silas?,,W-where's Silas'?,src,PG,,0
+The window's closed.,,The window's closed- -,src,PG,,0
+"Thank you, Hector.",,"Thankyou, Hector.",src,PG,,0
+Didn't recognize me.,,He didn't recognise me at all.,src,PG,,1
+"Seth, are you all right?",,"Seth, are you okay?",src,PG,,0
+Hyah! Hmm.,,"Hyah, hyah, hmm, hmm, hmm.",src,PG,,1
+He does have a son.,,He has sons.,src,PG,,1
+"Thank you, Norman.",,"Thank you, norman",src,PG,,0
+"Thank you, Miles.",,"Thanks, Miles.",src,PG,,0
+21 days.,,Twenty-one-one days..,src,PG,,1
+He's a Muslim.,,He's a Muslim.,src,PG,,0
+Book of Shadows.,,The Book of Shadows.,src,PG,,0
+Kyle Butler.,,It's Kyle Butler.,src,PG,,0
+I'm an animal.,,I'm a brute.,src,PG,,0
+Where's the pool?,,Where's the poolside?,src,PG,,1
+Gimi.,,Gimme..,src,PG,,1
+"Thank you, Ethan.",,"Thank you, ethani.",src,PG,,1
+"Thank you, Owen.",,"Thank you, owen.",src,PG,,0
+We need more water.,,"We need more water, yo.",src,PG,,1
+I wanna see your eyes.,,I want to see your eyes.,src,PG,,0
+"Good morning, Sarah.",,"Morning, Sarah.",src,PG,,0
+"Thank you, Molly.",,"Thank you, molly.",src,PG,,0
+Who's Mary?,,Who's mary?,src,PG,,0
+"Good morning, Annie.",,"Morning, annie.",src,PG,,0
+What's she looking for?,,What's she lookin 'for?,src,PG,,0
+It's Josh.,,It's joshy.,src,PG,,1
+"Hey, Bella.",,"Hey, bella.",src,PG,,0
+"Thank you, Jessica.",,"Thankyou, Jessica.",src,PG,,0
+"Thank you, Kathy.",,"Thank you, kathy.",src,PG,,0
+Warsaw.,,Warsawa..,src,PG,,1
+Cannibal.,,"Cannibal, cannibal, please.",src,PG,,1
+BosIey.,,BosIey.,src,PG,,0
+"Dean, you all right?",,Dean you okay?,src,PG,,0
+Champagne for everybody.,,Champagne for y'all.,src,PG,,0
+Where's the bride?,,Where is the bride?,src,PG,,0
+I'm at the bridge.,,I'm at the bridge.,src,PG,,0
+The water's boiling.,,The water's boiling.,src,PG,,0
+I'm going to have a son.,,I'm going to have a Son.,src,PG,,0
+"Thank you, Natalie.",,"Thanks, Natalie.",src,PG,,0
+His son's dead.,,His son's lame.,src,PG,,1
+Do you hear music?,,Do you hear the tune?,src,PG,,0
+A hunting accident.,,A hunting accident- -,src,PG,,0
+It's Ivan Locke.,,It's Ivan Locke,src,PG,,0
+Where's the princess?,,Where's the princessa?,src,PG,,1
+"Thank you, Holly.",,"Thank you, hollyy.",src,PG,,1
+What beach?,,Whwhat beach?,src,PG,,1
+She doesn't have any friends.,,She doesn't have lovers.,src,PG,,1
+650.,,"6-0, 6-0, 6-0, 6-0, 6-0.",src,PG,,1
+"Thank you, Leon.",,"Thank you,  Leon.",src,PG,,0
+It is my handwriting.,,It's my handwriting.,src,PG,,0
+He's got your eyes.,,He's got your eyes.,src,PG,,0
+11 minutes.,,1 1 1 minutes.,src,PG,,1
+Where's Tracy?,,Where's tracys?,src,PG,,1
+Where's Oliver?,,Where's Oliver?,src,PG,,0
+I'm a hunter.,,I'm a chaser.,src,PG,,1
+Where's Greg?,,Where's greg?,src,PG,,0
+"Thank you, Carlos.",,"Thanks, carlos.",src,PG,,0
+"Thank you, Alfred.",,"Thanks, Alfredo.",src,PG,,1
+Gandhi?,,Gandhi,src,PG,,1
+He believes in you.,,He believes in you.,src,PG,,0
+Bar's open.,,The bar's open-ended.,src,PG,,1
+I'm not your daughter.,,I'm not your granddaughter,src,PG,,1
+"Thank you, Ralph.",,"Thank you, ralph",src,PG,,0
+"Thank you, Seth.",,"Thanks, Seth.",src,PG,,0
+Where's Simon?,,Wh-Where's Simon?,src,PG,,1
+Where's Jason?,,Where's jasons?,src,PG,,1
+We're explorers.,,We're explorers..,src,PG,,0
+60 minutes.,,Sixty-minutes.,src,PG,,0
+TONY Vermont.,,Tony Vermont.,src,PG,,0
+"Thank you, Julian.",,"Thanks, Julian.",src,PG,,0
+He's praying.,,He's beggars.,src,PG,,1
+Baggins.,,Baggins!,src,PG,,1
+Where's Thomas?,,Where's thomas?,src,PG,,0
+EsteIIe.,,estellee.,src,PG,,1
+"Thank you, Morgan.",,"Thank you, morgan.",src,PG,,0
+Where's Taylor?,,Where's taylor?,src,PG,,0
+I don't have parents.,,I don't have a parent here.,src,PG,,1
+"Thank you, Casey.",,"Thanks, casey.",src,PG,,0
+My mom's dying.,,My mommy's dying.,src,PG,,0
+I just wanna play.,,I just want to play poker.,src,PG,,1
+"Thank you, Jake.",,"Thanks, jake.",src,PG,,0
+"Thank you, Jones.",,"Thanks, Jones.",src,PG,,0
+I'm blessed.,,I'm sanctified.,src,PG,,1
+Strangle?,,Strangled?,src,PG,,1
+I have to die.,,I have to be dying.,src,PG,,1
+Sun's going to come up soon.,,Sun's going to come up soon.,src,PG,,0
+1000 feet.,,"1,300 feet.",src,PG,,1
+Thank you for the wine.,,Thank you for the wine cooler.,src,PG,,1
+You're a part of me.,,You're part of me.,src,PG,,0
+It's a treasure map.,,It's a treasure map- -,src,PG,,0
+"Thank you, Data.",,"Thankyou, Data.",src,PG,,0
+"Thank you, Denise.",,"Thanks, Denise.",src,PG,,0
+That's a ship.,,That's a ship-loader.,src,PG,,1
+Did I snore?,,Did I snore-sno?,src,PG,,1
+"Thank you, Patrick.",,"Thanks, patrick.",src,PG,,0
+"Thank you, Jason.",,"Thank you, jason.",src,PG,,0
+It's just a machine.,,It's just a machine.,src,PG,,0
+I wanna be normal.,,I want to be normal everyday.,src,PG,,1
+My name's Anna.,,My name's annae.,src,PG,,1
+"Hello, Meredith.",,"- Hello, Meredith.",src,PG,,0
+48 hours?,,"Forty-eight hours, huh?",src,PG,,0
+We have to trust each other.,,We've got to trust each other.,src,PG,,0
+Where's Robert?,,Wh-where is Robert?,src,PG,,1
+Nitroglycerin.,, ⁇ glycerin.,src,PG,,1
+We don't bite.,,- We don't bites.,src,PG,,1
+"Thank you, Julie.",,"Thank you, julie.",src,PG,,0
+"Thank you, Carol.",,"Thank you, carol.",src,PG,,0
+But I've got a plan.,,But I-I've got a plan.,src,PG,,1
+77.,,Seventy-seven-seven.,src,PG,,1
+She's a mute.,,She's mute.,src,PG,,0
+"Welcome, friend.",,"- Welcome, Friend.",src,PG,,0
+No one wants me.,,No-one wants me here.,src,PG,,1
+"Mars-1, Houston.",,"Mars-1, Houston, this is Mars-1.",src,PG,,0
+"Thank you, Barney.",,"'Thank you, Barney.",src,PG,,0
+How's Michael?,,How's michael?,src,PG,,0
+His mother's dead.,,His mommy's dead..,src,PG,,0
+Can he see us?,,"Hey, can he see us?",src,PG,,0
+He killed my mom.,,He's killed my mama.,src,PG,,0
+"Good morning, Chuck.",,"Morning, chuck.",src,PG,,0
+You're a slave.,,You're a slave.,src,PG,,0
+Jor-EI.,,Jor-E-I.,src,PG,,1
+"Thank you, Wayne.",,"Thanks, wayne.",src,PG,,0
+"Yeah, he's alive.",,"Yea, he's alive.",src,PG,,0
+Where's Audrey?,,Where's audrey?,src,PG,,0
+Her name's Amy.,,Her name's Amy.,src,PG,,0
+I'm her attorney.,,I'm her counsel.,src,PG,,1
+He's got a daughter.,,He's got a granddaughter,src,PG,,1
+Where's Amy?,,Wh-where's Amy?,src,PG,,1
+We have to tell them.,,We've got to tell 'em.,src,PG,,0
+I don't wanna be your friend.,,I-I don't want to be your friend.,src,PG,,1
+Where's Ethan?,,Where's ethani?,src,PG,,1
+"Hey, Oz.",,"Hey, oz.",src,PG,,0
+They've got my daughter.,,They've got my daughters.,src,PG,,1
+But we have no money.,,But we ain't got nothin '.,src,PG,,1
+Prodigal son.,,Prodigal son of mine.,src,PG,,1
+50 meters.,,Fifty-footer.,src,PG,,1
+"Thank you, Joyce.",,"Thanks, ⁇ .",src,PG,,1
+She's a princess.,,She's a princess.,src,PG,,0
+"Thank you, Bruce.",,"Thank you, Bruce.",src,PG,,0
+Where's the king?,,Where's the king?,src,PG,,0
+Where's the letter?,,Wh-Where's the letter?,src,PG,,1
+A wedding gift.,,A maid of honor.,src,PG,,1
+"Good morning, Henry.",,"Morning, henry.",src,PG,,0
+He's little.,,He's a wee.,src,PG,,1
+Where's Rick?,,Where's rick?,src,PG,,0
+We got witnesses.,,We got eyewitness,src,PG,,0
+I have to find my son.,,I-I-I gotta find my son.,src,PG,,1
+"Thank you, Howard.",,"Thanks, howard.",src,PG,,0
+"Hey, Bones.",,"Hey, bones.",src,PG,,0
+We're in New York.,,We're in new york city.,src,PG,,0
+"Thank you, Robin.",,"Thank you, robin.",src,PG,,0
+"John, are you all right?",,"John, are you okay?",src,PG,,0
+I'm not a religious man.,,I am not a religious man.,src,PG,,0
+I'd do it for you.,,"I'd do it for you, man.",src,PG,,1
+Ink.,,"Ink, ink, ink.",src,PG,,1
+She's got a right to know.,,"Well, she's got a right to know that.",src,PG,,0
+This is not justice.,,This is not ⁇  justice.,src,PG,,1
+Where's Emma?,,Where's Emma?,src,PG,,0
+Doris?,,"Hey, Doris?",src,PG,,0
+Where's Martin?,,Where's Martin?,src,PG,,0
+We're not thieves.,,We're not stealers.,src,PG,,0
+"Thank you, Frankie.",,"Thank you, frankie.",src,PG,,0
+What project?,,What project- -?,src,PG,,1
+"Thank you, Robert.",,"Thankyou, Robert.",src,PG,,0
+"Thank you, Marty.",,"Thank you, Marty- -",src,PG,,0
+Why are you hurting me?,,Why are you hurting 'me?,src,PG,,0
+Civilisation.,,Civilisations.,src,PG,,1
+Five hundred pounds.,, ⁇  pounds,src,PG,,1
+He doesn't have friends.,,Hasn't got friends.,src,PG,,0
+You're my first.,,"Dude, you're my first.",src,PG,,1
+I wanna trust you.,,I want to count on you.,src,PG,,0
+Switch off the engine.,,Switching off the engine.,src,PG,,1
+I'm a professor.,,I'm a professore.,src,PG,,0
+Thank you for the book.,,Thank you so much for the Book.,src,PG,,0
+She's not sick.,,- She ain't no ill.,src,PG,,0
+She didn't lie.,,She- - she didn't lie.,src,PG,,1
+"Hello, Justin.",,"Hello, justin.",src,PG,,0
+"Thank you, Lou.",,"Thanks, lou.",src,PG,,0
+"Thank you, Abby.",,"THANKS, Abby.",src,PG,,0
+Do you like hockey?,,Do you like ⁇ ?,src,PG,,1
+"Hello, Ana.",,"Hello, Ana.",src,PG,,0
+Where's Hank?,,Where's hank?,src,PG,,0
+Where's his office?,,Where's his dorm?,src,PG,,1
+"Thank you, Fred.",,"Thanks, Fred.",src,PG,,0
+ScuIIy?,,Scullys?,src,PG,,1
+"Thank you, Joey.",,"Thank you, joey.",src,PG,,0
+I'm not singing.,,I'm not singing.,src,PG,,0
+And if I win?,,What if I win the lottery?,src,PG,,1
+I'm a diabetic.,,I'm diabetic.,src,PG,,0
+"Hello, June.",,Hello June.,src,PG,,0
+Where's Elena?,,Where's elena?,src,PG,,0
+"Thank you, Linda.",,"Thanks, linda.",src,PG,,0
+"Thank you, dexter.",,"Thanks, dexter.",src,PG,,0
+You're not your father.,,"You ain't your daddy, man.",src,PG,,1
+He's my patient.,,He's my comrade.,src,PG,,1
+"Hello, Lydia.",,"Hello, Lydia.",src,PG,,0
+Eternal life.,, ⁇  life.,src,PG,,1
+A scar.,,It's a scarlet.,src,PG,,1
+Where's the woman?,,Where's the missus?,src,PG,,0
+Do you play golf?,,Do you play golfer?,src,PG,,1
+They got my daughter.,,They've got my daughters.,src,PG,,1
+"Thank you, Scott.",,"Thanks, scott.",src,PG,,0
+"Thank you, Gus.",,"- Thank you, Gus.",src,PG,,0
+I have 3 children.,,I've got 3 cubs.,src,PG,,1
+"Thank you, Martin.",,"Thanks, Martin.",src,PG,,0
+"Yeah, Joe.",,"Yup, Joe.",src,PG,,0
+Where's Bill?,,Wh-where is Bill?,src,PG,,1
+I'm no witch.,,♪ I'm no witch. ♪,src,PG,,0
+I've got a dog.,,I've got a hound dog.,src,PG,,1
+I'm trying to apologize.,,I'm tryin 'to say sorry.,src,PG,,0
+My wife's pregnant.,,My wife's fried.,src,PG,,1
+Everybody talks.,,Everyone ⁇ .,src,PG,,1
+He's got a plan.,,He's got plans.,src,PG,,1
+"Hello, Judith.",,"Hello, Judit.",src,PG,,1
+Where's Jim?,,Wh-where is Jim?,src,PG,,1
+"Thank you, Kenny.",,"Thanks, Kenny.",src,PG,,0
+Where's Luke?,,Where's luke,src,PG,,0
+No one understands me.,,No one understands me.,src,PG,,0
+Leukaemia.,,Leukaemia.,src,PG,,0
+I love my children.,,I love my children..,src,PG,,0
+Where's our son?,,Where's our fella?,src,PG,,1
+A diary.,,A Diary.,src,PG,,0
+My name's Sarah.,,My name's sarah.,src,PG,,0
+Did he commit suicide?,,Did he commit suicides?,src,PG,,1
+Bad people.,,Bad-looking people.,src,PG,,1
+I'm Spartacus.,,I'M Spartacus..,src,PG,,0
+The war has begun.,,The war's afooted.,src,PG,,0
+Are you afraid of the dark?,,You're afraid of the Darkness?,src,PG,,0
+"Thank you, Marie.",,"Thanks, marie.",src,PG,,0
+"Hey, Samantha.",,"Hey, ⁇ .",src,PG,,1
+She's high,,She's high.,src,PG,,0
+Where's Megan?,,Where's megann?,src,PG,,1
+A lone wolf.,,"A Lone Wolf. """,src,PG,,0
+I'm mad at me.,,I'm mad at me- -,src,PG,,0
+I don't believe in destiny.,,I don't believe in fate.,src,PG,,0
+You're his mother.,,You're his mother..?,src,PG,,1
+I was bit.,,I was gnawed on.,src,PG,,1
+"Hello, Bambi.",,"Hello, bambi.",src,PG,,0
+How's Jack?,,How's jack?,src,PG,,0
+"Good morning, Jim.",,"Morning, jim.",src,PG,,0
+Don't have a mother.,,Don't have a mama.,src,PG,,0
+Where's the TV?,,Where's the telly?,src,PG,,0
+He protected me.,,He was shielding me.,src,PG,,0
+Anonymous tip.,,An anonymous tip.,src,PG,,0
+You're a warrior.,,Υou're a warr.,src,PG,,1
+I'm a princess.,,I'm a princessa.,src,PG,,1
+There was just one problem.,,There was just one problem.,src,PG,,0
+"Thank you, Ryan.",,"Thanks, ryan.",src,PG,,0
+"Yes, I'm afraid.",,"Yep, I'm afraid so.",src,PG,,1
+Mi casa es su casa.,,Mi casa es su casa..,src,PG,,0
+"Hello, Jill.",,"Hello, jill.",src,PG,,0
+I really wanna see you.,,I really want to see you.,src,PG,,0
+I'm not a terrorist.,,I'M NOT A Terrorrοr.,src,PG,,1
+I'm not a witch.,,I'm not a narcissist.,src,PG,,1
+No baggage.,,No baggages.,src,PG,,0
+They can't see us.,,They ain't gonna see us.,src,PG,,0
+No compromise.,,No compromises..,src,PG,,0
+Murder weapon.,,"Murder weapon, sir.",src,PG,,1
+Until something shocks him.,,Until something incriminates.,src,PG,,1
+"Thank you, Kate.",,"Thank you, kate.",src,PG,,0
+"Thank you, Alice.",,"Thanks, alice.",src,PG,,0
+You're snoring.,,You're▁snarking.,src,PG,,1
+Where's Walter?,,Where's Walter?,src,PG,,0
+I miss my mom.,,I miss my mommy..,src,PG,,0
+Who's my father?,,"Who's my father, eh?",src,PG,,1
+Violent crimes involving ordinary people.,, ⁇  crimes involving ordinary human beings.,src,PG,,1
+Take Ziva.,,"Take Ziva, take Ziva, take Ziva.",src,PG,,1
+Jewellery?,, ⁇ ?,src,PG,,1
+"Hello, Jan.",,"Hello, Jan.",src,PG,,0
+I kept my word.,,I kept my word- -,src,PG,,0
+"Plants producing chemical fertilizer , acid and soda make use of the phosphates from <define> Lienyunkang </define> and the salt from the Huaipei salt works .","(historical, _, or, _, obsolete)","A district of Wuhan, Hubei, China.",tgt,DM,,1
+"Several species of the genus Lesquerella produce as major hydroxy fatty acids either densipolic acid ( 12 - hydroxyoctadeca-9,15 - dienoic acid ) , <define> lesquerolic acid </define> ( 14 - hydroxyeicosa-11 - enoic acid ) or auricolic acid ( 14 - hydroxyeicosa-11,17 - dienoic acid ) .",(organic compound) A hydroxy acid found in the oil of most species of Lesquerella (= Physaria; the bladderpods).,(organic compound) Any of a group of flavonoids found in many plants of the genus Lesquerella.,tgt,DM,,1
+"<define> Odoraments </define> to smell to , of rose - water , violet flowers , balm , rose - cakes , vinegar , etc . , do much recreate the brains and spirits   [ … ]",(archaic) Something which gives off a scent; an odoriferous substance. [from 14th c.],(obsolete) An odour.,tgt,DM,,1
+"There is no serendipity without a flash of insight from left field , an oblique <define> eureka effect </define> .",The human experience of feeling a sudden sense of insight upon making a discovery or realization.,"(idiomatic) A sudden, unexpected, or unexpected discovery.",tgt,DM,,1
+"Even with the nuance , the vote was a momentous step for a church that has been mired in <define> intrafactional </define> warfare over homosexuality for more than a decade .",Within a single faction.,Between factions.,tgt,DM,,1
+"The ramjet should have failed , and then whoever run the race to the Power Room should have yanked his smoking body out of the way and , <define> hopeably </define> , restarted it .",(nonstandard) hopefully; in a way that one would hope for,In a hopeable manner.,tgt,DM,,0
+"Stone , bronze , iron , hawking , and gunpowder were added to man ’s power to destroy . But now , with the breech - loader and later improved weapons , man has become <define> omnidestructive </define> .",(rare) All-destroying.,Incapable of being destroyed.,tgt,DM,,1
+It 's no big deal to be <define> out </define> in the entertainment business .,"(LGBT) Openly acknowledging that one is LGBT+ (gay, trans, etc).",(informal) In a position of power or authority.,tgt,DM,,1
+"Not only because ' omnipotence ' as a single property is found in the creed , but because ' omnipotence ' as a single property is found in the creed , but because it is more appropriate and revealing perhaps than ' absolute causality ' ( Schleiermacher ) or ' infinity ' ( Pannenberg appealing to Gregory of Nyssa ) which for reasons internal to theology makes it possible to engage with the study of religions and philosophy of religion ; and might make concrete a provisional paraphrase of the word ' God ' understood as a <define> nomen appellativum </define> , not least as it is used in the term ' all - determining reality ' .","(grammar, rare) common noun","(philosophy, linguistics) An appellation.",tgt,DM,,1
+"[ ... ] As to the actual and present state of the school , it has experienced since this 2 1/2 or 3 years a perceptible decline , on one side for want of European youths , and on the other thro the continual <define> drawths </define> from them , as whenever these youths had but half concluded their studies , they were included and placed directly under the military , [ ... ]",That which is draughted or drawn; a draught.,"(archaic, or, dialectal) The act of drawing; drawing.",tgt,DM,,0
+The sight of the rope against the whitewashed wall and the thought of the <define> bloodsome </define> uproar which was about to smash the peace of the night into hash served to deepen that rummy feeling to which I have alluded .,"(literal, and, figurative) Marked by blood; bloody (all senses)",Resembling or characteristic of blood.,tgt,DM,,0
+Yet neither Pennsylvania 's <define> Quakerist </define> tendencies toward gender equality nor Connecticut 's legacy of radical Protestantism prevented these two colonies from sacrificing a widow 's rights to commercial considerations .,(uncommon) Quaker or Quaker-like.,Of or pertaining to Quakers.,tgt,DM,,0
+"Some bilingual speakers , including some who are <define> ambilingual </define> , can be said to have two ( occasionally more ) native languages . There is no exact criterion for this ; but one could say arbitrarily that any language learnt by the child before the age of instruction , from parents , from others , such as a nurse , looking after it , or from other children , is an L1 . It is clear , however , that only a small proportion of those who learn two or more languages in this way become ambilingual speakers ; and conversely , not all ambilinguals have two L1s .",Speaking two or more languages with complete fluency and such that there is no subject or domain of communication in which one language is preferred over others.,(linguistics) Having two or more languages as one's native language.,tgt,DM,,0
+"… hanging trollopy , and daggling about their heels ; but hastily <define> wrappt </define> round them as soon as I came upstairs .",(rare),"(intransitive, obsolete) To wrap (something) around oneself.",tgt,DM,,1
+"Today Arabic must be regarded as one of the important world languages . Its earli­est written forms are provided by pre - Islamic North and East Arabian inscriptions using a variant of the South Arabian monumental script . The attested dialects are <define> Liḥyānite </define> or Dedanite in Hedjāz , Thamūdic in north - eastern Hedjāz , Safaitic in southern Syria and Jor­dan , Hasaean in the oasis of al - Hāsa ’ , and Nabataean Arabic , represented by a few in­scriptions in Aramaic script .",Alternative spelling of Lihyanite,(linguistics) Of or pertaining to the Liḥyānite language.,tgt,DM,,1
+"And although I did not know this at the time , it 's also the <define> shitty stick </define> of philology , the course that no one wants to teach .",An extremely unpleasant person or situation.,"(slang, derogatory) A difficult or unappealing course of study.",tgt,DM,,1
+"qetsk - oB , <define> oFBS </define> , oMZS , etc .   - older brother or cousin , male / female   [ … ]",(anthropology) Initialism of older father's brother's son.; father's brother's son older than oneself.,(informal) Initialism of older brother.,tgt,DM,,1
+"Giuliana : Speak for yourself , Rancic . I can run in heels like no other ; it 's <define> amazeballs </define> !",(slang) Amazing.,(colloquial) Amazing.,tgt,DM,,0
+"The archboard assembly can now be erected , springing aft from the after most frame , and supported by the <define> horn timber </define> .",(nautical) A timber that angles up from the sternpost to support the overhang of the stern. A single vessel may have multiple horn timbers.,(architecture) A piece of timber used to support an archboard.,tgt,DM,,1
+<define> Prudent man rules </define> also require that greater financial and legal responsibility be attached to any imprudent action by corporate officers .,"(legal, investment) A standard for the duty of a fiduciary with responsibility over investments.","(idiomatic, business) To act in a prudent manner.",tgt,DM,,1
+"[ … ]   when he recollected that , being there as an assistant , he actually seemed — no matter what unhappy train of circumstances had brought him to that pass — to be the aider and <define> abettor </define> of a system which filled him with honest disgust and indignation , he loathed himself   [ … ]",A supporter or advocate. [Late 16th century.],One who abets.,tgt,DM,,1
+the <define> musculophrenic </define> artery,(anatomy) Pertaining to the muscles and the diaphragm.,(anatomy) Relating to the musculoskeletal system.,tgt,DM,,1
+"Descender from the plains , ultimate moon of all flames , from tumescences of fruit and flower dropping , darkened your face already — fool or baptist , summer 's fool , echoer , necrologue , or <define> foresong </define> of glaciers , anyway nutcracker , sedge - cutter , ponderer of platitudes — [ ... ]",A song sung as an opener to an event or story; prelude,(figuratively) A foreshadowing; a foreshadowing.,tgt,DM,,1
+"Therefore , the sum of the geometric multiplicities of a <define> defective matrix </define> will be less than n.","(linear algebra) A square (n×n) matrix that has fewer than n linearly independent eigenvectors, and is therefore not diagonalisable.",(mathematics) A matrix that is defective in some way.,tgt,DM,,1
+"[ … ] the eyes were once more beginning to show the old nystagmus ; so I decided to <define> needle </define> the cataracts , and on Jan. 31 I needled the right eye .","To pierce with a needle, especially for sewing or acupuncture.",(transitive) To insert a needle into.,tgt,DM,,1
+""" Hell , he 's <define> nickered </define> before . He nickers all the time ! """,To make a soft neighing sound characteristic of a horse.,"(intransitive, colloquial) To make a nicker.",tgt,DM,,0
+"Some saw them , and other Rauschenberg works , as neo - Dada , <define> antiart </define> gestures , for example .","Opposed to art, or to the concept of fine art",Opposed to art.,tgt,DM,,0
+"The purpose of a <define> comp </define> is to give your client , whether that is your boss , a committee you 're on , or an outside company that has retained you for design assistance , a look at what the finished piece you 've designed will look like .","(design) , a graphic design showing final proposed layout of text and images.","(chiefly, US, informal) A commission.",tgt,DM,,1
+"They saw Rimester near a light tower , one of the older writers , a black guy wearing a kufi , a skullcap , who did amazing wildstyle <define> window - downs </define> , Ismael had to admit — the letters decorated with love poems and sentiments of heartbreak .","A piece of graffiti covering a train, etc. from the base of the window downward.",Alternative form of window-down,tgt,DM,,1
+A wide spread of possible outcomes will give a relatively flat distribution and so indicate a risky project . A narrow spread of results will give a very <define> peaky </define> graph and indicate a low risk project .,Characterised by peaks.,Resembling or characteristic of a peak.,tgt,DM,,0
+The striker headed the ball into the <define> net </define> to make it 1 - 0 .,"(sports) A framework backed by a mesh, serving as the goal in hockey, soccer, lacrosse, etc.",(soccer) The area in which a goal is scored.,tgt,DM,,0
+She looked up and saw a man across the bayou carrying a <define> bundlesome </define> sack of groceries .,Characteristic of a bundle or bundling,Resembling or characteristic of bundles.,tgt,DM,,0
+This ' boys ' club ' attitude that girls ca n't be geeks is still a major stumbling block for <define> feminerds </define> and girls who want to break into geek culture .,"(slang) A feminist nerd, especially a woman.",(informal) A female geek.,tgt,DM,,1
+"Having deposited our mournful burden upon tressels within this region of horror , we partially turned aside the yet <define> unscrewed </define> lid of the coffin , and looked upon the face of the tenant .",Not having been screwed.,That has been unscrewed.,tgt,DM,,0
+"The dirty secret of the internet is that all this distraction and interruption is immensely profitable . Web companies like to boast about [ … ] , or offering services that let you "" <define> stay </define> up to date with what your friends are doing "" , [ … ] and so on . But the real way to build a successful online business is to be better than your rivals at undermining people 's control of their own attention .","(intransitive, copulative) To continue to have a particular quality.",(intransitive) To continue to do something.,tgt,DM,,1
+"She said : "" So I sure got my hands full . "" Handful . To mean : <define> handlesome </define> . Fit to be handed from hand to hand . Hand me down my walkincane .","(rare) Typified by, or requiring handling; (by extension) difficult to manage",(colloquial) Handy; capable of being handled.,tgt,DM,,1
+Named Tasmania 's first ever All Australian at the 1953 Adelaide carnival ( when he was playing at North Launceston ) Leedham is regarded by many as being the best footballer ever produced in the <define> Apple Isle </define> .,"(Australia, informal) Tasmania.",(Australia) The state of Tasmania.,tgt,DM,,0
+"As the <define> joblife </define> becomes a smaller percentage of the life cycles of most peoples , the traditions of social policy must adopt more adequate ways of social security .",That portion of one's life in which one is gainfully employed,The period of time during which a person is employed.,tgt,DM,,1
+"At home I lay down and sank into a not unpleasant <define> intoxicatedlike </define> condition , characterized by an extremely stimulated imagination .",(rare) Alternative form of intoxicated-like,Resembling or characteristic of intoxication.,tgt,DM,,0
+an <define> irritative </define> fever,"accompanied with, or produced by, increased action or irritation",(medicine) Causing irritation.,tgt,DM,,1
+I 'm going to <define> uni </define> after I leave school .,"(colloquial, chiefly, Britain, Australia, NZ, Canada) University.",(informal) university,tgt,DM,,0
+"Hyaline cells exhibit α - CasPPO - hemo immunostaining only at postmolt stage ( Fig 5A and 5B ; n = 5–6 ) , while semigranulocytes are <define> immunosensitive </define> only at early premolt and postmolt stages .",(immunology) sensitive to allergens; allergic,(immunology) Capable of being immunosensitive.,tgt,DM,,1
+No more midnight oil — for why should he be a <define> slave of the lamp </define> ? No more worry .,"(jocular) A person who works by lamplight, or works with electrical apparatus.","(idiomatic, by extension) A person who is enslaved by a job, a job, or a situation.",tgt,DM,,1
+The answer appears on the <define> thirty - second </define> page of the book .,"The ordinal form of the number thirty-two, describing a person or thing in position number 32 of a sequence.","The ordinal form of the number thirty-two, describing a person or thing in position number 32 of a sequence.",tgt,DM,,0
+"Put it down and walk away ... straight to the crime section of your bookstore , where I 'd suggest you start with The Hunter , the first book in his classic series about Parker , the <define> heister </define> 's heister   [ … ]",(rare) A thief or burglar.,"One who, or that which, heists.",tgt,DM,,0
+"Furthermore , though there are those who complain of official France , the <define> bunglesome </define> administration , the interminable red tape , I was not one of those who suffered any great inconvenience from these obstacles to progress .",Characterised or marked by bungling; ungainly; awkward; incompetent,"(informal) Unwieldy, complicated, or difficult to deal with.",tgt,DM,,1
+"Because the Sydney newspaper scene was dominated by a culture of alcohol - fuelled <define> blokeyness </define> , sexism and misogyny , Murdoch and Rabin introduced some groundbreaking recruitment practices .",The state or quality of being blokey.,(informal) The state or quality of being a bloke.,tgt,DM,,0
+"Four of the 32 251 Ku aircraft turned back , but the other 28 fought for 20 minutes against a reported 100 enemy aircraft , claiming 18 destroyed and five <define> probables </define> .",Something that is likely.,(military) An aircraft that has not yet been destroyed.,tgt,DM,,1
+"Fall may be the season of <define> poachable </define> fruit — apples in cider with vanilla , pears in pear juice with ginger   [ … ]",Suitable for being cooked by poaching.,(obsolete) Capable of being eaten.,tgt,DM,,1
+The exam was so hard we assumed the question <define> setter </define> must have been in a bad mood .,"One who sets something, such as a challenge or an examination.",One who sets a question.,tgt,DM,,1
+"When a problem reoccurs after surgery , it might be necessary to <define> reoperate </define> on a patient .","(intransitive, surgery) to operate (surgically) again (on the same thing as a previous operation).",(transitive) To perform (a surgery) again.,tgt,DM,,1
+"No matter how many <define> dietologists </define> , doctors , or journalists tell you that carbohydrates are bad for you , the brain runs on glucose , and glucose is a carbohydrate .",A specialist in dietology.,(informal) A dietitian.,tgt,DM,,0
+"New vasculature , under the influence of angiogenic growth factors , may grow from the <define> vaso vasorum </define> within the adventitia into the plaque .",(anatomy),(medicine) vasculature,tgt,DM,,1
+I felt <define> dehydrated </define> because I did n't bring enough water on the hike .,to lose or remove water; to dry,(intransitive) To become dehydrated.,tgt,DM,,0
+"Some in learning 's garb , With formal band , and sable - cinctur'd gown , And rags of <define> mouldly </define> volumes .",(obsolete) mouldy,Resembling or characteristic of a mould.,tgt,DM,,0
+"He comes outside when weather 's fine / To hang his singlets on the line , / And then returns - he needs no bell - / The scouse , or Sunday 's duff to share ; / The stokers <define> tabnabs </define> need his care ; / The sea sounds far away in there , / Ssssssssh , like the hush in a conch - shell .","(slang, British, Navy) A small item of food offered at break times, normally the morning break.",(obsolete) A stoker.,tgt,DM,,1
+"He had heard that in far - away France the motley was not confined to men . Had not Jeanne , queen of Charles I , possessed her jestress , Artaude de Puy , "" folle to our dear companion , "" as said the king ? Had not Madame d'Or , wearer of the bells , kept the nobles laughing ? Had not the haughty , eccentric Don John , his handsome , merry <define> joculatrix </define> , attached to his princely household ?","(obsolete) A female joculator; a female jester, comedian or entertainer.",A female jockey.,tgt,DM,,1
+""" Tickets will be available at the door for a cool 10 <define> dollarydoos </define> . ""","(Australia, informal, finance) The Australian dollar.","(Australia, New Zealand, slang) A dollar.",tgt,DM,,0
+"Almost all these magnificent buildings were used for ordinary theatrical performances during the 5th century . All of them , however , contain elements which are evidence that the <define> orchestrae </define> were not only used during musical or histrionic events but also for gladiatorial combats and hunts , which were a merciless way of eliminating huge numbers of Christians .   [ … ]   Execution was performed in public , in the arenas or ochestrae of the amphitheatres and theatres , and was particularly common during the reigns of Nero , Trajan Decius , Diocletian and other of the Roman emperors .",(rare),(historical) An amphitheatre.,tgt,DM,,1
+"His conceptualization eschews some crucial normative and epistemological distinctions between various forms or modalities of translation , especially between stronger and weaker ones ( or <define> reificatory </define> and non - reificatory ones ) and , in doing so , impairs our ability to evaluate them , viz . of choosing the side of the weak .",That reifies.,Of or pertaining to reification.,tgt,DM,,0
+The <define> judgess </define> demands in her charge to the jury to “ despise and hate all men and to bring up your children to do the same . ”,(obsolete) A female judge.,A female judge.,tgt,DM,,0
+One could take them for threads of wool like those which you pull out of an old <define> ravelly </define> stocking .,tangly; entwined like fibres,Resembling or characteristic of a rave.,tgt,DM,,1
+"It is generally believed that the creation of the <define> Kuomintang </define> will somewhat straighten out the political tangle in China caused by the multitude of parties . The Kuomintang holds itself out as the democratic party , and its support of the President will be tempered by the path his future actions take .","A nationalist political party founded under Sun Yat-sen in 1912 that ruled mainland China from 1928 to 1949, now one of three major parties in the Republic of China (Taiwan).",(historical) A political party in the People's Republic of China.,tgt,DM,,0
+""" He might not have meant to ignore her , "" answered Isabel thoughtfully ; "" he might have chosen not to introduce her because he felt too proud of her to subject her to any possible <define> misappreciation </define> from them . ""","(dated) An observed failure to appreciate the proper worth of a person, an act or a thing.",The state of being misappreciated.,tgt,DM,,0
+Our prototype implements a basic pharming attack to selectively <define> misresolve </define> the client domain name requests .,(transitive) To resolve incorrectly.,"(transitive, computing) To resolve incorrectly.",tgt,DM,,0
+"This done , he <define> reimportuned </define> Victor Riley , who , knowing now what Fred had known for weeks about the T.T. engine inventory , had one of the spares gift wrapped and released to the gruff little Yorkshireman .",To importune again.,(transitive) To import again.,tgt,DM,,1
+"However , as the beaks lack hooks typical for carnivorous birds , and calcium isotopes in the bones do not support a meat - based diet ( Angst et al . , 2014 ) , it is now assumed that <define> gastornithids </define> were herbivores .",(zoology) Any extinct bird in the family Gastornithidae.,(zoology) Any bird of the family Gastornithidae.,tgt,DM,,1
+"The small cadre of confirmed bachelors is excluded from the sample universe , and depending upon the dates of the records studied there can be an interaction between history and <define> groomdom </define> .",Grooms collectively.,The state or condition of being a groom.,tgt,DM,,0
+The original plan may have been for nothing more than an extended <define> pancarte </define> to cover the increasing number of donations around the mother house .,(obsolete) A royal charter confirming to a subject all his possessions.,(informal) A pancake breakfast.,tgt,DM,,1
+"We characterized the skull morphology of 19 species of <define> xenodontine </define> snakes using geometric morphometric techniques , and used phylogenetic comparative methods to test the association between diet and skull morphology .",(zoology) Belonging to a group of colubrid snakes with unusual teeth.,(zoology) Of or pertaining to the family Xenodontidae.,tgt,DM,,1
+The <define> headend </define> cable modem handles the medium access control ( MAC ) protocol which is necessary for point - to - multipoint operation on the tree - and - branch network .,"A cable TV control centre, at which terrestrial and satellite signals are received, monitored and injected into the cable network.",(computing) The part of a computer system that is responsible for processing the input and output of other systems.,tgt,DM,,1
+No refinement in him would now have surprised her ; but neither would any outbreak of <define> boorishness </define> .,The state or characteristic of being a boor or of being boorish; boorish behaviour.,The quality of being boorish.,tgt,DM,,0
+"Oft the fins of the volcano frantic with burning rage , madly heaves and struggles in the restless bosom of the mountain , and shaking the ponderous globe , scornfully <define> overleak </define> the rock walls within which they have been impaled , until their "" Horrid roar embowels with outrageous noise the air "" and blazing ruin scorches the fertile field and plain , and proud cities , with all their splendors , pomp , and wealth are submerged beneath the dark deep foundations by some gigantic impulse ...",To leak over.,(transitive) To leak out.,tgt,DM,,1
+"Often tricked into running up debts or signing their deeds directly over to these <define> landmongers </define> , the traditionalists appealed to the federal government for help .",An unscrupulous dealer in land.,"(Australia, New Zealand, historical) A person who attempts to acquire land by fraud.",tgt,DM,,0
+"<define> Ashers </define> offer such good arguments . Like : "" You 're dumb . ""","A member of the alt.suicide.holiday newsgroup, which deals with the topics of suicide and depression.","(slang, derogatory) A person of Asian descent.",tgt,DM,,1
+All companies working with series and <define> job production </define> state that they are using ramp - up management .,(business) The production of one or a very small number of customized made-to-order goods for a single customer.,The production of jobs.,tgt,DM,,1
+"These words were jabbered as fast as ever tongue could utter them , and when he had finished , up he jumped , again commenced the same mad rotations , and broke into the same extravagant <define> cantation </define> as before .",(obsolete) A singing.,"(countable, uncountable) The act of speaking in a cantorial manner.",tgt,DM,,1
+"4 . On 17 July , 3,000 infantry troops with several artillery pieces left Foochow in the direction of <define> Lienchiang </define> ( 119 - 31 , 26 - 12).5 . Beginning on 17 July Foochow had heavy rains on consecutive days . By 20 July floods had destroyed many houses , and more than 300,000 persons were distressed .",", a county in Fuzhou, Fujian, China","A prefecture-level city in Guangdong, China.",tgt,DM,,1
+"Back in Belding , he was always the tough guy , the one who rode around in his dad 's Pontiac Lemans with the vinyl top and the automatic on the floor . He drove that car like he was the <define> King Shit of Turd Island </define> , and I guess all of us was .","(idiomatic, slang, vulgar, derogatory) An individual with pretensions of great importance.","(slang, vulgar, derogatory) A person who is considered to be the best in his or her field.",tgt,DM,,1
+"An impish , balding man , he mimicked the inventor Buckminster Fuller , who documented his life in what he called a <define> chronofile </define> by pasting letters , bills and all manner of pieces of paper in a huge scrapbook for 68 years .",A historical record made up of everyday papers and documents from many stages of the owner's life.,(historical) A scrapbook used by Buckminster Fuller to record his life.,tgt,DM,,1
+"They are usually untrained , <define> unscreened </define> and unsupervised [ … ] .","Not screened, or not having been screened",Not screened.,tgt,DM,,0
+<define> furfurous </define> bread,furfuraceous,Of or pertaining to furries.,tgt,DM,,1
+"Yet , he indicated on the base of recent literature , there is a lot of ignored anticipation going on , and the assumption of <define> unanticipation </define> simply does not hold anymore ,   [ … ]",Lack of anticipation.,The state or condition of not anticipating.,tgt,DM,,0
+"It used to be known as the “ John Garfield Still Dead ” syndrome , after the extensive <define> postfuneral </define> coverage of a movie star who had a fatal heart attack in 1952 in the bed of a woman other than his wife .",After a funeral.,Occurring after a funeral.,tgt,DM,,0
+"Since the Dalai Lama is a <define> tulka </define> , he can choose to be reborn as he pleases to serve humanity .","(Buddhism) In Tibetan Mahayana, a particular high-ranking lama who can choose their own manner of rebirth.",(Buddhism) A reincarnated person.,tgt,DM,,1
+"Ignat'ev refused to concede these points , but offered other concessions instead : Russia would not demand a consulate in <define> Ch'i - ch'i - ha - erh </define> or Chang - chia - k'ou ( Kalgan ) ; it would permit Chinese subjects to continue living along the Ussuri river as Chinese subjects ; and it would limit to 200 the number of Russian traders in Peking .",(Qiqihar),"A prefecture-level city in Xinjiang, China.",tgt,DM,,1
+"Still , he describes [ ... ] the <define> yellow - breasted chats </define> and tundra swans that would appear in his yard , looking for seed .","A large yellow-colored songbird found on the American continent, Icteria virens","Any of several species of bird in the family Phalacrocoracidae, especially the yellow-breasted chat.",tgt,DM,,1
+"[ … ]   few of these boys know how to fight alone , and hardly any without a knife or a gun . They are not to be equated with matadors or boxers or Hemingway heroes . They are dangerous <define> pack hounds </define> who will not even expose themselves singly in the outfield .",A dog of any breed used to assist hunters as part of a pack.,"(figuratively) A person who tends to follow others, especially in a pack.",tgt,DM,,1
+"Meanwhile , the government expanded <define> semi - boarding school </define> facilities .","A school that provides board and lodging to some students, but allows others to attend during the day only, like a day school.",Alternative form of semi-boarding school,tgt,DM,,0
+"When , on a special occasion , they dined together at the Ritterhalle , she did not even look at the menu but <define> lionheartedly </define> ordered a single dropped egg and a cup of tea and resolutely kept her eyes away from Sue 's boiled beef and fritters .",In a lionhearted manner; courageously; bravely.,In a lionhearted manner.,tgt,DM,,0
+"Another even more effective method is to heavily douse the area with common grocery store vinegar ( white or apple cider ) , and then cover it with plastic and <define> solarize </define> it for two weeks . If after two weeks you still have problems , apply more vinegar and solarize for the rest of the summer and try again next year . Remember to clean the land before you solarize .",(horticulture) To treat soil by covering with plastic and exposing to sunlight.,(transitive) To cover with solarization.,tgt,DM,,1
+"Around the <define> nightfires </define> , I read Ezekiel and Leviticus and then spoke mysteriously about the quarry we chased , lengthening all I knew of the Harp gang into flatulent legend .",A fire that is lit outdoors at night.,A fire lit at night.,tgt,DM,,1
+"Combining this with the construction of Chern classes with coefficients in the <define> bigrassmannian </define> complexes , we get , for the weights up to four , local explicit formulas for the Chern classes in the rational Deligne cohomology via polylogarithms .","(maths) Pertaining to a permutation such that there is at most one left and one right descent (at most one index i and one index j, such that wsi < w and sjw < w).","(algebra, cohomology) Of or relating to bigrassmannian complexes.",tgt,DM,,1
+"And the Egyptians made the children of Israel to serve with <define> rigour </define> : And they made their lives bitter with hard bondage , in morter , and in brick , and in all manner of service in the field : all their service , wherein they made them serve , was with rigour .",Severity or strictness.,(uncountable) The quality or state of being rigorous.,tgt,DM,,0
+Why are you so <define> kiasi </define> ? You wo n't die from getting a small cut on the finger .,"(Singapore, colloquial, mildly, _, derogatory) Unwilling to take a chance for fear that something bad or unfavourable will happen; cowardly.","(South Africa, colloquial) Crazy, crazy.",tgt,DM,,1
+"The woozy “ Black Market Baby ” and spooky <define> sprechstimme </define> of “ What 's He Building ? ” are prime latter - day Waits , as are a host of other numbers that sound like work songs bellowed down a Tin Pan Alley .",A dramatic vocal style midway between speaking and singing.,(uncountable) The sound of sprechstimme.,tgt,DM,,0
+The first impression he must have made on the heathen chieftains was that of a man <define> unintimidatable </define> and devoid of fear .,Fearless; not able to be intimidated.,Not able to be intimidated.,tgt,DM,,0
+"From the evidence of other witnesses to alliterative texts copied by Thornton ( as , for instance , by comparing the four dissimilar manuscripts of Awntyrs or the two each of Truelove and The Palement of Thre Ages ) it can be seen that , although Thornton is a careful scribe and almost never <define> mismetres </define> a line into duple , alternating rhythms , he shows an eagerness to smooth out and add explanatory pleonasms by inserting fillers such as ful , frequently supplying full forms where an aphetic one was metrical , and altering the metrical pattern of the b - verses to make triple - beat ' anapaestic ' lines .",Alternative form of mismeter,"(transitive) To change the form of (a line, etc.).",tgt,DM,,1
+"It is time the international community faced the reality : we have an unmanageable , unfair , distortionary global tax regime . [ … ] It is the starving of the <define> public sector </define> which has been pivotal in America no longer being the land of opportunity – with a child 's life prospects more dependent on the income and education of its parents than in other advanced countries .",Any government and all entities that are controlled or funded by it.,(economics) The part of the economy that is controlled by the government.,tgt,DM,,1
+"For more than 30 years , the science has been crystal clear . How dare you continue to look away and come here saying that you 're doing enough , when the politics and solutions needed are still <define> nowhere in sight </define> .",Alternative form of nowhere to be found,(idiomatic) Not in sight.,tgt,DM,,1
+"My dear , if I should say your eyes / Are bright as Rigel in the skies ; / If I should say your lustrous hair / Is glorious more than high Altair / And that your simple , happy smile / Is of the <define> Mona Lisan </define> style ; / Or that your graceful ruby lips / E’en Trojan Helen ’s do eclipse ; / And tell you , too — not just to please — / You ’re fairer than the Naiades ; / Said I such things , by ardor fanned , / I do not think you ’d understand .",Resembling or characteristic of the Mona Lisa.,A en given name.,tgt,DM,,1
+Guess things are different in the <define> Xenaverse </define> . Maybe Ares and the other gods do n't like competition ?,(fandom slang) The fictional universe depicted in the Xena: Warrior Princess series.,(fandom slang) The universe of the television series Xena: Warrior Princess.,tgt,DM,,0
+"Now , happy bridging over a <define> chinese snooker </define> .","(snooker) A reverse snooker position where the cue ball is in front of, rather than behind, a ball that is not on, making the shot very difficult because the bridge is hampered and the cueing angle is unnaturally high.",(snooker) A type of snooker played in China.,tgt,DM,,1
+Doubtless ere many years St. George 's day may be simultaneously celebrated by all of us “ Anglo - Saxon ” blood <define> alliancers </define> .,One who favors and/or forms an alliance.,(historical) A member of the Anglo-Saxon community.,tgt,DM,,1
+"In case of rent charge , she was <define> endowable </define> unless the heir had elected to make it personalty by resorting to her writ of annuity .","(law, historical) Entitled to receive or eligible for dower; dowable.",Capable of being endowed.,tgt,DM,,1
+"Every year there is something new , something that <define> everybody who is anybody </define> gourmetwise , has to eat and rave about .","(idiomatic) All of the people who are well-known or important, especially those who have prominent social standing.",(idiomatic) Everyone.,tgt,DM,,1
+"Discouraged , the defendant switched to "" flawless English , "" and then went on to another expedient , advising that what he had been charged with doing was in fact the work of Satan ; who of course was not <define> subpoenable </define> by the prosecutor .",Capable of or permitted to be subpoenaed.,Capable of being subpoenaed.,tgt,DM,,0
+"Indeed , by a profound result of E. Kirchberg , F. Radulescu and N. Ozawa , a group is <define> hyperlinear </define> if and only if it satisfies the Connes embedding conjecture for groups , that is , if and only if its von Neumann algebra embeds into an ultrapower of the hyperfinite II1 factor R.","(mathematics, of groups) Displaying a generalization of sofic that applies to finite-dimensional Hilbert spaces.","(algebra, group theory, of an algebraic structure) Such that, for a given algebraic structure K, the group operation that maps every element of K to every element of K isomorphic to the operation of mapping elements of K to elements of K.",tgt,DM,,1
+"They were out to hunt a <define> niggergirl </define> , who , if she got across the thousand acres in safety , swam the river and crawled her way through the next quarter mile of thicket tangle on to the slope of Booby Mountain , would be free of molestation .","(offensive, ethnic slur) A young black woman.","(US, slang) A black woman.",tgt,DM,,0
+"[ … ]   when the seed surrenders , it becomes a tree . Seeds that do n’t surrender their “ <define> seedness </define> ” only wither up and blow away .",(rare) The state or quality of being seed.,The state or quality of being a seed.,tgt,DM,,0
+"My men at arms are ready for mounting , and I will give orders to my <define> vadelect </define> "" to have my own arms ready for a present adventure . ”",(obsolete) A personal servant; a man who is a member of the household staff.,(obsolete) A vassal.,tgt,DM,,1
+to <define> unearth </define> a fox or a badger,To drive or draw from the earth.,"(transitive, obsolete) To discover; to discover.",tgt,DM,,1
+"By definition – sorry , by hypothesis ! – we know that geometry and meaning belong in their origins to different orders of identity and that it is from their <define> contradictoriality </define> that the constituent symbolic factor of Sapiens is born .",Synonym of contradictoriness,(philosophy) The quality of being contradictory.,tgt,DM,,0
+Away from the immediate heat of our relationship — like when she 's at school — I think to myself that I might even enjoy the wild energy her <define> rilesome </define> nature brings to my life if it were n't so evident that so much of the time the pain she causes me is anything but inadvertent .,Easily aggravated; tending to get riled up.,Resembling or characteristic of a rascal.,tgt,DM,,1
+""" Optic sight "" means special equipment for firearms or <define> cold weapons </define> ,   [ … ]",A weapon that does not use fire or explosives.,Alternative form of cold-fire,tgt,DM,,0
+Previous study showed the zic family member Zic2a was involved in the regulation of two <define> prethalamic </define> transcription factor dlx2a and arxa .,Relating to the prethalamus,(anatomy) Occurring before the eye,tgt,DM,,1
+I am <define> perfect </define> that the Pannonians and Dalmatians for their liberties are now in arms .,(obsolete) Well informed; certain; sure.,"(obsolete, transitive) To be sure of; to be certain of; to be certain of.",tgt,DM,,1
+"Come here , <define> quick </define> !","Quickly, in a quick manner.",(informal) Quickly.,tgt,DM,,0
+"At street corners after dark in the West End , and up courts in the City , may be heard the hoarse cornet à piston , the <define> quakesome </define> flute , and eke the twanging harp , in trinity of dissonance ; [ ... ]",Characterised or marked by quaking,Resembling or characteristic of a quake.,tgt,DM,,0
+"Phase shift techniques for <define> pseudostereo </define> : ( a ) The circuit arrangement resembles the comb filter except that an all - pass phase shift network is used instead of signal delay ,   [ … ]","(sometimes, attributive) A technique or effect that simulates stereo, in sound or visual imagery.",Alternative form of pseudostereo,tgt,DM,,1
+"Of course , that does n't mean that parts of the home - buying process have n't been “ <define> webized </define> , ” or broken down into smaller pieces that can be done very efficiently online .","(internet, transitive) To adapt for the World Wide Web.",(transitive) To make (something) available on the World Wide Web.,tgt,DM,,0
+"Joan Bakewell was famously described as "" the <define> thinking man 's crumpet </define> "" .","(British, slang) An intelligent and good-looking woman, particularly one who has a high profile in the broadcast media.",(idiomatic) A person or thing that is thought-provoking.,tgt,DM,,1
+"In Dobu , the mother 's brother is held to be the harshest of all the relatives . “ The motherʼs brother may beat children long after their parents have ceased to do so , ” and they are forbidden to utter his name . There is a tender relationship with the “ navel , ” the motherʼs sisterʼs husband , who is the fatherʼs double , rather than with the father himself . Nevertheless , the father is considered “ less harsh ” than the motherʼs brother and will always seek , contrary to the laws of inheritance , to favor his son at the expense of his <define> uterine nephew </define> . And , finally , “ the strongest of all social bonds ” is the one between brother and sister.44",(anthropology) The son of one's sister.,"(chiefly, _, historical) A male relative who is not the biological son of the mother's husband or of the father's wife.",tgt,DM,,1
+the <define> contraction </define> of malaria,(medicine) The process of contracting a disease.,(medicine) The act of contracting.,tgt,DM,,1
+"In particular , we give an analytical identification of the mechanisms responsible for the <define> supernarrow </define> peaks observed recently in the spectrum of a mechanical realization of the system .",Extremely narrow.,Extremely narrow.,tgt,DM,,0
+To expressivity and simplicity of surface we must add one final factor that figures into the <define> glanceful </define> perception of environmental difficulties and the imperative to rectify them : the intensity of the conflict that engendered these difficulties .,Characterized by glances.,Pertaining to a glance.,tgt,DM,,1
+"E2A protein E47 , which forms heterodimers with NGN3 to regulate <define> proendocrine </define> gene transcription [ 44 ] coprecipitated with human NGN3 and was detected along with E12 , an alternately spliced form of E2A , in the mouse lysate ( Fig 1I , bottom right panel ) .",Relating to the production of endocrine secretions.,Of or pertaining to endocrinology.,tgt,DM,,1
+"Tenants have complained for years that the elevators are unsafe and unreliable , often stalling <define> midfloor </define> or refusing to work at all .",In the middle of a floor.,In the middle of a floor.,tgt,DM,,0
+“ There 's whooooo ? ” Bobby <define> snickles </define> .,"(intransitive, dialect) To laugh at someone or something",(intransitive) To laugh.,tgt,DM,,1
+"Roentgenogram showing malformation in second and third radiants , with <define> brachymesophalangia </define> and brachybasophalangia .","(medicine) The condition of having a short middle phalanx, often of the fifth digit on the hand.",(medicine) A type of malformation of the third radiate of the heart. [from 20th c.],tgt,DM,,1
+"Paul seemed relaxed , scanning the fields on either side of the muddy lane for <define> fieldfares </define>","A large thrush, Turdus pilaris, a bird of Eurasia.","(UK, dialect) A field mouse.",tgt,DM,,1
+"The interests of the Russian aristocracy — the <define> boyardom </define> — which by definition defended the social limitations on power ( since these were a matter of life and death for it ) , did not contradict the interests of the peasant proto - bourgeoisie , which by definition defended the economic limitations on power ( also a matter of life and death ) .",Boyars collectively.,(historical) The aristocracy of the Russian Empire.,tgt,DM,,1
+"At 1620:38 , the captain stated , "" got ta get it over again ... at least upside down we 're flyin . "" At 1620:49 , the CVR recorded sounds similar to engine compressor stalls and engine <define> spooldown </define> . At 1620:54 , the captain commanded deployment of the speedbrakes , and , about 1 second later , the first officer replied , "" got it . "" At 1620:56.2 , the captain stated , "" ah here we go . "" The FDR recording ended at 1620:56.3 , and the CVR recording ended at 1620:57.1 .","(aviation) The process of reduction of the rotational speed of a turbine engine, causing a reduction in thrust.",The act of spoiling.,tgt,DM,,1
+"The witness Gorman however seemed to attach blame to Arrowood for repeatedly reporting <define> misblends </define> during these weeks , when actually no wrong weights could be determined .",The act or result of misblending.,A mixture of two or more things that is not the same.,tgt,DM,,1
+"By making Henry steadfastly determined to do the decent and honorable thing , he avoids facing up to the complex <define> countertugs </define> of physical desire and social pressure   [ … ]",A tug in the opposite direction.,(figuratively) An opposing force.,tgt,DM,,1
+"Atopic patients with ichthyosis vulgaris often have keratosis pilaris and <define> hyperlinear </define> , exaggerated palm creases .",(dermatology) Having unusually pronounced creases marking the skin.,Extremely linear.,tgt,DM,,1
+"I swanny if I ever felt so in my life ! I was so anxious about that long letter that I sent to them to get printed for you , that I was dreadful loth to go in , and <define> eenamost </define> made up my mind to turn about and make tracks for the sloop agin !","(dialectal) almost, nearly.","(archaic, or, dialectal, Northern England, Scotland, Northern Ireland, Northern England, Northern Ireland) At the same time; at the same time.",tgt,DM,,1
+Convert liquid heaters from <define> underfiring </define> to immersion or submersion heating,"(also, attributively) Heating from below.",(intransitive) To fail to fire.,tgt,DM,,1
+"As long as the defence is credible and can be reasonably substantiated so that the counterclaim is not evidently <define> immeritorious </define> , the attacked party has little to lose , and may gain time .",Unworthy of merit; not deserving of merit; not meritorious.,(law) Of or pertaining to immeritorious conduct.,tgt,DM,,1
+Physicians <define> somnambulize </define> their patients and extract teeth literally without pain .,To put into a sleeplike or trancelike state.,"(medicine, transitive) To administer a somnambulant to.",tgt,DM,,1
+"After an unsuccessful attempt to have The Grapes of Wrath banned <define> statewide </define> ( the effort backfired ) , the AF commissioned and distributed a barrage of counternarratives .",Throughout a state (political subdivision of a federal union).,In a statewide manner.,tgt,DM,,0
+... an <define> occurrential </define> hypothesis ...,"Of, pertaining to, or essentiating an occurrence or occurrences; occurrent.",Of or pertaining to an occurrence.,tgt,DM,,0
+a <define> roll - up </define> display banner,Capable of being made into a cylinder shape by rolling.,Capable of being rolled up.,tgt,DM,,0
+"As the infancy of Rome was <define> venust </define> , so was its manhood notably strenuous .",(obsolete) beautiful,"(archaic, or, literary) Pertaining to, characteristic of, or characteristic of a man.",tgt,DM,,1
+"People are assumed to follow the maxim and <define> submaxim </define> , but cross - cultural differences are well - documented regarding the enactment of the submaxim .",A maxim making up part of a greater maxim.,(mathematics) A maxim that is less than the maximum.,tgt,DM,,0
+Hitting a thin shot from a fairway bunker is more productive than hitting a <define> fat </define> shot .,(golf) Being a shot in which the ground is struck before the ball.,(golf) Of a golf ball: having a relatively large circumference.,tgt,DM,,1
+"Round rolls the stroke with mathematic care , All centre - bound , exactly circular : No sportive way it takes , at large and free , No gambol plays of <define> freakful </define> liberty   [ … ]",(archaic) Full of whims or caprices.,(obsolete) Freaky.,tgt,DM,,1
+"It also tests our tolerance of smart - aleck , <define> potty - mouthed </define> teenage boys .","(informal) Regularly using vulgar language, especially strong profanities.",Alternative form of potty-mouthed,tgt,DM,,0
+"Often the ornamentor was an apprentice to the real artist of the scriptorium , the <define> initialer </define> .",The artist who decorates the initial letters in an illuminated manuscript.,One who initials.,tgt,DM,,1
+"I see my own fish , a <define> baldchin </define> , fluttering between bombies way down   [ … ]",The baldchin groper.,"(Australia, New Zealand, colloquial) A bald eagle.",tgt,DM,,1
+... all the components of an insurance claim form can be sent <define> paperlessly </define> from one location to another .,Without paper; in a paperless fashion.,In a paperless manner.,tgt,DM,,0
+"[ W]ith these two candidates , this election remains a <define> dumpster fire </define> .","(US, slang) A chaotic, unpleasant, unmanageable thing, situation, or person; a disaster.","(figuratively) A situation that is chaotic, disorganized, or otherwise unpleasant.",tgt,DM,,0
+The critically low level of rainfall in the second half of 2020 – approaching 50 % year on year for November – led the religious affairs directorate to instruct imams and their congregations to <define> pray </define> for rain last month .,"(religion) To direct words, thoughts, or one's attention to God or any higher being, for the sake of adoration, thanks, petition for help, etc.",(intransitive) To pray.,tgt,DM,,0
+in rushed a thorough Edinburgh <define> gutterblood </define> - a ragged rascal,"(derogatory, archaic) A person of low pedigree; one of the common rabble.",(slang) A person who lives in or frequents a gutter.,tgt,DM,,1
+"The poet 's eye , in a fine frenzy rolling , / Doth <define> glance </define> from heaven to earth , from earth to heaven .",(intransitive) To look briefly (at something).,(intransitive) To turn one's gaze from one thing to another.,tgt,DM,,0
+"No , ' tis a THOUGHT sprung ftom[sic ] a ray divine , Which will through clouds of lowring critics shine : When in a clear <define> innubilous </define> serene , The soul 's abstracted , purg'd from dross and spleen ;","(obsolete, rare) Cloudless.",(obsolete) Innocuous.,tgt,DM,,1
+a <define> kinkable </define> hose,In which kinks may be formed.,Capable of being kinked.,tgt,DM,,0
+I have <define> reservations </define> about your intentions .,"(often, in the plural) A limiting qualification regarding certainty; a doubt.","(countable, uncountable) A feeling of uneasiness or doubt.",tgt,DM,,0
+"There is , from Early Latin onwards , a <define> causal - final </define> use of the preposition de with adjectives like lassus and sollicitus .",(linguistics) Pertaining to any case that indicates the intention of achieving a specific final result.,(grammar) Of or pertaining to a preposition de.,tgt,DM,,1
+<define> Kindly </define> move your car out of the front yard .,Used to make a polite request: please.,In a kind manner.,tgt,DM,,1
+"A little troop of choristers in surplices and <define> untasselled </define> trencher - caps , headed by old Peter Glenny the organist , are coming round the northern corner of the west front from the schoolroom .",Not adorned with tassels.,Not sewn.,tgt,DM,,1
+"Many dress up as the <define> Headless Horsewoman </define> and her lover , the Apple Elf . Wait , Apple Elf ? Where do humans come up with this stuff ? Still , a small tent grabs my attention . In it , a group of humans put on a play about this unfortunate pair .",(rare) A female equivalent of the Headless Horseman mythical figure.,(fandom slang) A fictional female character who has a headless horse.,tgt,DM,,1
+Euelpides : Who <define> brings owls to Athens </define> ?,"(idiomatic) To undertake a pointless venture, one that is redundant, unnecessary, superfluous, or highly uneconomical.",(transitive) To bring (something) to (someone or something).,tgt,DM,,1
+"As for K’ang Yu - wei , his first given name was Tsu - i. He was born in 1858 , in the district of <define> Nan - hai </define> , Kwangtung , into an old and aristocratic family which for generations had been noted for its Neo - Confucian scholarship .","(a district of Foshan, Guangdong, China; former county of Guangdong, China).","A district of Kwangtung, Taiwan.",tgt,DM,,1
+"A much more numerous biotic element occurs also in other biotopes , whether only in similar adjacent ones or in widely scattered very different habitats , as <define> ubiquitists </define> ( forms with high ecological valence , i.e. , eurytopic forms ) .",An organism that can be found in most types of environment.,(ecology) A species that has a high ecological valence.,tgt,DM,,1
+"When the scholastic has finished his education , he embarks on the “ <define> tertiate </define> , "" a period of several months in which the accumulated experience of some ten years in the Order will be proved and tested all over again .",The third year of training in various Christian religious orders (especially the Jesuits).,(Christianity) A period of study in which a person who has completed his or her secondary education is required to undergo further studies in order to be admitted to a religious order.,tgt,DM,,1
+"And suddenly there , you ’ll know even then , that you will be badgered , abused , and publicly humiliated by that silly hysterical <define> twathead </define> again and again until you either have to change your phone number or your sex , whichever is less devastating to your social life .","(vulgar, slang) Term of abuse.","(vulgar, pejorative) A stupid or contemptible person.",tgt,DM,,1
+"Non - UTUC findings ( mucosa fold , small extraluminal mass and <define> parapelvic </define> hyperdense cyst and bullous mucosal edema ) were found during ureteroscopy in 4/9 cases and normal upper urinary tract was described in 5/9 cases .",Beyond the pelvis,(anatomy) Of or pertaining to the paraplegia.,tgt,DM,,1
+"They were ordered to the field , and their places filled by the Georgia "" Reserves , "" an organization of boys under , and men over the military age . As General Grant aptly - phrased it , "" They had <define> robbed the cradle </define> and the grave , "" in forming these regiments .","(idiomatic, disapproving) To use a young person for a purpose inappropriate to his or her age.","(transitive, idiomatic) To deprive of something that is rightfully one's.",tgt,DM,,1
+"Well , sometimes <define> mee - maws </define> have things to do , like moms and little girls .","(informal) Alternative form of meemaw, i.e. mamaw (grandmother).",Alternative form of mee-maw,tgt,DM,,1
+In time it became as impossible for polyglot and <define> polysectarian </define> America to provide a common religious standard for her public schools as for her Army or her railways .,Composed of many sects.,Of or pertaining to a polyglot.,tgt,DM,,1
+"The vessel was filled with a thick , <define> molasseslike </define> fluid .","Resembling molasses in any of various respects, such as consistency, flavor, or color",Resembling or characteristic of molasses.,tgt,DM,,0
+"The cigar drawer is an excellent introduction , looked after properly by self or servant , and there is always at hand the drink and the smoke for self or friend , or both , saving the often troublesome and sometimes <define> faintless </define> search for the cigar box that will go astray .",Without faintness or fainting,Without faintness.,tgt,DM,,0
+"Diagram of mold for casting a fang ding . The four outer mold pieces surround the model ; above the model is the inner core , and below the model is the <define> interleg </define> core piece .",That acts or occurs between legs.,Betweenlegs.,tgt,DM,,1
+"When such events befell him , Dooni would simply disappear for a few days , returning to tell his friends he had been “ on location , filming a movie , ” Los Angeles <define> drag - queenese </define> for doing jail time .",(rare) The jargon used by drag queens.,(informal) The language of a drag queen.,tgt,DM,,0
+"Owing to the occurrence and economic importance of <define> molybdosis </define> in cattle , this species has been the primary subject of study of molybdenum metabolism .",molybdenum poisoning,(medicine) The accumulation of molybdenum in the blood.,tgt,DM,,0
+"You seem a bit out of it lately , have you been smoking <define> rocks </define> again ?",(slang) Crack cocaine.,(slang) Marijuana.,tgt,DM,,1
+"She copied the whole alphabet like that , as though only the inside <define> whites </define> of the letters registered on her mind .","The enclosed part of a letter of the alphabet, especially when handwritten.",(informal) The white part of a letter.,tgt,DM,,1
+"A visitor may well be baffled by “ pony keg ” and “ <define> jack salmon </define> , ” but Cincinnatians know that the first is a store where beer may be purchased and the second is deep - fried pike .","(Midwestern US, colloquial) Sander vitreus.",(colloquial) A deep-fried pike.,tgt,DM,,1
+"More importantly , it is highly context dependent : ( a ) certain text types ( such as advertising copy ) seem to license bare <define> mediopassives </define> more than others ( see Section 6.4.1 ) , ( b ) contextually implied contrast may enable an inherent property reading of a bare mediopassive ( see Sections 6.4.2.1 and 6.4.2.2 ) , or the verb itself might foster bare mediopassive use ( this seems to be the case with denominal verbs like zip , button , bolt , or clamp , see Goldberg and Ackerman 2001 : 806 ) .",(grammar) A mediopassive construction; a phrase that uses the mediopassive voice.,(linguistics) A word that is not a noun.,tgt,DM,,1
+The problem is that the area is grey so far as the authorities are concerned and it is difficult to know where to draw the line between a nutriceutical or <define> pharmafood </define> and a medicinal drug substance .,A food supposed to have health benefits; a nutraceutical.,(uncountable) Medicinal food.,tgt,DM,,1
+"While some experts say these girls likely have body image issues or could develop a more serious eating disorder , <define> wannarexics </define> usually range between healthy and overweight .","(pejorative, slang) One who does not have the eating disorder anorexia nervosa, but wishes to.",(informal) A person who wants to be a member of the female subculture of wannarexics.,tgt,DM,,1
+""" You will soon be all right , my fine fellow , "" said the London surgeon reassuringly . He was renowned for his sympathetic <define> bedside manner </define> .","The ability of a doctor, medic, nurse, or other healthcare professional, to interact with his or her patients. [from 19th c.]",(idiomatic) The manner in which a person conducts himself or herself at a bedside.,tgt,DM,,1
+Its pathological nature is constituted by its perpetuation into an inappropriate movement which the conviction of its <define> mutility </define> can not abolish .,"(rare) deformity, defectivity",(uncountable) The state of being mutilated.,tgt,DM,,1
+"It is not supposed that there is now , or that there ever was a man in Madison county who would willfully lie to hurt a fellow - man , or even to enhanced his own interests , but for your spinning yarns and big story telling , she has had some "" <define> hummers </define> . ""","(slang, obsolete) A lie or tall tale.",(slang) A lie.,tgt,DM,,0
+"I told him about my plan , and he agreed that the gobblers must be <define> henned up </define> and that moving might be a good idea .",Alternative form of henned-up,"(transitive, colloquial) To prepare (someone or something) for a difficult situation.",tgt,DM,,1
+"The <define> ruibe </define> is then cut and eaten while still frozen , and served with soy sauce and fresh wasabi .","An Ainu dish of salmon that is frozen outdoors, sliced like sashimi, and served with soy sauce and water peppers.","(uncountable, cooking) A type of Japanese soup made from soybeans, rice, and other ingredients.",tgt,DM,,1
+a <define> whaleboned </define> corset,Reinforced with whalebone.,Having whalebones.,tgt,DM,,0
+"He watches the flickering black lights , as they <define> deluminate </define> , the world around him .",To extinguish a light; to darken.,(intransitive) To become illuminated.,tgt,DM,,1
+"However , certain objects are excluded from being treated as a gun . These include a longbow , crossbow , slingshot or <define> shanghai </define> even though it is capable of propelling a projectile by means of an explosive force .","(AU, NZ) Synonym of slingshot.",Alternative form of shanghai (“weapon”),tgt,DM,,0
+[ … ]   he turned his resourceful mind away from the serene life of a don on grass lawns in Cambridge to one of <define> self - sacrifice </define> and pure devotion in the thorny bushes of Africa .,The giving up of one's own benefit for the good of others.,The act of self-sacrifice.,tgt,DM,,0
+"Every thing of that sort appears to be at present no better than it is with us in a country - town : or rather it wants the simplicity and rustic innocence , and is more like the <define> draggled - tailed </define> finery of a lady ’s waiting - maid .","(of a person or other animal, or of clothing) Slatternly, untidy, unkempt.",Alternative form of draggled,tgt,DM,,1
+"Revealingly , two of the contenders announced this week for the Art Fund museum of the year prize - the Sackler Centre at the V&A in London and the National Trust Museum of Childhood in Derbyshire - are heavily interactive , while a third <define> shortlistee </define> , the Museum of Reading , boxed up its exhibits and allowed them to be displayed in workplaces and public buildings .",A person or thing that is on a shortlist,One who has been shortlisted.,tgt,DM,,0
+"Selection affecting the melanization threshold could likewise reduce patch number , which should occur in the reverse order ( loss of rump patch followed by loss of crown stripe and finally loss of <define> wing bar </define> .",A band of contrasting color or of feathers with a distinct appearance that crosses a bird's wing.,Alternative form of wing bar,tgt,DM,,1
+We say nothing of the <define> pulpitish </define> and dogmatic tone which seems never so far to forget itself as to drop down into the easy accents of friend talking with friend .,Of or pertaining to the pulpit; like preaching.,Resembling or characteristic of a pulpit,tgt,DM,,0
+""" Do n't I know that it is you who is the <define> life </define> of this house . Two delightful children ! """,The most lively component or participant.,(figuratively) Someone or something that is important or important.,tgt,DM,,1
+"The pastry room was a further revelation . Six young girls in white coats and white hats were dusting white flour over small pre - formed pastry lids , which were then glued onto cups of uncooked short crust filled with <define> pink slime </define> .","Used other than figuratively or idiomatically: see pink,‎ slime. Slime which is pink.","(uncountable, cooking) A mixture of flour, sugar, and water used to make short crust pastry.",tgt,DM,,1
+Brokerage 1½ per Cent . <define> Shroffage </define> 1 per Thousand .,(historical) The commission paid to a shroff for examining coins for quality.,(obsolete) Shroffage.,tgt,DM,,0
+"Suddenly , something Henry said caught my attention . “ Where 'd you get these boxes of <define> puffcorn </define> ? ” he asked . “ This stuff has no taste at all ! ”","A corn snack, visually similar to popcorn, but made with corn meal and baked.","(Australia, New Zealand, informal) Corn pudding.",tgt,DM,,1
+Faithful to whom ? to thy rebellious <define> crew </define> ?,(obsolete) Any company of people; an assemblage; a throng.,(obsolete) A group of people.,tgt,DM,,0
+"His hands had made a <define> dint </define> , and hurt his maid ; / Explored her limb by limb , and feared to find / So rude a gripe had left a livid mark behind .",The mark left by a blow; an indentation or impression made by violence; a dent.,"(now, _, rare) A small injury. [from 16th c.]",tgt,DM,,1
+Quite possibly because infotech and <define> infosociety </define> have made the future unappealing and created a reaction against the future ...,An information society.,(informal) A society based on information technology.,tgt,DM,,1
+Nuclear protein extracts were prepared from endothelial tube cells using an adapted 1 - h <define> minipreparation </define> technique [ 12 ] .,small-scale preparation of plasmid DNA,Alternative form of minipreparation,tgt,DM,,1
+"I 'm no used to your grandees , and I 'm no <define> gawn </define> to begin to learn fashionable mainners noo — so dinna ask me — I 'm no gawn to mak a fule o ' mysel ' at this time o ' day .",(pronunciation spelling) Eye dialect spelling of certain regional pronunciations of going.,"(Scotland, Northern England, Northern Ireland, Northern England, Northern England, Scotland, Northern England, Northern England, Northern Ireland, Northern England, Scotland) Used as an intensifier.",tgt,DM,,1
+"His teachers could to some extent restrain such an inclination , but they could not or certainly did not replace it by a <define> counterenthusiasm </define> in favour of Christianity .",An enthusiasm that counters or goes against another enthusiasm.,The state or quality of being counterenthusiastic.,tgt,DM,,0
+"The latter and the Basle - Gotthard freight traffic will both pass through Othmarsingen , but an additional line here and a <define> burrowing junction </define> will keep the Gotthard freights clear .","(rail) A junction where the diverging line descends to a level where it can pass under the main line, the purpose being the avoidance of conflicting movements.",(rail) A junction where two or more railway lines meet.,tgt,DM,,1
+"The assumption in the public mind was that anyone who bought a <define> wooden nutmeg </define> was a fool who should have known better than to fall for a trick .   But because the real as a cultural value is no longer being privileged over the artificial , this simple assumption about simulacra has now become a sort of ontological fossil",Synonym of wooden nickel: a worthless item intended to appear like another of value.,Alternative form of wooden nutmeg,tgt,DM,,1
+I predicted that “ we can anticipate such a description of <define> noncanine </define> involvement . ”,Not canine.,Not canine.,tgt,DM,,0
+Three elders dressed in their long silk ceremonial gowns perform the <define> kowtow </define> before the altar in their clan ancestral hall .,The act of kowtowing.,(uncountable) The act of bending one's knees or bending one's head in prayer.,tgt,DM,,0
+"First , to convince the world of their <define> misopinion </define> of Gods servants .",(obsolete) A wrong opinion.,The state of being misopinioned.,tgt,DM,,1
+"Most animals have no desire for <define> contrectation </define> . In man the impulse of contrectation is the more important . If the individual practises total abstinence , i. e. , if he abstains even from the gratification of the impulse of contrectation , then   ...","(medical, legal) The initial stage of the sexual act involving manual contact and tumescence; sexual foreplay.",(uncountable) The state of being contorted.,tgt,DM,,1
+"I will retire to my <define> oratory </define> , and pray to the blessed Virgin to inspire you with her holy counsels   [ … ] .",A private chapel or prayer room. [from 14th c.],(Christianity) A place of prayer or meditation.,tgt,DM,,0
+"As nominations continue , Hakeem and his crew at Lyon Dynasty are expecting a nom for Rapper of the Year . He ’s <define> gooped </define> though when Freda Gatz gets nominated instead of him .","(slang) Amazed, stunned, or shocked (whether by something positive or negative). [from 2015]","(slang, transitive) To be excited about (something).",tgt,DM,,1
+"This was the ultimate <define> sandbox game </define> . By providing a simple , yet rich simulation , it gave the user the tools with which to create his own fun .","(video games, RPG) A game with no linear storyline or specific goal, the player deriving amusement from a range of open-ended interactions or situations.",(video games) A video game that allows the player to create their own environment.,tgt,DM,,1
+"Do they employ an <define> undershift </define> ? Overshift ? If they do undershift or overshift the line , is it a half - man or full - man over- shift or undershift ?",(sports) The strategy or act of positioning defensive players extra far toward the offense's weak side.,Alternative form of undershift,tgt,DM,,1
+"Melittid bees have “ hair felt ” patches on their legs that take up floral oils by capillarity , while the unusual <define> ctenoplectrids </define> have abdominal oil - mopping hairs .","(zoology) Any bee of the tribe Ctenoplectrini (especially when the latter is, as formerly by some, regarded as the family Ctenoplectridae).",(zoology) Any bee of the family Ctenoplectridae.,tgt,DM,,0
+Wanna be hackers ?   Code crackers ?   Slackers ? Wastin ' time with all the chat room <define> yakkers </define> ?,(slang) One who yaks; a chatterbox or motormouth.,One who yakks.,tgt,DM,,0
+"Alternatively , they can drop their tokens into games of chance — basically , slot machines <define> with training wheels </define> .",Designed or adapted for children.,(informal) A gambling machine with a limited number of spins.,tgt,DM,,1
+"The name above the door is F. Dula . Under the circumstances , an interest <define> piquer </define> .",One who piques.,(figuratively) Something that piques one's interest.,tgt,DM,,0
+"The president sits in a <define> thronelike </define> seat , and the front passenger seat is reserved for the chief of security .",Resembling or characteristic of a throne.,Resembling a throne.,tgt,DM,,0
+"Or ever with me the maw of the sepulchre fed becometh , Or e'er in the dust each part of my frame <define> forspread </define> becometh ,   [ … ]","(ambitransitive, now, _, chiefly, _, dialectal) To spread; extend.","(obsolete, transitive) To spread out; to spread out.",tgt,DM,,1
+"Ely 's method was to enlarge himself by praising up his cousin and to pleasure himself by <define> horrorizing </define> the men with true faithful portrayals of pirates caught and hanged ,   [ … ]",(transitive) To fill with horror.,(transitive) To frighten; to terrify.,tgt,DM,,0
+"Not only Cato is vanquished by Caesar , but the treachery and <define> perfidiousness </define> of Syphax prevail over the honest simplicity and the credulity of Juba .",(rare) Unfaithfulness; deceitfulness; perfidy.,The quality of being perfidious.,tgt,DM,,0
+She giggled . ' You do n't make me feel sick . You make me sort of <define> churny </define> in my stomach . ',Characteristic of churning; (by extension) queasy,(informal) Having a churning sensation.,tgt,DM,,1
+"Harrison said he had such a horror of <define> facing points </define> that for many years in the 160 miles between York and Berwick there were , except in Darlington and Newcastle stations , only three examples . [ ... ] For some years now facing points have been practically as safe as any other part of the track and are regularly taken at high speed .",(rail transport) A set of points at which two routes diverge in the direction of travel.,"(rail, UK) A point on a railway track where the track is level with the ground.",tgt,DM,,1
+"Look , <define> babber </define> , I reckon there 's been some sort of mistake . I 'm not carrying on with nobody .",A friend.,"(intransitive, slang) To talk idly; to babble.",tgt,DM,,1
+"<define> Genderswapping </define> on the internet is not , of course , any solution . But Brooker might at least consider its existence , potential , and scope , rather than attributing gender where it is not possible so to do ( Brooker 1999 : 49 ) .","The practice or act of assuming a different sex and/or gender identity than one's actual sex and/or gender identity, especially in a virtual setting.",(internet slang) The practice of attributing gender to people on the Internet.,tgt,DM,,0
+"The episode ’s unwillingness to fully commit to the pathos of the Bart - and - Laura subplot is all the more frustrating considering its laugh quota is more than filled by a rollicking B - story that finds Homer , he of the iron stomach and insatiable appetite , <define> filing </define> a lawsuit against The Frying Dutchman when he ’s hauled out of the eatery against his will after consuming all of the restaurant ’s shrimp ( plus two plastic lobsters ) .",(transitive) To commit (official papers) to some office.,(transitive) To file (a lawsuit).,tgt,DM,,1
+Science has the happy distinction of finding a balance between entropy and <define> anentropy </define> : between the need to conserve order with progress .,(uncountable) An increase in order.,(physics) The state of being anentropic.,tgt,DM,,1
+"They were very big hands , and as Mr. Knewbit held them up side by side , with the palms toward his young shaver , they not <define> undistantly </define> resembled a pair of decent - sized flatfish .",To a degree that is not distant; closely.,In an undistinguished manner.,tgt,DM,,1
+""" She <define> beflirts </define> herself , like the lady I read , into a Feringhee love tale , at Coney 's Island . In that book story , the lady bewhacked the woo person playsomely on the arm with her fan .",To flirt about; flirt with,(intransitive) To flirt.,tgt,DM,,0
+"We have seen and heard the sneers and sarcasms with which poor Frank 's unobtrusive attempts to moralize , not tediously , boringly , or <define> cantingly </define> , have been received by Sir George and his eldest son .",In a canting manner; with jargon or religious affectation.,In a canty manner.,tgt,DM,,1
+"After their yacht runs aground in Australian waters , four of them decide to swim for land but are soon stalked by a huge great white shark . While the story stutters and starts , <define> sharksploitation </define> fans will lap it up .",(film) A genre of exploitation films focusing on sharks and shark attacks.,(informal) The genre of films featuring great white sharks.,tgt,DM,,1
+What they do in <define> Muslimville </define> is their business .,"(US, informal) An area mainly populated by Muslims.","(informal, derogatory) The Muslim community in the United States.",tgt,DM,,1
+"[ N]othing gave him so much joy in conversation , as an opportunity of giving the company to understand , how well he was with persons of distinguished rank and character : he would often ( for example ) observe , as it were <define> occasionally </define> , that the duke of G — was one of the best natured men in the world   [ … ] .",(obsolete) By chance; accidentally. [17th–18th c.],In an occasional manner.,tgt,DM,,1
+"In Rome the cardinals wear the mozzetta over the <define> mantelletta </define> , except in their titular churches , when it is worn immediately over the rochet .","(Roman Catholicism) A sleeveless, knee-length vestment open at the front which is worn by Roman Catholic prelates.",(historical) A type of vestment worn by cardinals in the Middle Ages.,tgt,DM,,1
+""" My patients read so much shit they think they ca n't make a <define> crotch fruit </define> after they turn thirty , ""   [ … ]","(slang, derogatory) A child; offspring.","(slang, vulgar) A penis.",tgt,DM,,1
+"It can easily be verified that the above relation is a <define> preorder </define> , i.e. that it is reflexive and transitive .","(set theory, order theory) A binary relation that is reflexive and transitive.",(mathematics) An order that precedes another order.,tgt,DM,,1
+"Here at The Federalist , we talk about sex a lot as is . Join us this week for some additional fun and deep - thinking about , well , you know — dancing in the sheets , <define> horizontal refreshments </define> , the beast with two backs , Blitzkrieg mit dem fleischgewehr , gland to gland combat , and more .","(idiomatic, euphemistic) Sexual intercourse.",(slang) Sexual intercourse.,tgt,DM,,0
+"Oh , there was no warmth in the sunlight , and the sky was a <define> drabby </define> gray , and he was filled with bitterness unutterable . ""","pale, lacking color.",Having a drab appearance.,tgt,DM,,1
+"The circles , which were ablaze with daffodils this spring , are now afloat with airy <define> geum </define> , cosmos , acidanthera and dahlias .",Any of the genus Geum of perennial herbaceous plants.,Any of various flowering plants of the genus Geum.,tgt,DM,,0
+"[ … ]   abolitionists failed to take into account   [ … ]   the negro 's native <define> creaturism </define> . After their liberation , the negroes mistook license for liberty . They gathered in the towns , gave themselves over to creature pleasures , and forsook the useful habits of duty which slavery had instilled .",animalistic behaviour,(uncountable) The quality or state of being creative.,tgt,DM,,1
+"A great many of the scapes have furnished examples of "" <define> recrudescence </define> , "" a few flowers having been produced amongst the ripening capsules ; but fresh flower - stalks have also continued to shoot up from the root , and at the time I write ( Oct. 4 ) I see there is one very pretty bunch of flowers upon a last year 's seedling plant .",(botany) The production of a fresh shoot from a ripened spike.,The act or process of recrudescence.,tgt,DM,,1
+Nothing like a <define> prekindergartener </define> to really boil an issue down to its core .,A child who has not yet begun to attend kindergarten.,(informal) A child who is not yet in kindergarten.,tgt,DM,,0
+"The boy had dwindled to a skeleton , and the skin lay on his face in <define> crimpled </define> folds , like a mask of black crape .","(archaic) to crumple, crimp",(transitive) To form into a crimped shape.,tgt,DM,,0
+"Redwire spoke to one bar - hopper who used to frequent <define> lup sup bars </define> in Duxton when , in his words , it was still an area known for cheap pinoy prostitutes , Chinese pei jiu mei ( drinking kaki girls ) and high - class ang moh callgirl [ 1 ]",(Singapore) A seedy bar found in Singapore that offers prostitution.,"(Philippines, slang) A bar that specializes in serving lupus-themed drinks.",tgt,DM,,1
+"With this formulation , the probability of <define> nonconception </define> is simply the product of the day - specific failure probabilities multiplied across all days where there was intercourse .",A failure to conceive; The aftermath of sexual intercourse in which there is no fertilization of an egg by sperm.,(uncountable) The state of being unable to conceive.,tgt,DM,,0
+"A friend , who was specially interested in such studies , having captured a spider , erected a column in a basin filled with water ; and placing his <define> spidership </define> on the top of the column , sat down to watch results .",(nonce) honorific used to address or refer to a spider.,The state or condition of being a spider.,tgt,DM,,0
+"A Hungarian baron , with an <define> unpronounceable </define> name , had that very morning been so struck with Lady Penrhyn 's beauty , that , not knowing she was married , he laid himself , castle , sabre , and fur pelisses at her feet , for immediate acceptance .",Impossible or difficult to pronounce or articulate.,Not pronounceable.,tgt,DM,,0
+"In that moment , you are experiencing the sadness of <define> iktsuarpok </define> . Then , your special person does appear !","The feeling of anticipation while waiting for someone to arrive, often leading to intermittently going outside to check for them.",Alternative form of iktsuarpok,tgt,DM,,0
+"After delivery , sellers issue an invoice , recorded as an account receivable by the seller and an <define> account payable </define> by the buyer .",(accounting) A balance due to a creditor on a current account.,(finance) An account receivable.,tgt,DM,,1
+"[ … ]   I describe them as self - transforming <define> machine elves </define> , for that is how they appear . These entities are dynamically contorting topological modules that are somehow distinct from the surrounding background , which is itself undergoing continuous transformation .   [ … ]   The tryptamine Munchkins come , these hyperdimensional machine - elf entities , and they bathe one in love . It 's not erotic but it is openhearted . It certainly feels good . These beings are like fractal reflections of some previously hidden and suddenly autonomous part of one 's own psyche . And they are speaking , saying , "" Do n't be alarmed . Remember , and do what we are doing . """,A kind of otherworldly humanoid figure sometimes seen during dimethyltryptamine (DMT) hallucinations.,"(fantasy, science fiction) An entity that is capable of changing into a different form.",tgt,DM,,1
+"If it persists much longer , this era of high joblessness will likely change the life course and character of a generation of young adults   [ … ]   Ultimately , it is likely to <define> warp </define> our politics , our culture , and the character of our society for years .","(transitive) To deflect or turn (something) away from a true, proper or moral course; to pervert; to bias.","(transitive, figuratively) To change (something) so that it is no longer the same; to change (something) so that it is no longer the same.",tgt,DM,,1
+The <define> New Jersey barrier </define> became the most widely used and gave its name to the generic barrier type .,Alternative form of Jersey barrier,A type of barrier used in New Jersey.,tgt,DM,,1
+"My rainy - day tour in April during the first lockdown was , in fact , a <define> homage </define> to Sir John Betjeman - the poet and railway campaigner whose statue can be found on the upper concourse of St Pancras station .","(countable, uncountable) A demonstration of respect, such as towards an individual after their retirement or death",(uncountable) The act of paying homage.,tgt,DM,,0
+I 'll send the file using <define> Wi - Fi </define> .,"(networking, uncountable) Wireless networking using one of these standards.",(computing) Wi-Fi.,tgt,DM,,1
+"I found myself stranded , <define> lunchless </define> , on the sea - front [ … ]",Without lunch.,Without lunch.,tgt,DM,,0
+"Strong - willed and good in a crisis , she was exactly the girl Cornel Wilde needed to lance his plague boil and pull him through when the population of London was being <define> bubonically </define> decimated .","In terms of, or by means of, bubonic plague.",In a bubonic manner.,tgt,DM,,1
+"And treated our fathers like scum , / Those <define> uglisome </define> messiahs that Bade us come , [ ... ]",Characterised or marked by ugliness,(obsolete) Ugly; ugly.,tgt,DM,,1
+"As above noted , the Blackbird was even a hundred years ago remarkably common in Man , and it is to - day an extremely abundant and widely - spread species , equally at home among the fuchsias and ' <define> trammans </define> ' of a cottage garden   [ … ]",(Manx) An elder tree.,"(countable, botany) A plant of the genus Trammellus.",tgt,DM,,1
+But the main question was whether the two subgroups of men with <define> femalelike </define> behavioral tendencies made much use of the concept of cooperation ...,Resembling or characteristic of a female.,Resembling or characteristic of a woman.,tgt,DM,,0
+"There 's no sheen . If you write once on a sheet of paper , it can be read , but when you scribble over and over , the script becomes unreadable . Dip yourself in the acid that cleans copper . Lay out your <define> blackenedness </define> clearly . ""   [ … ]","(rare) The quality, state, or condition of being blackened.",The state of being blackened.,tgt,DM,,0
+"A dreary year for the Squadron , this 1819 , when officers and men fell sick by the shipload and were sent home by the <define> tenderful </define> , when Lemon Valley Hospital was supplemented by the one at High Peak , when Court - Martials were held at the rate of one a fortnight , burials thrice a week , and surveys on foul provisions every other day !",The quantity that a tender (ship that functions as a mobile base) holds.,(nautical) A tender.,tgt,DM,,1
+Our valley w d be overrun with London Dublin travellers who will not stop here to view the beauties that are here but will race through on fast and <define> clattersome </define> horses and chaises .,Marked by clattering,Resembling or characteristic of a clatter.,tgt,DM,,0
+"The most at - risk bird was the tiny <define> King Island brown thornbill </define> , which was rated as having little more than a 5 % chance of survival under its current level of care .","A subspecies of brown thornbill, Acanthiza pusilla archibaldi, endemic to King Island, Tasmania.","Any of several species of thornbills, of the family Thrasheridae, native to Australia.",tgt,DM,,1
+"IV A lovely Ladie [ * ] rode him faire beside , Upon a lowly Asse more white then snow , Yet she much whiter , but the same did hide 30 Under a vele , that <define> wimpled </define> was full low , And over all a blacke stole she did throw , As one that inly mournd : so was she sad , And heavie sat upon her palfrey slow ; Seemed in heart some hidden care she had , 35 And by her in a line a milke white lambe she lad .","To draw down; to lower, like a veil.","(intransitive, obsolete) To wimper.",tgt,DM,,1
+In this regard it must be noted that the PKK operations in Hatay have targeted the Sunni Turkmen that Turkey settled in the province after it was annexed in 1939 in order to <define> Sunnize </define> the region . The bulk of the population in 1939 was comprised of Alawite Arabs as is 10 to 11 percent of Syrian population .,(ambitransitive) To make or become Sunni,(transitive) To convert to the religion of the Sunnis.,tgt,DM,,0
+The <define> cybercrook </define> has realized that stealing the next version of the Coca - Cola recipe or Windows software is worth more than a $ 10 million heist .,A cybercriminal.,(informal) A criminal who operates in cyberspace.,tgt,DM,,0
+"It was not in his <define> unyellow </define> soul to go back on his word without refunding the money , and a dollar of it was already spent to the Chinese fund , to say nothing of sundaes and sodas and whips .",(uncommon) Not yellow (in various senses).,Not yellow.,tgt,DM,,0
+Swann – perhaps muted by the fact that this is all taking place in the middle of the night – is less of the <define> bantersaurus rex </define> that we find on Test Match Special and shows off instead the analytical side of his game .,Alternative letter-case form of Bantersaurus Rex,(colloquial) A person who engages in bantering.,tgt,DM,,1
+The legal principles deduced from the textual material of the CIC by such leading <define> pandectists </define> as Georg Friedrich Puchta ( 1798–1846 ) and Bernhard Windscheid ( 1817–1892 ) were sometimes used as legal norms in courts of law .,An expert on the Pandects compiled under the Roman emperor Justinian I.,One who studies pandects.,tgt,DM,,1
+"[ B]efore I left Huddersfield I had the satisfaction of captaining a team which won most of its matches against the leading Yorkshire towns , though Sheffield ' <define> came Yorkshire over </define> us ' by making us play upon the wooden floor of their Drill Hall . The Yorkshire children were almost bilingual . The youngsters talked broad dialect in the playground , yet answered incorrect English in class .","(transitive, UK, slang, obsolete) To cheat or deceive.","(transitive, idiomatic) To cause (someone or something) to feel inferior or inferior.",tgt,DM,,1
+"Chair Girl was ridiculously spectacular , just like Foucault ’s regicide . Her diminutive <define> Kardashianesque </define> body was a spectacle , no less than Damiens ’ drawing and quartering in Paris .",Characteristic of or resembling the Kardashian family.,Resembling or characteristic of a Kardashian.,tgt,DM,,0
+a <define> multigeared </define> bicycle,Having more than one gear.,Having more than one handle.,tgt,DM,,1
+"But this cavern almost measureless to the eye , stuffed as it is with an Eiffel Tower ’s worth of metal , eight - story wheels of gold fan - shape boxes , thousands of miles of wire and fat <define> ductlike </define> coils , echoes with the shriek of power tools , the whine of pumps and cranes , beeps and clanks from wrenches , hammers , screwdrivers and the occasional falling bolt .",Resembling or characteristic of a duct.,Resembling or characteristic of a duct.,tgt,DM,,0
+"As he passed the drawing - room door he heard Ethel say <define> hesitatingly </define> : "" I - I heard you singing from the verandah . """,In a hesitating manner.,In a hesitating manner.,tgt,DM,,0
+rescinding both contracts because the cars had <define> redhibitory </define> defects,(legal) Of or pertaining to redhibition (the annulling of a sale).,Of or pertaining to reduction.,tgt,DM,,1
+"One <define> milblogger </define> who writes anonymously , ( as many do ) , commented in private correspondence with the author :   [ … ]",(Internet) A military service member who writes a blog.,(Internet) A person who blogs at milblogger.,tgt,DM,,1
+She placed a <define> votive </define> offering at the shrine .,Dedicated or given in fulfillment of a vow or pledge.,Of or pertaining to a votive offering.,tgt,DM,,1
+"Oh this earth is a <define> mineful </define> of treasure ,","(figuratively) A large amount, particularly of something obtained through mining.",(figuratively) A large amount.,tgt,DM,,0
+"He was <define> getting wise </define> , so I cracked him one .","(intransitive, slang, often, with ""to"", or, with ""with"") To be impertinent.","(intransitive, idiomatic) To become wiser.",tgt,DM,,1
+"Where men of ordinary skill , May have the fortune , if they will , To keep in circumstances middling By nothing in the world but piddling ; Hence , with their fancies thus <define> benettled </define> , The future course of life is settled :",(obsolete) To vex or provoke.,"(transitive, obsolete) To settle; to settle; to settle.",tgt,DM,,1
+"Phil Mickelson , who was the pretournament <define> cofavorite </define> with Woods , struggled to a two - under - par 70 on the North .",A joint favorite to win a sporting event.,(golf) A player who is considered to have a slight chance of winning.,tgt,DM,,1
+"After realizing on their first date that they were both comedians , Alissa and Juliette immediately formed a <define> twoprov </define> team together .",(comedy) Improv (usually improvisational comedy) performed by a duo.,(informal) A pair of people who are both comedians.,tgt,DM,,1
+"A German professor always gives good measure , a full <define> hourful </define> , pressed down , shaken together , and running over ; no period of preliminary meditation on what he shall say and of casual conversation at the end , as often in America .",Enough to last an hour.,The amount of time that can be spent in an hour.,tgt,DM,,1
+"A much more common figure is the merely wrong - headed and cantankerous traveller — and particularly <define> travelleress </define> , if that word may be permitted — who wrangles over everything , and will not recognize the fact that dishonest Custom - house officials , swindling landlords , and irritating police regulations are inevitable evils in foreign parts .",(rare) A female traveller.,A female traveller.,tgt,DM,,0
+"On firing , some of the hot gases from burning powder were able to bypass the <define> overpowder </define> and filler wads and reach the shot charge .",(firearms) Serving to hold in the gunpowder.,(firearms) Powder that has been added to the charge of a firearm.,tgt,DM,,0
+"Gibbie held her fast , and with all the ways in his <define> poor power </define> sought to comfort her .",(idiomatic) Limited ability.,(obsolete) Power; authority.,tgt,DM,,1
+"According to the writer , Monks Farm bore a sinister local reputation , and was about as thoroughly haunted as any place could be , and in order to justify his thesis , he gave an account of its history . [ ... ] The discussion that followed the reading of the paper , and which was recorded in all its wordy fullness , somewhat <define> took the gilt off the gingerbread </define> , however , for it was pointed out by persons familiar with local customs as well as local superstitions , that the empty buildings of Monks Farm had long been a favourite haunt of lovers without benefit of clergy .",(idiomatic) To take away the most attractive or appealing qualities of something; to destroy an illusion.,"(idiomatic, figuratively) To make something less valuable.",tgt,DM,,1
+"' We 'll drink to a <define> thanksome </define> outcome o that , ' said Lady Magdalen , and they raised their beakers .",Characterised by thankfulness or gratitude,"(archaic, or, dialectal) Thankful.",tgt,DM,,0
+"The vacuum brake , much <define> beloved </define> by English- ( though not Scottish- ) built or inspired railways , but little favoured elsewhere .","Much loved, dearly loved.",(transitive) To be very fond of.,tgt,DM,,1
+"Despite the needs , many residents say they love the town for its intimate and <define> unfrenetic </define> feel .",Not frenetic.,Not frenetic.,tgt,DM,,0
+"Just when I 'm asking myself if it 's worth it to rock the boat and wondering if I should compromise , something will happen to keep me going . Like one year I got an award from a women 's group for , "" exposing the <define> jockocratic </define> values of society . """,Characterized by an excessive veneration of sport and athletes.,Of or pertaining to jocks.,tgt,DM,,0
+Speakers of the same language <define> coenact </define> meaning .,(transitive) To enact jointly with somebody else.,(transitive) To act in the same way as.,tgt,DM,,1
+"However , even for these species , <define> thalassochory </define> remains an unlikely dispersal vector due to the reduced floatation capacity and low viability of immersed diaspores .",(biology) Transport or dispersal of organisms by means of the ocean.,(zoology) Of or pertaining to thalassochory.,tgt,DM,,0
+"When , moreover , we call to mind that the spirits of the dead , who at this season leave their graves and hold high revel with the fairies , seem really indistinguishable from the latter , the conclusion irresistibly forces itself upon us , that in the cult paid to the fairy race we have a survival of the worship of departed souls , or <define> psycholatry </define> as it is sometimes called , which is , so far as we know , one of the oldest religions in the world , even if it be not , as many high authorities maintain , the primitive religion of mankind .",(religion) The worship of departed souls.,(religion) The worship of the dead.,tgt,DM,,0
+"... the <define> taxi - distance </define> between any pair of said abutments in said group is larger than four , said taxi - distance being the sum ' i+j+1 ' of the number of cords ' i ' in between abutments of said pair plus ' 1 ' and the number ' j ' of intervals between abutments of said pair along the longitudinal direction of said splice .",Alternative form of taxicab distance,(architecture) The distance between the ends of a pair of abutments.,tgt,DM,,1
+"Whap ! A small surfboard goes by , <define> grabbing some air </define> .",(extreme sports) To become airborne; catch air.,"(intransitive, surfing, slang) To catch a wave.",tgt,DM,,1
+"So Mrs. Cob — trimm'd up her locks , / Put on a <define> flirtsome </define> air ; / And Mr. Dip began to look — / And Mrs. Cob — to stare .",Marked by flirting; flirtatious,Characterized by flirting; flirtatious.,tgt,DM,,0
+"Compared with general population samples under the same criteria , and with their own second - degree relatives , non - <define> righthandedness </define> is in fact more frequent in twins and their first - degree relatives .",Alternative form of right-handedness,The condition of being righthanded.,tgt,DM,,0
+"One of the strangest places in the whole solar system is Jupiter 's <define> hypervolcanic </define> Moon lo , which seems to be a little different every time we look at it .",(volcanology) Relating to a hypervolcano.,(astronomy) Of or pertaining to a volcano.,tgt,DM,,0
+"[ If ] the economic literature of the eighteenth century is examined in terms other than the narrow categories of free trade and protection , the <define> artificial </define> division between the seventeenth and the eighteenth centuries would break down .","Not natural or normal: imposed arbitrarily or without regard to the specifics or normal circumstances of a person, a situation, etc.",Of or pertaining to an artificial distinction.,tgt,DM,,1
+"Because <define> unremittent </define> tension is maintained in the contractile apparatus for as long as cytochalasin is present , it may properly be designated as a contracture .",Unremitting.,Notittent.,tgt,DM,,1
+"To show he does n’t do his fair share of work , I ’ve set him an <define> elephant trap </define> . If he falls in he ’ll look like a clown .","A trap which can easily be avoided by a competent person, and thus proves the incompetence of anybody trapped by it.",(idiomatic) A situation in which a person is trapped in a situation in which he or she cannot escape.,tgt,DM,,1
+<define> embryoless </define> seeds,Without embryo.,Without an embryo.,tgt,DM,,0
+"Prior to the Glacial Ages there developed out of a generalized <define> rangiferine </define> ancestor in possession of the whole of boreal Eurasia and North America a number of local "" reindeers "" , and "" caribous "" , of which one held generally Europe ( Barren Ground Reindeer ) , the other ( Woodland Reindeer ) generally Siberia .","Relating to, or resembling, the reindeer or caribou.","Of, pertaining to, or resembling a reindeer.",tgt,DM,,0
+The bed itself was a double one ; it had as much brass work about it as a marine engine . Under the white counterpane it looked chaste and <define> unconnubial </define> .,Not connubial.,Not nubile.,tgt,DM,,1
+"[ … ]   He took away the frame itself , as well as the notice . Mr. MacCulloch . I recollect Mr. Dobrée stating that his reason for taking the cadre was , that the notice was pasted , and that he could not <define> unpaste </define> it .",(transitive) To remove or take down (something pasted); to unstick.,(transitive) To remove the paste from (something).,tgt,DM,,1
+"They present cool ideas at semiformal gatherings like Code Con , an <define> ultrageeky </define> show - and - tell held at San Francisco 's DNA Lounge last month .",Exceptionally geeky.,(informal) Extremely geeky.,tgt,DM,,0
+5 basic bro - type handphone addicts you can <define> confirm plus chop </define> find in S'pore,"(Singapore, colloquial) absolutely, definitely, guaranteed",(slang) To have sex with.,tgt,DM,,1
+[ … ]   hype merchants of the computing world are up and running off towards the horizon before the IS workers toiling away at the <define> code face </define> are even crawling .,"(computing, informal) The place where programmers develop source code (as opposed to conceptually distant areas such as design and marketing).",(computing) The face of a computer program.,tgt,DM,,1
+"In cruell fight on lybicke Ocean wide , / Espye a traueiler with feet <define> surbet </define>",(obsolete) surbated; bruised,(obsolete) Surrounded; surrounded.,tgt,DM,,1
+"Since industry is the principal supporter and indirectly financiers of the regulating bodies , the response by said group is veritably <define> lukecold </define> to those who fall in the human sub - set of sensitive reactions to pesticides .",(rare) Not very enthusiastic (about a proposal or an idea) (and less enthusiastic than lukewarm would imply).,(figuratively) Very cold; unfeeling.,tgt,DM,,1
+The absence of <define> tierods </define> where they should be used is one of the most frequent hazards in existing piping systems . This section will show the conditions which require tierods to make a piping system safe   [ … ],Alternative form of tie rod,Alternative form of tierod (“pipe”),tgt,DM,,1
+"IN is legendary because until IZ , he had the most two - letter <define> throwies </define> in history .","(slang) A throw-up; a piece of graffiti produced relatively quickly, generally with a single-colour outline and one layer of fill colour.",(colloquial) A throw.,tgt,DM,,1
+"[ ... ] if I thought the sentiments of your last letter were not the sentiments of a <define> sickly </define> moment — if I could be made to believe , for an instant , that they proceeded from you , in a sober , reflecting condition of your mind — I should give you over as incurable ,",(obsolete) Marked by the occurrence of illness or disease (of a period of time).,(obsolete) Sickly.,tgt,DM,,0
+"Chandler commanded a spotlight at the far end of the stage at Picker ’s Supply Concert Hall downtown last Friday night . There , he was loudly ranting about a commercial wasteland he called the “ United States of <define> Generica </define> . ”","Features of the landscape such as fire hydrants, letterboxes, fast-food chains, streets called ""Main"", etc., that are the same throughout the United States.",(slang) The United States of America.,tgt,DM,,1
+"Since the mid-1980s , when Indonesia first began to clear its bountiful forests on an industrial scale in favour of lucrative palm - oil plantations , “ haze ” has become an almost annual occurrence in South - East Asia . The cheapest way to clear logged woodland is to burn it , producing an acrid cloud of foul white smoke that , carried by the wind , can cover hundreds , or <define> even </define> thousands , of square miles .","In reality; implying an extreme example in the case mentioned, as compared to the implied reality.",(colloquial) Used as an intensifier.,tgt,DM,,1
+"[ … ]   a model jail , which had a gallows that could be “ ready at the touch of a button ” and a <define> mobproof </define> room .",Resistant to incursion by a mob.,Suitable for mob action.,tgt,DM,,1
+"A <define> sumptuary tax </define> is a tax whose effects are desired on moral or ethical grounds . It is levied on certain products or services the consumption of which is discouraged . Example of sumptuary taxes are those imposed on the production , sale , or consumption of tobacco products , alcoholic drinks , playing cards , billiard tables , cabaret admissions , and many others . A tax for regulatory purposes should be distinguished from sumptuary tax .","(economics, taxation) A government levy on goods considered to be socially undesirable goods or nonessential luxuries, most commonly alcohol and tobacco.",(taxation) A tax that is levied on certain goods or services in order to discourage their use.,tgt,DM,,1
+"In order of Mr. J. Hoffmann , of Prague , I <define> oversend </define> you with this an exemplar of the ' épreuves corrigées ' of Labitzky 's waltz , Op . 86 .","To send over, transmit.",(transitive) To supply (someone or something) with too much.,tgt,DM,,1
+They treated the dock workers like <define> two - legged beasts </define> of burden .,(pejorative) human,(idiomatic) A person or animal that has two legs.,tgt,DM,,1
+"Prepositions are not bad or wrong necessarily , and they may not be incorrect grammatically , but they signal an area that can be revised if you want to write more explicitly or to <define> unfog </define> your writing .",(transitive) To free from confusion,(transitive) To remove the fog from.,tgt,DM,,1
+Ordered that what pairt of that pirne is putt either in coat <define> justicoat </define> or breeches be taken back and sent to David Maxwell and placed to his accompt or to allow half dollar for   the said pirne and charged to said David Maxwell 's accompt .,Alternative form of justacorps,"(now, _, rare) A piece of cloth worn as a covering for the upper part of the body. [from 16th c.]",tgt,DM,,0
+"In the back of the meetinghouse , on the same side as the defense , sat an old woman with a black <define> kiddhoge </define> over her head and a young woman holding a baby wrapped in a blanket .","(Ireland) Any cloth worn over the head or shoulders as a shawl, blindfold, etc.","(Australia, New Zealand, South Africa) A headscarf.",tgt,DM,,1
+"“ Thank you , Flannery , ” Anne said , her low voice a <define> knife edge </define> between sincerity and sarcasm , “ for saving my life . """,Alternative form of knife-edge,(figuratively) A state of tension or uncertainty.,tgt,DM,,1
+"Or it was n't until they woke up one morning and found the encroaching wave of tarmac lapping at their doorstep and a <define> belly - dumper </define> burying the lot next door in a mound of gravel , preparatory to the erection of the next Costco .",Alternative form of belly dumper,Alternative form of belly-dumper,tgt,DM,,0
+He erupted in <define> uproarish </define> laughter at her nonsense .,Characteristic of an uproar; turbulent or unruly; loud and uncontrollable.,Resembling or characteristic of uproar.,tgt,DM,,0
+"He 's such a <define> doormat </define> , he lets everyone walk all over him .","(figuratively, derogatory) Someone who is overly submissive to others' wishes.",(informal) A person who is passive or submissive.,tgt,DM,,0
+In such a situation there would be a danger of alienating one linguistic group by a <define> uniglot </define> language policy .,monoglot,"(chiefly, Australia, New Zealand, colloquial) Of or pertaining to a language other than English.",tgt,DM,,1
+In course of time many a such temple are lost to oblivion leaving only the images now kept in the newly built temples or in the <define> ransackle </define> houses .,Alternative form of ramshackle,Ransacked.,tgt,DM,,1
+"She picked up a letter from the table , handling it like a <define> plague - ridden </define> rag , and passed it to Hartley .","(of a person, animal, body or object) Infected with or suffering from bubonic plague or another epidemic illness.",Resembling or characteristic of plague.,tgt,DM,,1
+"The <define> ghost flights </define> , defined as those with no passengers or less than 10 % of passenger capacity , operated from all 32 airports listed in the data .",(aviation) An empty or near-empty flight run by an airline to fulfill contractual obligations.,(aviation) A flight that does not carry any passengers.,tgt,DM,,1

@@ -207,6 +207,33 @@ https://en.wikipedia.org/w/api.php?action=query
         Filter Only Minor Edits
             https://en.wikipedia.org/w/api.php?action=query&list=usercontribs&ucuser=Good_Olfactory&uclimit=500&ucshow=minor&format=json
 
+
+    # SelfCheckGPT
+
+---
+
+## `selfcheckgpt_finetune`
+
+### Overview
+Focuses on training and fine-tuning models to detect hallucinations in tasks such as machine translation, definition modeling, and paraphrase generation. Built around the **SemEval2024-Task-6-SHROOM** dataset.
+
+### Key Notebooks
+- **DeBERTa_v3_large_NLI.ipynb**:  
+  Trains the `DeBERTa-v3-large` model on the Stanford Natural Language Inference (NLI) dataset to learn foundational inference capabilities.
+  
+- **DeBERTa_v3_large_NLI_finetuning_DM.ipynb**:  
+  Fine-tunes `DeBERTa-v3-large` (pre-trained on NLI) on the SHROOM dataset for detecting hallucinations in the definition modeling (DM) task.
+
+- **shroom_Falcon_7B.ipynb**:  
+  Fine-tunes the `Falcon-7B` model on the SHROOM dataset for hallucination detection across tasks.
+
+### Dataset
+- **Stanford Natural Language Inference (NLI)**:  
+  Used for foundational training on natural language understanding.
+- **SHROOM**:  
+  Specific to detecting hallucinations in outputs for machine translation, definition modeling, and paraphrase generation.
+
+
 ### additional notes
     - format options include json, xml, jsonfm (default is json)
     - response size is limited to 500 revisions per request, use uccontinue to fetch additional pages with the same query, use the uccontinue value from the previous response to fetch the next page. 
