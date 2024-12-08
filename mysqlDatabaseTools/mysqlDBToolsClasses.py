@@ -63,7 +63,8 @@ class MySQLDBTools:
             sha1 VARCHAR(255),
             text MEDIUMTEXT,
             comment VARCHAR(255),
-            format VARCHAR(50)
+            format VARCHAR(50),
+            vector_id INT
         )
         """)
 
