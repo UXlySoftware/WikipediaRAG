@@ -190,35 +190,43 @@ python3 cli.py milvus rag-query-articles user_query
 ```
 ## Pull, embed, and query revisions by article title
 
-### check current revisions table count 
+1. check current revisions table count 
 
 ```sh
 python3 cli.py database check-wikirag-db
 ```
 
-### Pull revisions by article title
+2. Pull revisions by article title
 
 ```sh
-python3 cli.py wikimedia fetch-limited-revs-by-title article_title limit
+python3 cli.py wikimedia add-revs-by-title article_title limit
 ```
 
-### Check that mysql revisions table has been updated with the new revisions
+3. Check that mysql revisions table has been updated with the new revisions
 
 ```sh
 python3 cli.py database check-wikirag-db
 ```
 
-### Embed revisions by article title 
+4 Embed revisions by article title 
 
 ```sh
-python3 cli.py milvus embed-revisions-by-article-title article_title
+python3 cli.py milvus embed-revs
 ```
 
-### Check revisions collection in milvus 
+5. Check revisions collection in milvus 
 
-5. query revisions collection in milvus and extract results to xml 
+```sh
+python3 cli.py milvus check-collections
+```
 
-6. check revisions xml file 
+6. log the revision vectors to earlyRevs.log and lateRevs.log 
+
+```sh
+python3 cli.py milvus log-rev-vectors
+```
+
+7. check revisions xml file 
 
 ## Wikimedia API Notes
 

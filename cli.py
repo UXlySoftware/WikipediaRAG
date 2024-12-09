@@ -76,6 +76,11 @@ def embed_revs():
     api = MilvusDBTools()
     api.embed_revisions()
 
+@milvus.command(help="Logs the revision vectors.")
+def log_rev_vectors():
+    api = MilvusDBTools()
+    api.log_rev_vectors()
+
 # MYSQL DATABASE COMMANDS
 ## use "python3 cli.py database [command]" to run a database command
 

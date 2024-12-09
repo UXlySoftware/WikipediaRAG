@@ -217,4 +217,36 @@ class MilvusDBTools:
         revisions_ids = client_milvus.query("revisions_collection", filter="id > 0", output_fields=["id"])
         print("ids = ", revisions_ids)
 
-       
+    def log_rev_vectors(self):
+        client_milvus = MilvusClient("milvus_wikirag.db")
+        client_db = self.db_client
+        # fetch all ids from revisions collection
+        rev_ids = client_milvus.query("revisions_collection", filter="id > 0", output_fields=["id", "vector"])
+        # fetch timestamp metadata for each id
+        rev_data = []
+        for id in rev_ids:
+            value = id['id']
+            vector = id['vector']
+            cursor = client_db.cursor()
+            cursor.execute("SELECT timestamp FROM revisions WHERE id = %s", (value,))
+            timestamp = cursor.fetchone()[0]
+            rev_data.append({"id": value, "vector": vector, "timestamp": timestamp})
+        # sort the rev_timestamps dictionary by timestamp from earliest to latest
+        rev_data = sorted(rev_data, key=lambda x: x['timestamp'])
+        # split the list in half
+        early_revs = rev_data[:len(rev_data)//2]
+        late_revs = rev_data[len(rev_data)//2:]
+        print("Logged to earlyRevs.log")
+        with open("milvus/earlyRevs.log", "w") as f:
+            for rev in early_revs:
+                rev['timestamp'] = rev['timestamp'].isoformat()
+                rev['vector'] = [float(v) for v in rev['vector']]
+                json.dump(rev, f)
+                f.write("\n")
+        print("Logged to lateRevs.log")
+        with open("milvus/lateRevs.log", "w") as f:
+            for rev in late_revs:
+                rev['timestamp'] = rev['timestamp'].isoformat()
+                rev['vector'] = [float(v) for v in rev['vector']]
+                json.dump(rev, f)
+                f.write("\n")
