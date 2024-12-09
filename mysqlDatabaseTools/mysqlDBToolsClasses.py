@@ -197,3 +197,12 @@ class MySQLDBTools:
         cursor.close()
         client.close()
         return rows
+    
+    def add_revs_to_revs_table(self, page_id, page_title, revision_id, parent_revision_id, timestamp, user, sha1, text, comment, format):
+        client = self.client
+        cursor = client.cursor()
+        cursor.execute("INSERT INTO revisions (page_id, page_title, revision_id, parent_revision_id, timestamp, user, sha1, text, comment, format) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)", (page_id, page_title, revision_id, parent_revision_id, timestamp, user, sha1, text, comment, format))
+        client.commit()
+        cursor.close()
+        client.close()
+        print("Revision " + str(revision_id) + " added to revisions table successfully")

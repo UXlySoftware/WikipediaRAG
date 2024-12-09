@@ -1,5 +1,8 @@
 import requests
 from mysqlDatabaseTools.mysqlDBToolsClasses import MySQLDBTools
+from pprint import pprint
+import os
+from datetime import datetime
 
 class WikimediaAPI:
     def fetch_revision_metadata_by_user_and_title(self, user_name, title):
@@ -33,6 +36,7 @@ class WikimediaAPI:
             return response.json()
         else:
             raise Exception(f"Error fetching data: {response.status_code}")
+        
 
     def fetch_all_revisions_by_title(self, page_title):
         revisions = []
@@ -127,4 +131,40 @@ class WikimediaAPI:
         page_id, page_data = next(iter(pages.items()))
         api = MySQLDBTools()
         api.add_article_to_articles_table(page_id, title, page_data)
-    
+
+    def add_revs_to_revs_table_by_article_title(self, page_title, limit):
+        # Fetch the revisions by title
+        result = self.fetch_limited_revisions_by_title(page_title, limit)
+        with open("wikimediaAPI/result_log.txt", "w") as log_file:
+            pprint(result, log_file)
+        print("Result logged to wikimediaAPI/result_log.txt")
+        
+        # Get the pages dictionary
+        pages = result.get('query', {}).get('pages', {})
+        
+        # Iterate over pages to find the correct page
+        for page_id, page_data in pages.items():
+            if 'revisions' in page_data:
+                for rev in page_data['revisions']:
+                    # Convert timestamp to MySQL format
+                    timestamp = rev.get('timestamp')
+                    formatted_timestamp = datetime.strptime(timestamp, "%Y-%m-%dT%H:%M:%SZ").strftime("%Y-%m-%d %H:%M:%S")
+                    
+                    # Add to db
+                    api = MySQLDBTools()
+                    api.add_revs_to_revs_table(
+                        page_id, 
+                        page_data.get('title'), 
+                        rev.get('revid'), 
+                        rev.get('parentid'), 
+                        formatted_timestamp,
+                        rev.get('userid'), 
+                        rev.get('sha1'), 
+                        rev.get('content'), 
+                        rev.get('comment'), 
+                        rev.get('contentformat')
+                    )
+                    print("--------------------------------")
+            else:
+                print(f"No revisions found for page title: {page_title}")
+        

@@ -9,6 +9,16 @@ import json
 import os
 
 class MilvusDBTools:
+    def __init__(self):
+       self.db_client = mysql.connector.connect(
+            host=os.getenv("mysql_host"),
+            user=os.getenv("mysql_user"),
+            password=os.getenv("mysql_password"),
+            database=os.getenv("mysql_database")
+        )
+       
+       self.ollama_client = Client(host=f"http://{os.getenv('ollama_host')}:{os.getenv('ollama_port')}")
+       
     def start_milvus(self):
         client = MilvusClient("milvus_wikirag.db")
 
@@ -64,15 +74,10 @@ class MilvusDBTools:
 
     def embed_articles_table(self):
         # connect to wikirag db
-        db = mysql.connector.connect(
-                host=os.getenv("mysql_host"),
-                user=os.getenv("mysql_user"),
-                password=os.getenv("mysql_password"),
-                database=os.getenv("mysql_database"),
-        )
+        db = self.db_client
 
         # connect to ollama
-        client_embed = Client(host=f"http://{os.getenv('ollama_host')}:{os.getenv('ollama_port')}")
+        client_embed = self.ollama_client
 
         # Pull objects from the articles table
         cursor = db.cursor()
@@ -115,7 +120,7 @@ class MilvusDBTools:
         print("USER INPUT:", user_query)
         print("--------------------------------")
 
-        client_embed = Client(host=f"http://{os.getenv('ollama_host')}:{os.getenv('ollama_port')}")
+        client_embed = self.ollama_client
 
         output = client_embed.embed('nomic-embed-text', user_query)
 
@@ -138,7 +143,8 @@ class MilvusDBTools:
         # print("EXTRACTED TEXT:", extracted_text)
         # print("--------------------------------")
 
-        url = f"http://{os.getenv('ollama_host')}:{os.getenv('ollama_port')}/api/chat"
+        url = self.ollama_client.url + "/api/chat"
+
         data = {
             "model": "llama3.2",
             "messages": [
@@ -156,7 +162,7 @@ class MilvusDBTools:
         print("RESPONSE WITHOUT RAG:", response.json())
         print("--------------------------------")
 
-        url = f"http://{os.getenv('ollama_host')}:{os.getenv('ollama_port')}/api/chat"  #
+        url = self.ollama_client.url + "/api/chat"  #
         data = {
             "model": "llama3.2",
             "messages": [
@@ -174,5 +180,43 @@ class MilvusDBTools:
 
         print("RESPONSE WITH RAG:", response2.text)
         print("--------------------------------")
+
+    def embed_revisions_by_article_title(self, article_title):
+        # connect to wikirag db
+        db = self.db_client
+
+        # connect to ollama
+        client_embed = self.ollama_client
+
+        # Pull objects from the revisions table
+        cursor = db.cursor()
+        cursor.execute("SELECT id, content FROM revisions WHERE subject = %s", (article_title,))
+        revisions = cursor.fetchall()
+
+        # Convert revisions objects
+        docs = [{"id": int(revision[0]), "text": revision[1]} for revision in revisions]
+
+        for doc in docs:
+            output = client_embed.embed('nomic-embed-text', doc['text'])
+            vector = output['embeddings'][0]
+
+            # Check vector dimensions
+            expected_dimension = 768  # This should match the dimension in startmilvus.py
+            if len(vector) != expected_dimension:
+                raise ValueError(f"Vector dimension mismatch: expected {expected_dimension}, got {len(vector)}")
+
+            # Prepare data for insertion
+            data = [
+                {"id": doc['id'], "vector": vector, "text": doc['text'], "subject": article_title}
+            ]
+
+            # Insert embedding into Milvus
+            client_milvus = MilvusClient("milvus_wikirag.db")
+            res = client_milvus.insert(collection_name="revisions_collection", data=data)
+
+            print("Inserted article vector into Milvus:", res)
+
+        revisions_ids = client_milvus.query("revisions_collection", filter="id > 0", output_fields=["id"])
+        print("ids = ", revisions_ids)
 
        
