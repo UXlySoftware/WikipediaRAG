@@ -181,7 +181,7 @@ class MilvusDBTools:
         print("RESPONSE WITH RAG:", response2.text)
         print("--------------------------------")
 
-    def embed_revisions_by_article_title(self, article_title):
+    def embed_revisions(self):
         # connect to wikirag db
         db = self.db_client
 
@@ -190,7 +190,7 @@ class MilvusDBTools:
 
         # Pull objects from the revisions table
         cursor = db.cursor()
-        cursor.execute("SELECT id, content FROM revisions WHERE subject = %s", (article_title,))
+        cursor.execute("SELECT id, text FROM revisions")
         revisions = cursor.fetchall()
 
         # Convert revisions objects
@@ -207,14 +207,12 @@ class MilvusDBTools:
 
             # Prepare data for insertion
             data = [
-                {"id": doc['id'], "vector": vector, "text": doc['text'], "subject": article_title}
+                {"id": doc['id'], "vector": vector, "text": doc['text'], "subject": ""}
             ]
 
             # Insert embedding into Milvus
             client_milvus = MilvusClient("milvus_wikirag.db")
             res = client_milvus.insert(collection_name="revisions_collection", data=data)
-
-            print("Inserted article vector into Milvus:", res)
 
         revisions_ids = client_milvus.query("revisions_collection", filter="id > 0", output_fields=["id"])
         print("ids = ", revisions_ids)

@@ -160,7 +160,7 @@ class WikimediaAPI:
                         formatted_timestamp,
                         rev.get('userid'), 
                         rev.get('sha1'), 
-                        rev.get('content'), 
+                        rev.get('*'), 
                         rev.get('comment'), 
                         rev.get('contentformat')
                     )

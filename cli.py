@@ -71,11 +71,10 @@ def rag_query_articles(user_query):
     api = MilvusDBTools()
     api.rag_query_articles(user_query)
 
-@milvus.command(help="Embeds the revisions table data by article title.")
-@click.argument('article_title')
-def embed_revisions_by_article_title(article_title):
+@milvus.command(help="Embeds the revisions table data.")
+def embed_revs():
     api = MilvusDBTools()
-    api.embed_revisions_by_article_title(article_title)
+    api.embed_revisions()
 
 # MYSQL DATABASE COMMANDS
 ## use "python3 cli.py database [command]" to run a database command
@@ -225,7 +224,7 @@ def article_by_title_to_db(title):
 @wikimedia.command(help="Fetches revisions by article title and adds them to the revisions table. Arguments: title")
 @click.argument('title')
 @click.argument('limit', type=int)
-def revs_by_title_to_db(title, limit):
+def add_revs_by_title(title, limit):
     """Fetches revisions by article title and adds them to the revisions table. Arguments: title"""
     api = WikimediaAPI()
     api.add_revs_to_revs_table_by_article_title(title, limit)

@@ -1,6 +1,8 @@
 import mysql.connector
 import json
 import os
+from tabulate import tabulate
+
 class MySQLDBTools:
     def __init__(self):
         self.client = mysql.connector.connect(
@@ -40,7 +42,34 @@ class MySQLDBTools:
             cursor.execute("SELECT COUNT(*) FROM " + table)
             print(f"Number of rows in {table} table:", cursor.fetchone()[0])
             print("--------------------------------")
-
+        # print revisions table into revisions.log
+        log_file_path = os.path.join(os.path.dirname(__file__), 'revisions.log')
+        with open(log_file_path, 'w') as log_file:
+            cursor.execute("SELECT * FROM revisions")
+            rows = cursor.fetchall()
+            if rows:
+                # Fetch column names    
+                column_names = [i[0] for i in cursor.description]
+                # Format the table using tabulate
+                table_str = tabulate(rows, headers=column_names, tablefmt="grid")
+                log_file.write(f"Table: {table}\n")
+                log_file.write(table_str + "\n\n")
+            else:
+                log_file.write(f"Table: {table} is empty\n\n")
+        # print articles table into articles.log
+        log_file_path = os.path.join(os.path.dirname(__file__), 'articles.log')
+        with open(log_file_path, 'w') as log_file:
+            cursor.execute("SELECT * FROM articles")
+            rows = cursor.fetchall()
+            if rows:
+                # Fetch column names
+                column_names = [i[0] for i in cursor.description]
+                # Format the table using tabulate
+                table_str = tabulate(rows, headers=column_names, tablefmt="grid")
+                log_file.write(f"Table: articles\n")
+                log_file.write(table_str + "\n\n")
+            else:
+                log_file.write(f"Table: articles is empty\n\n")
         cursor.close()
         client.close()
     def restart_revisions_table(self):
@@ -64,9 +93,9 @@ class MySQLDBTools:
             text MEDIUMTEXT,
             comment VARCHAR(255),
             format VARCHAR(50),
-            vector_id INT
+            embedded BOOLEAN
         )
-        """)
+        """) 
 
         # Commit the changes
         client.commit()
