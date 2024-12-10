@@ -7,3 +7,4 @@ datetime
 requests
 mysql-connector-python
 click
+tabulate
